@@ -1,0 +1,44 @@
+{
+  "name": "Yongjin",
+  "order": 0,
+  "profileImgSrc": "/assets/music/authors/yongjin.png",
+  "title": "개인 음악사",
+  "desc": "2017~",
+  "elements": [
+    {
+      "year": 2017,
+      "title": "시차 (We Are) (Feat. 로꼬 & GRAY)",
+      "artist": "우원재",
+      "src": "/assets/music/album_covers/we_are.jpeg",
+      "desc": "타이포그래피 영상을 통해 본격적으로 꽂힌 곡이라고 볼 수 있겠죠."
+    },
+    {
+      "year": 2017,
+      "title": "Good Vibration",
+      "artist": "Dok2",
+      "src": "/assets/music/album_covers/crazy.jpg",
+      "desc": "유튜브 셀레브에 나온 인터뷰 영상으로 그레이의 존재를 먼저 알게 됐고, 유튜브에 올라온 그레이의 작곡 비하인드 영상을 보다가 알게 된 곡이라고 볼 수가 있게 되겠습니다. 본격적으로 국힙을 듣기 시작한 후 처음으로 입문한 곡이었다고 볼 수가 있을 것 같네요."
+    },
+    {
+      "year": 2018,
+      "title": "Paranoid Android",
+      "artist": "Radiohead",
+      "src": "/assets/music/album_covers/ok_computer.jpeg",
+      "desc": "충주중학교 기타 동아리에서 함께한 4인조가 뼈를 묻었던 곡이자, 제가 베이스 기타로 처음 연주해본/완곡해본 곡이기도 합니다. 들을 때마다 skrt skrt skrt 해집니다."
+    },
+    {
+      "year": 2018,
+      "title": "Way Back Home",
+      "artist": "숀 (SHAUN)",
+      "src": "/assets/music/album_covers/take.jpg",
+      "desc": "참 좋은 곡이라 생각하고 결국 사재기도 혐의 없는 걸로 종결됐는데 안타깝습니다."
+    },
+    {
+      "year": 2018,
+      "title": "Don't let me donw",
+      "artist": "The Beatles",
+      "src": "/assets/music/album_covers/the_beatles_1967_1970.jpeg",
+      "desc": "충주중학교에서의 짧았던 기타 동아리 활동 막판에 다같이 연주하고 놀았던 곡이라고 볼 수가 있습니다."
+    }
+  ]
+}

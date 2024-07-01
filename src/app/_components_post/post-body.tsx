@@ -1,0 +1,17 @@
+import markdownStyles from './markdown-styles.module.css'
+import './post.css'
+
+type Props = {
+  content: string
+}
+
+export function PostBody({ content }: Props) {
+  return (
+    <section className="max-w-5xl mx-auto">
+      <div
+        className={markdownStyles['markdown']}
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
+    </section>
+  )
+}

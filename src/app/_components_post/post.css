@@ -1,0 +1,10 @@
+img:not(#profile-img) {
+  /* width: 30rem; */
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+table {
+  margin: auto;
+}

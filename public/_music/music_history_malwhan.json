@@ -1,0 +1,23 @@
+{
+  "name": "Malwhan",
+  "order": 1,
+  "profileImgSrc": "/assets/music/authors/malwhan.png",
+  "title": "말환잉의 희망찬 어제 🐻",
+  "desc": "고등학교에서 작곡 동아리 활동을 2년간 함께 했던 친구입니다. ",
+  "elements": [
+    {
+      "year": 2020,
+      "title": "Drops (Feat. Tom Bailey)",
+      "artist": "FKJ",
+      "src": "/assets/music/album_covers/link_up.JPG",
+      "desc": "감각적이고 세련된 마음을 녹여버리는 음악."
+    },
+    {
+      "year": 2020,
+      "title": "Love$ick (Feat. A$AP Rocky)",
+      "artist": "Mura Masa",
+      "src": "/assets/music/album_covers/mura_masa.jpg",
+      "desc": "아주 세련되고 감각적인... you know?"
+    }
+  ]
+}

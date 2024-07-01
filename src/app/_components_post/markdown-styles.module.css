@@ -1,0 +1,46 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-6;
+}
+
+.markdown h1 {
+  @apply text-4xl mt-16 mb-4 leading-snug;
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+.markdown h4 {
+  @apply font-bold text-xl mt-4 mb-4 leading-snug;
+}
+
+.markdown ul {
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.markdown ol {
+  list-style-type: decimal;
+  margin-left: 24px;
+}
+
+.markdown figure {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown figcaption {
+  color: gray;
+}

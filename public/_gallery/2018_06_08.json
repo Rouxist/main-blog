@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-19T18:23:00.000Z",
+  "location": ["Chungju"],
+  "category": ["places"],
+  "excerpt": "초등학교, 중학교 등교길",
+  "title": "초등학교, 중학교 등굣길 - 근데 이제 10년 후에 다시 찾은",
+  "desc": "열심히 다니던 등하굣길입니다.",
+  "thumbnail": "/assets/gallery/2023_08_19/2023_08_19__chungju_2.JPG",
+  "elements": [
+    {
+      "src": "/assets/gallery/2023_08_19/2023_08_19__chungju_1.JPG",
+      "title": "천변풍경",
+      "alt": "천변풍경",
+      "desc": "징검다리를 건너고, 학교가 끝나면 들어가서 놀기도 했던 천변",
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2023_08_19/2023_08_19__chungju_2.JPG",
+      "title": "계단",
+      "alt": "계단",
+      "desc": "언제부턴가 그림도 그려져있던 계단",
+      "video": false
+    }
+  ]
+}
