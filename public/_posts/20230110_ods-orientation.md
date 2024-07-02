@@ -38,14 +38,14 @@ OT 장소에 도착해보니 우리 팀을 위한 테이블도 준비되어 있�
 
 <table>
   <tr>
-    <td><img src="/assets/blog/posts/20230110_ods-orientation/01-05-4.JPG" alt="01-05-4" width=400></td>
-    <td><img src="/assets/blog/posts/20230110_ods-orientation/01-05-5.JPG" alt="01-05-5" width=400></td>
+    <td><img src="/assets/blog/posts/20230110_ods-orientation/01-05-4.jpg" alt="01-05-4" width=400></td>
+    <td><img src="/assets/blog/posts/20230110_ods-orientation/01-05-5.jpg" alt="01-05-5" width=400></td>
   </tr>
 </table>
 
 식사가 미리 세팅되어있는 걸 보니 이곳이 많은 지원을 해주는 곳임을 다시 느낄 수 있었고, 다들 돈가스가 물렸다는데 나는 맛있게 먹었다.
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-6.JPG" alt="01-05-6" width=600>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-6.jpg" alt="01-05-6" width=600>
 
 다과가 있던 것도 뒤늦게 확인하고.. 본격적으로 오리엔테이션이 시작되었다.
 
@@ -54,28 +54,28 @@ OT 장소에 도착해보니 우리 팀을 위한 테이블도 준비되어 있�
 &nbsp;&nbsp;개회식이나 기념사진 촬영같은 절차는 패스  
 단연 메인은 교육기획안 컨설팅이었는데, 현직 초등학교 교사분들께서 오신다는 건 알았지만 다른 교육 전문가가 아니라 정말 현직 교사분들만을 모시고 컨설팅을 진행한 점이 인상적이었다. 실제 컨설팅도 불필요하거나 형식적이지 않고 실속있었는데, 정확히 이 활동이 필요로 하는 전문가를 잘 모셔다 놓은 느낌. 다만 한 팀이 두 번의 컨설팅을 서로 다른 두 분이 아닌 같은 분께 모두 받아야만 했는지는 의아했다.
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-8.JPG" alt="01-05-8" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-8.jpg" alt="01-05-8" width=400>
 
 컨설팅에서는 초등학생 아이들에게 수업을 하기 적합하게 개선시키기 위한 조언을 많이 받았다. 우리끼리 '이 활동에서 소외되는 아이들이 생기는 건 어떻게 할 수가 없겠다' 싶었던 것들도 모든 아이들이 참여하게 유도할 수 있는 다른 수업 진행 방식을 제시해주시거나, 하는 식이었다.  
 &nbsp;&nbsp;그리고 컨설팅이 다 끝난 후에는 팀 단체사진을 찍은 후에 숙소를 알아보라는 공지가 떨어졌는데, 우리 팀은 운좋게도 같은 학교를 가는 옆 팀에서 좋은 숙소를 공유해주셔서 그곳으로 진행했다. 그렇게 또 시간이 좀 남아서 저녁을 먹기 전까지 남는 시간은 ESP32에서 파이썬을 사용하는 테스트를 진행했다. 실제로 이 때 카메라를 어떻게 장착하는지 알아냈다(...)
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-9.JPG" alt="01-05-9" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-9.jpg" alt="01-05-9" width=400>
 
 숙소 열쇠를 받고 저녁을 먹으러 이동했다. 후기에서나 보던 저런 식사를 실제로 보다니.. 무언가 크게 힘든 일을 한 건 아니지만 다들 힘이 빠지고 배고픈 상태였기 때문에 저녁은 더 맛있게 먹었다.
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-10.JPG" alt="01-05-10" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-10.jpg" alt="01-05-10" width=400>
 
 숙소는 걸어서 6분 이상 걸릴 거리에 있었다.
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-11.JPG" alt="01-05-11" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-11.jpg" alt="01-05-11" width=400>
 
 대놓고 우리 팀을 반겨주고 있었던(...) 방문
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-12.JPG" alt="01-05-12" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-12.jpg" alt="01-05-12" width=600>
 
 들어가자마자 간식..?이 있어서 일단 기분이 좋았고
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-13.JPG" alt="01-05-13" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-13.jpg" alt="01-05-13" width=400>
 
 J가 티비를 틀어보며 "이런 곳 특: 넷플릭스 로그인 돼있다!"를 외쳤지만 없길래 모 유료 프로그램의 3분 미리보기나 틀어봤다.
 
@@ -84,17 +84,17 @@ J가 티비를 틀어보며 "이런 곳 특: 넷플릭스 로그인 돼있다!"�
 그리고 다시 홀로 이동했는데, 무거운 일정은 아니고 레크리에이션같은 것이 있었다. 다만 드라마도 안보고 영화도 안보는 너드에겐 거의 다 어려웠다고..  
 &nbsp;&nbsp;레크리에이션이 일정보다 더 늦게까지 진행돼서 초등학교에 편지 쓰기 활동은 숙소에서 각자 하는 것으로 미뤄지기도 했다.
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-15.JPG" alt="01-05-15" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-15.jpg" alt="01-05-15" width=400>
 
 간식이 준비되어 있다며 주신 피자(!) 이 때가 밤 10시 20분이었다.
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-05-16.JPG" alt="01-05-16" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-05-16.jpg" alt="01-05-16" width=400>
 
 편지도 편지고, 마이크로 파이썬도 J와 K가 자정이 넘도록 만지작거렸지만 큰 소득은 없이 잠들었다.
 
 ## 2023.01.06
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-06-1.JPG" alt="01-06-1" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-06-1.jpg" alt="01-06-1" width=400>
 
 아침 8시부터 아침식사를 할 수 있었는데 J, K는 그냥 더 잔다길래 혼자 첫 번째로 도착해서(...) 밥을 먹었다. 메뉴는 해장국같은 것
 
@@ -102,7 +102,7 @@ J가 티비를 틀어보며 "이런 곳 특: 넷플릭스 로그인 돼있다!"�
 
 아침식사 후 예산안 수정의 시간이 있었다. 다만 우리는 기존 예산안대로 라즈베리파이를 써야 할지 ESP32를 쓸 수 있을지 아직도 확인이 되지 않았기 때문에(...) 간식비 위주로 수정했다.
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-06-3.JPG" alt="01-06-3" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-06-3.jpg" alt="01-06-3" width=400>
 
 (추가 간식)
 
@@ -111,6 +111,6 @@ J가 티비를 틀어보며 "이런 곳 특: 넷플릭스 로그인 돼있다!"�
 마지막에야 찍은 우리 팀 POP 스탠드  
 &nbsp;&nbsp;돌아보면, 모든 팀들이 한 자리에 모여보니 의외로 과학/IT 분야의 팀은 적었고 그 중 IT분야 팀들의 주제는 각기 달랐다. 앞으로는 더 많은 IT 분야의 팀들이 활동하며 더 많은 아이들에게 IT를 소개할 수 있었으면, 그리고 블록체인같은 더욱 마이너한 분야도 다양하게 다뤄지는 다빈치교실이 되었으면... 싶다.
 
-<img src="/assets/blog/posts/20230110_ods-orientation/01-06-5.JPG" alt="01-06-5" width=400>
+<img src="/assets/blog/posts/20230110_ods-orientation/01-06-5.jpg" alt="01-06-5" width=400>
 
 그렇게 모든 일정을 마치고 다시 천안아산역을 거쳐 귀가했다. 실제 천안아산역 도착과 예정된 KTX 출발 시간 사이에 두 시간 정도 텀이 있었는데, 비슷한 상황으로 보인 몇 팀은 역 주변 스타벅스에서 다시 모이게 되는 진풍경도 벌어졌다.

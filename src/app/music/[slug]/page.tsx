@@ -1,7 +1,12 @@
-import { Params } from 'next/dist/shared/lib/router/utils/route-matcher'
 import { getMusicAuthorBySlug } from '@/lib/api'
 import { MusicList } from '@/app/_components_music/music-list'
 import Header from '@/app/header'
+
+type Params = {
+  params: {
+    slug: string
+  }
+}
 
 export default function MusicTimeline({ params }: Params) {
   const author = getMusicAuthorBySlug(params.slug)
