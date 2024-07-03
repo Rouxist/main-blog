@@ -41,4 +41,4 @@ Implicit method: backward 방향. $y_{t+1}$으로 $y_t$ 계산
 
 <br/><br/>
 
-2024.07.
+2024.06.03

@@ -2,8 +2,6 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getAllPosts, getPostBySlug } from '@/lib/api'
 import markdownToHtml from '@/lib/markdownToHtml'
-import Alert from '@/app/_components_post/alert'
-import Container from '@/app/_components_post/container'
 import Header from '@/app/header'
 import { PostBody } from '@/app/_components_post/post-body'
 import { PostHeader } from '@/app/_components_post/post-header'
@@ -32,23 +30,21 @@ export default async function Post({ params }: Params) {
         integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC"
         crossOrigin="anonymous"
       ></link>
-      {post.alert ? <Alert preview={post.alert} /> : <></>}
       <header>
         <Header />
       </header>
-      <Container>
-        <section className="my-16">
-          <PostHeader
-            title={post.title}
-            coverImage={post.coverImage}
-            date={post.date}
-            author={post.author}
-          />
-          <article>
-            <PostBody content={content} />
-          </article>
-        </section>
-      </Container>
+      <section>
+        <PostHeader
+          title={post.title}
+          coverImage={post.coverImage}
+          date={post.date}
+          author={post.author}
+          tags={post.tags}
+        />
+        <article>
+          <PostBody content={content} />
+        </article>
+      </section>
     </main>
   )
 }

@@ -4,6 +4,7 @@ excerpt: 'Finite, infinite'
 coverImage: ''
 date: '2024-06-23T02:34:58.000Z'
 categories: [Economics, Game Theory]
+tags: [Game Theory]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

@@ -4,6 +4,7 @@ excerpt: 'Time for dynamics'
 coverImage: ''
 date: '2024-06-22T01:03:42.000Z'
 categories: [Economics, Game Theory]
+tags: [Game Theory, Game Tree, Information Set, Subgame, SPNE]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'
@@ -21,6 +22,8 @@ Motivation: 모든 player들이 동시에 선택을 하는 static game을 넘어
 ### Tree
 
 트리 형태의 모델을 통해 위에서 아래의 순서로 player들이 선택을 하며 게임이 진행되는 과정을 표현할 수 있다.
+
+게임 트리는 $\Gamma$ 라고 나타내곤 한다.
 
 ### Backward Induction
 

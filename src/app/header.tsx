@@ -7,7 +7,7 @@ const Header = () => {
     //     Home
     //   </Link>
     // </h2>
-    <table className="w-[100%]">
+    <table className="w-[100%] h-[100px]">
       <tbody>
         <tr>
           <td className="text-left">

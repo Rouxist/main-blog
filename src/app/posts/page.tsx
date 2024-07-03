@@ -13,13 +13,15 @@ export default function Categories() {
         <Header />
       </header>
       <section>
-        <h1 className="text-5xl md:text-7xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none my-12 text-center md:text-center">
+        <h1 className="text-5xl mt-6 py-4 md:text-7xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none text-center">
           Blog
         </h1>
         <article>
-          {allPosts.length > 0 && (
-            <MoreStories title="All posts" posts={allPosts} />
-          )}
+          <div className="pt-4">
+            {allPosts.length > 0 && (
+              <MoreStories title="All posts" posts={allPosts} />
+            )}
+          </div>
         </article>
       </section>
     </main>

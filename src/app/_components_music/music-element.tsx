@@ -12,9 +12,9 @@ type Props = {
 
 function timelineLine(islast: boolean) {
   if (islast) {
-    return 'relative pl-12 w-[1000px] py-8 before:left-0 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-4 before:h-1/2 before:bg-indigo-500 after:absolute after:-left-3 after:top-1/2 after:transform after:-translate-y-1/2 after:w-10 after:h-10 after:rounded-full after:bg-indigo-500'
+    return 'relative pl-12 w-[1000px] py-16 before:left-0 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-4 before:h-1/2 before:bg-indigo-500 after:absolute after:-left-3 after:top-1/2 after:transform after:-translate-y-1/2 after:w-10 after:h-10 after:rounded-full after:bg-indigo-500'
   } else {
-    return 'relative pl-12 w-[1000px] py-8 before:left-0 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-4 before:h-250 before:bg-indigo-500 after:absolute after:-left-3 after:top-1/2 after:transform after:-translate-y-1/2 after:w-10 after:h-10 after:rounded-full after:bg-indigo-500'
+    return 'relative pl-12 w-[1000px] py-16 before:left-0 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-4 before:h-250 before:bg-indigo-500 after:absolute after:-left-3 after:top-1/2 after:transform after:-translate-y-1/2 after:w-10 after:h-10 after:rounded-full after:bg-indigo-500'
   }
 }
 
@@ -32,7 +32,7 @@ export function MusicElement({
         {year}
       </td>
       <td className={timelineLine(islast)}>
-        <div className="flex items-center">
+        <div className="flex items-center ">
           <div className="inline-block flex items-center shadow-2xl">
             <Image src={src} alt={title} width={200} height={200}></Image>
           </div>

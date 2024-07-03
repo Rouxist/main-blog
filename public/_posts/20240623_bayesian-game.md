@@ -4,6 +4,7 @@ excerpt: 'Bayesian의 시간'
 coverImage: ''
 date: '2024-06-23T14:11:05.000Z'
 categories: [Economics, Game Theory]
+tags: [Game Theory, Static Bayesian Game]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

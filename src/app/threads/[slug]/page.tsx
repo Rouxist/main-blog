@@ -1,7 +1,6 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getThreadBySlug } from '@/lib/api'
-import Container from '@/app/_components_post/container'
 import DateFormatter from '@/app/_components_post/date-formatter'
 import Header from '@/app/header'
 

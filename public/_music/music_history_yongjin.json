@@ -2,8 +2,8 @@
   "name": "Yongjin",
   "order": 0,
   "profileImgSrc": "/assets/music/authors/yongjin.png",
-  "title": "개인 음악사",
-  "desc": "2017~",
+  "title": "시기별 좋아했던 곡들",
+  "desc": "2017부터 현재까지의 역사를 담았습니다.",
   "elements": [
     {
       "year": 2017,
@@ -35,10 +35,87 @@
     },
     {
       "year": 2018,
-      "title": "Don't let me donw",
+      "title": "Don't let me down",
       "artist": "The Beatles",
       "src": "/assets/music/album_covers/the_beatles_1967_1970.jpeg",
       "desc": "충주중학교에서의 짧았던 기타 동아리 활동 막판에 다같이 연주하고 놀았던 곡이라고 볼 수가 있습니다."
+    },
+    {
+      "year": 2019,
+      "title": "EVERYDAY",
+      "artist": "WINNER",
+      "src": "/assets/music/album_covers/EVERYD4Y.jpg",
+      "desc": "고등학교 1학년 1학기에 기숙사 기상송으로 자주 들었던 곡입니다. 당시 디미고에 입학한지 얼마 안됐을 때의 낯섦이 공존하는 설렘과 바래지 않은 열정이 이 곡에 온전히 담겨있습니다."
+    },
+    {
+      "year": 2019,
+      "title": "이 노래가 클럽에서 나온다면",
+      "artist": "우디 (Woody)",
+      "src": "/assets/music/album_covers/this_song_club.jpg",
+      "desc": "1학년 1학기를 마무리하는 버스킹에서 친한 형들의 선곡이었고, 그 모습이 잊지 못할 추억으로 남았습니다. instrumental 음원으로 듣는 것도 좋습니다."
+    },
+    {
+      "year": 2019,
+      "title": "Stairway To Heaven",
+      "artist": "Led Zeppelin",
+      "src": "/assets/music/album_covers/led_zeppelin_iv.jpg",
+      "desc": "2019년 상반기에 가장 많이 들었던 곡 중 하나입니다."
+    },
+    {
+      "year": 2019,
+      "title": "CHOCOLADY",
+      "artist": "AKMU (악뮤)",
+      "src": "/assets/music/album_covers/chocolady.jpg",
+      "desc": "중학교에서 그랬던 것처럼 쉬는시간과 점심시간에 음악실로 왔다갔다하며 연습한 추억이 있습니다. '악뮤' 하면이 곡이 생각납니다."
+    },
+    {
+      "year": 2019,
+      "title": "담아 (Feat. 염따, pH-1) (Prod. BOYCOLD)",
+      "artist": "스윙스, 키드밀리 (Kid Milli), 매드클라운",
+      "src": "/assets/music/album_covers/damma.jpg",
+      "desc": "기숙사 기상송으로 나오는 걸 들으면서 저런 걸 어떻게 작곡해내나 싶은 생각을 한 적이 있었습니다. 1학년 2학기가 되고 디미고에 꽤 익숙해져 있었던 그 때의 모습과 잘 어울립니다."
+    },
+    {
+      "year": 2019,
+      "title": "야망 (Feat. ASH ISLAND, 김효은, Hash Swan, CHANGMO) (Prod. TOIL)",
+      "artist": "릴러말즈 (Leellamarz)",
+      "src": "/assets/music/album_covers/marz_2_ambition.jpeg",
+      "desc": "한 친구는 이것을 듣고는 무슨 노래에 야망밖에 안나오냐고 한 적이 있었습니다."
+    },
+    {
+      "year": 2019,
+      "title": "Paris in the rain",
+      "artist": "Lauv",
+      "src": "/assets/music/album_covers/i_met_you.jpg",
+      "desc": "1학년 2학기 시험 기간에 새벽까지 심야 자습실에서 시험 준비를 하다가 2층에 있던 방으로 돌아가 자기 전에 들었던 곡입니다. 무언가 열심히 하고 난 후의 만족감과 기분 나쁘지 않은 피로감, 그리고 잠들기 전까지의 고단했던 시간들을 모두 잊게 해준 호실의 따뜻한 공기를 느끼며 이 곡을 듣고 나서 잠들었습니다. 중요한 터닝포인트 시기를 함께한 곡이고, 지금도 시험 기간이 되면 이 곡을 듣곤 합니다."
+    },
+    {
+      "year": 2020,
+      "title": "신한은행",
+      "artist": "수퍼비 (SUPERBEE), 트웰브 (twlv)",
+      "src": "/assets/music/album_covers/byeorak_riches.jpg",
+      "desc": "코로나 팬데믹이 시작되고 언제 학교에 갈 수 있을지 기다리며 상반기를 보내던 중 알게 됐던 곡입니다."
+    },
+    {
+      "year": 2020,
+      "title": "도망가지마",
+      "artist": "모트 (Motte)",
+      "src": "/assets/music/album_covers/ateen_part_4.jpg",
+      "desc": "동아리 활동에서 처음 알게 된 곡이었고, 새벽에 기숙사에서 노트북으로 미디를 찍기도 했습니다. 아예 버스킹에서도 이 곡을 연주했는데, 그때 많은 후배님들께서 저녁 시간에 보러 나와주셨던 모습이 떠오릅니다."
+    },
+    {
+      "year": 2020,
+      "title": "COCO BOTTLE",
+      "artist": "페노메코 (PENOMECO)",
+      "src": "/assets/music/album_covers/coco_bottle.jpeg",
+      "desc": "생기와 활력이 느껴지는 곡입니다. 혼란한 와중에도 2학년 1학기 기말고사를 마치고 잔류를 하던 일요일 아침에 학봉관 5층 샤워실에서 혼자 이 노래를 틀어놨던 추억이 있습니다."
+    },
+    {
+      "year": 2020,
+      "title": "염라(Karma)",
+      "artist": "달의하루",
+      "src": "/assets/music/album_covers/karma.jpeg",
+      "desc": "'밤 12시쯤 투니버스 갬성' 이라는 유튜브 댓글이 모든 것을 설명한다."
     }
   ]
 }

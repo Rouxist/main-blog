@@ -4,6 +4,7 @@ excerpt: ''
 coverImage: ''
 date: '2024-04-28T15:55:10.000Z'
 categories: [Economics, Game Theory]
+tags: [Game Theory, PSNE, MSNE, IDSDS]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

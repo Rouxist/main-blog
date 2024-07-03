@@ -1,5 +1,5 @@
 import { type Author } from '@/interfaces/author'
-import Link from 'next/link'
+import { Tags } from './tags'
 import Avatar from './avatar'
 import CoverImage from './cover-image'
 import DateFormatter from './date-formatter'
@@ -11,6 +11,7 @@ type Props = {
   excerpt: string
   author: Author
   slug: string
+  tags: string[]
 }
 
 export function PostPreview({
@@ -20,9 +21,10 @@ export function PostPreview({
   excerpt,
   author,
   slug,
+  tags,
 }: Props) {
   return (
-    <div className="p-10 w-[50rem] m-0 text-black border-2 border-black-600 hover:text-veriperi hover:scale-105 transition-all duration-250">
+    <div className="px-12 py-8 w-[50rem] my-2 text-black border-2 border-black-600 hover:scale-105 transition-all duration-250">
       {coverImage ? (
         <div className="mb-5">
           <CoverImage slug={slug} title={title} src={coverImage} />
@@ -31,8 +33,11 @@ export function PostPreview({
         <></>
       )}
       <h3 className="text-3xl mb-3 leading-snug">{title}</h3>
-      <div className="text-lg mb-4">
+      <div className="text-lg mb-2">
         <DateFormatter dateString={date} />
+      </div>
+      <div className="w-[40rem] mb-2  ">
+        <Tags tags={tags} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
       <Avatar name={author.name} picture={author.picture} />

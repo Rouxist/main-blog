@@ -5,6 +5,7 @@ export type Post = {
   title: string
   date: string
   categories: Array<string>
+  tags: Array<string>
   coverImage: string
   author: Author
   excerpt: string
