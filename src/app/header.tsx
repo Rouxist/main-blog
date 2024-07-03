@@ -2,12 +2,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    // <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8 flex items-center">
-    //   <Link href="/" className="text-black hover:text-veriperi">
-    //     Home
-    //   </Link>
-    // </h2>
-    <table className="w-[100%] h-[100px]">
+    <table className="w-[100%]">
       <tbody>
         <tr>
           <td className="text-left">
@@ -35,7 +30,7 @@ type Prop = {
 
 export function HeaderButton({ text, href }: Prop) {
   return (
-    <div className="my-6 mx-2 inline-block">
+    <div className="my-4 mx-2 inline-block">
       <Link
         href={href}
         className={`text-2xl md:text-4xl font-bold text-black hover:text-veriperi px-5 py-2.5 text-center `}
