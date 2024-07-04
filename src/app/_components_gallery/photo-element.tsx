@@ -31,7 +31,7 @@ export function PhotoElement({
       return 'mx-16 transition-all duration-250 opacity-25'
     } else {
       if (isScaled) {
-        return 'scale-140 transition-all duration-250'
+        return 'mx-16 scale-140 transition-all duration-250'
       } else {
         return 'mx-16 transition-all duration-250 shadow-2xl'
       }
