@@ -1,0 +1,29 @@
+{
+  "date": "2020-04-23T18:52:00.001Z",
+  "location": ["충주"],
+  "category": ["places"],
+  "excerpt": "충주 독서실에서 바라본 뷰",
+  "title": "충주 독서실 뷰",
+  "desc": "2020년에 새롭게 연 충주의 모 유명 독서실 n호점에서 바라본 충주의 모습입니다.",
+  "thumbnail": "/assets/gallery/2020_04_23/2020_04_23__chungju_1.JPG",
+  "elements": [
+    {
+      "src": "/assets/gallery/2020_04_23/2020_04_23__chungju_1.JPG",
+      "title": "뷰1",
+      "alt": "뷰1",
+      "desc": "초등학교와 중학교로 등교할 때 다니던 길이 보이던 방향입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2020_04_23/2020_04_23__chungju_2.JPG",
+      "title": "뷰2",
+      "alt": "뷰2",
+      "desc": "충주는 산으로 둘러싸인 분지라는 사실을 더욱 잘 보여주는 사진입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}

@@ -11,8 +11,8 @@ export default function Categories() {
         <Header />
       </header>
       <section>
-        <h1 className="text-5xl md:text-7xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none my-12 text-center md:text-center">
-          Gallery-Timeline
+        <h1 className="text-5xl font-bold tracking-tighter leading-tight mt-12 mb-8 text-center">
+          Photo
         </h1>
         <article></article>
         {allGalleries.length > 0 && <GalleryList galleries={allGalleries} />}

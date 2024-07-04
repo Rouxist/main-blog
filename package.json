@@ -35,7 +35,8 @@
     "remark-prism": "^1.3.6",
     "remark-rehype": "^11.1.0",
     "styled-components": "^6.1.11",
-    "styled-reset": "^4.5.2"
+    "styled-reset": "^4.5.2",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "@types/node": "^20",

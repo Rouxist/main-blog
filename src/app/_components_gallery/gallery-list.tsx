@@ -8,7 +8,7 @@ type Props = {
 
 export function GalleryList({ galleries }: Props) {
   return (
-    <article className="grid grid-cols-1 md:grid-cols-3 place-items-center md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-8 mb-32">
+    <article className="grid grid-cols-1 grid-cols-4 place-items-center gap-y-20 md:gap-y-8 mb-32">
       {galleries.map((gallery) => (
         <div key={'gallery_' + gallery.slug}>
           <a className="text-black" href={`/gallery/${gallery.slug}`}>

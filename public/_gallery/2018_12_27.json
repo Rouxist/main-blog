@@ -1,0 +1,29 @@
+{
+  "date": "2018-12-27T08:20:00.000Z",
+  "location": ["전주"],
+  "category": ["places"],
+  "excerpt": "중학교 졸업여행-전주",
+  "title": "중학교 졸업 여행, 전주를 중심으로",
+  "desc": "중학교 졸업 여행으로 전주에 다녀온 모습입니다.",
+  "thumbnail": "/assets/gallery/2018_12_27/2018_12_27__travel_1.JPG",
+  "elements": [
+    {
+      "src": "/assets/gallery/2018_12_27/2018_12_27__travel_1.JPG",
+      "title": "E-train",
+      "alt": "etrain",
+      "desc": "교육을 테마로 한 관광열차입니다. 즐거웠는데 올해(2024) 퇴역 예정이라고 하네요.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_12_27/2018_12_27__travel_2.JPG",
+      "title": "비빔밥",
+      "alt": "비빔밥",
+      "desc": "평범했던 비빔밥이라고 볼 수가 있게 되겠습니다. ",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}

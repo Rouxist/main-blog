@@ -1,0 +1,47 @@
+{
+  "date": "2016-12-10T13:03:00.000Z",
+  "location": ["부산"],
+  "category": ["places"],
+  "excerpt": "2016년의 부산",
+  "title": "2016년의 부산, 남구 우암동",
+  "desc": "중학교 1학년이던 때에 큐브 대회를 위해 부산에 다녀왔습니다. 이 여행에서 저의 두 번째 한국 신기록을 세울 수 있었습니다.",
+  "thumbnail": "/assets/gallery/2016_12_10/2016_12_10__travel_1.jpg",
+  "elements": [
+    {
+      "src": "/assets/gallery/2016_12_10/2016_12_10__travel_1.jpg",
+      "title": "달동네",
+      "alt": "달동네",
+      "desc": "부산 도착 이후 처음 보인 풍경이었던 달동네",
+      "width": 4160,
+      "height": 2340,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2016_12_10/2016_12_10__travel_2.jpg",
+      "title": "대회장 전경",
+      "alt": "대회장 전경",
+      "desc": "당시 대회장에서 보이던 전경..이었던 것 같습니다.",
+      "width": 4160,
+      "height": 2340,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2016_12_10/2016_12_10__travel_3.jpg",
+      "title": "바다 야경",
+      "alt": "바다 야경",
+      "desc": "이때까지도 살면서 바다를 본 적이 몇 번 없었기 때문에 당시에는 꽤나 신기했던 풍경이었습니다. 물론 지금도 밤바다 풍경은 좋아합니다.",
+      "width": 4160,
+      "height": 2340,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2016_12_10/2016_12_11__travel_1.jpg",
+      "title": "아침 풍경",
+      "alt": "아침 풍경",
+      "desc": "대회 2일차 아침에 다시 찍은 같은 방향으로의 풍경입니다.",
+      "width": 4160,
+      "height": 2340,
+      "video": false
+    }
+  ]
+}

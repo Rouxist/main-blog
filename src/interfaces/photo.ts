@@ -3,5 +3,7 @@ export type Photo = {
   title: string
   alt: string
   desc: string
+  width: number
+  height: number
   video: boolean
 }

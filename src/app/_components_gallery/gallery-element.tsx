@@ -26,17 +26,20 @@ export function GalleryElement({
   thumbnail,
 }: Props) {
   return (
-    <div className="p-10 w-[30rem] h-[50rem] m-0 border-2 border-black-600 hover:text-veriperi hover:scale-105 transition-all duration-250">
-      <Image
-        src={thumbnail}
-        width={300}
-        height={400}
-        alt={'thumbnail_' + slug}
-      />
-      <h3 className="text-3xl mb-3 leading-snug">{title}</h3>
-      <p className="text-lg leading-relaxed mb-4">{desc}</p>
-      <DateFormatter dateString={date}></DateFormatter>
-      <p className="text-lg leading-relaxed mb-4">{location.toString()}</p>
+    <div className="w-[20vw] h-[60vh] hover:scale-105 transition-all duration-250">
+      <div className="h-[45vh] flex items-center">
+        <Image
+          src={thumbnail}
+          width={200}
+          height={200}
+          style={{ width: '20vw' }}
+          alt={'thumbnail_' + slug}
+        />
+      </div>
+      <div className="w-[16vw] h-[10vh] mx-auto mt-4 mb-2 p-2 text-xl leading-snug border border-black">
+        <h3 className="text-xl leading-snug mb-1">{title}</h3>
+        <DateFormatter dateString={date}></DateFormatter>
+      </div>
     </div>
   )
 }
