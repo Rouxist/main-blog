@@ -28,12 +28,12 @@ export function PhotoElement({
 
   function getClassName(isScaled: boolean, isTransparent: boolean) {
     if (isTransparent) {
-      return 'm-8 h-[calc(40vh-16px)] transition-all duration-250 opacity-25'
+      return 'px-8 transition-all duration-250 opacity-25'
     } else {
       if (isScaled) {
-        return 'm-8 scale-140 transition-all duration-250'
+        return 'px-8 scale-140 transition-all duration-250'
       } else {
-        return 'm-8 h-[calc(40vh-16px)] transition-all duration-250 shadow-2xl'
+        return 'px-8 transition-all duration-250'
       }
     }
   }
