@@ -88,7 +88,7 @@ export function PhotoList({ photos, year }: Props) {
           />
         ))}
       </div>
-      <div className="w-[40vw] min-h-[9vh] border-2 border-black mx-auto mt-4">
+      <div className="md:w-[40vw] w-[300px] min-h-[9vh] border-2 border-black mx-auto mt-4">
         {getLabelOfHighlightedImage(photos)}
       </div>
     </div>
