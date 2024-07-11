@@ -23,6 +23,9 @@ export default async function Profile() {
           <ul className="list-disc md:text-2xl text-xl">
             <li className="my-3">이것저것 배우고 공부하는 것을 좋아합니다.</li>
             <li className="my-3">
+              민트초코, 하와이안 피자, 닥터페퍼, 토닉워터를 좋아합니다.
+            </li>
+            <li className="my-3">
               2021년부터 시작한 사이드프로젝트를 통해{' '}
               <Link href="https://silgam.app">앱 서비스</Link>를 운영하고
               있습니다.
