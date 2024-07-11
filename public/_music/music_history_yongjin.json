@@ -3,14 +3,14 @@
   "order": 0,
   "profileImgSrc": "/assets/music/authors/yongjin.png",
   "title": "시기별 좋아했던 곡들",
-  "desc": "2017부터 현재까지의 역사를 담았습니다.",
+  "desc": "2017부터 현재까지의 역사를 담았습니다. 수록곡을 전부 들은 앨범의 경우 곡 제목이 아닌 앨범 제목을 넣었습니다.",
   "elements": [
     {
       "year": 2017,
       "title": "시차 (We Are) (Feat. 로꼬 & GRAY)",
       "artist": "우원재",
       "src": "/assets/music/album_covers/we_are.jpeg",
-      "desc": "타이포그래피 영상을 통해 본격적으로 꽂힌 곡이라고 볼 수 있겠죠."
+      "desc": "타이포그래피 영상을 통해 본격적으로 꽂힌 곡입니다."
     },
     {
       "year": 2017,
@@ -24,7 +24,7 @@
       "title": "Paranoid Android",
       "artist": "Radiohead",
       "src": "/assets/music/album_covers/ok_computer.jpeg",
-      "desc": "충주중학교 기타 동아리에서 함께한 4인조가 뼈를 묻었던 곡이자, 제가 베이스 기타로 처음 연주해본/완곡해본 곡이기도 합니다. 들을 때마다 skrt skrt skrt 해집니다."
+      "desc": "충주중학교 기타 동아리에서 함께한 4인조가 뼈를 묻었던 곡이자, 베이스 기타로 처음 연주해본/완곡해본 곡이기도 합니다. 16살이었을 당시의 열정이 이 곡에 온전히 담겨있습니다."
     },
     {
       "year": 2018,
@@ -38,7 +38,7 @@
       "title": "Don't let me down",
       "artist": "The Beatles",
       "src": "/assets/music/album_covers/the_beatles_1967_1970.jpeg",
-      "desc": "충주중학교에서의 짧았던 기타 동아리 활동 막판에 다같이 연주하고 놀았던 곡이라고 볼 수가 있습니다."
+      "desc": "충주중학교에서의 짧았던 기타 동아리 활동 막판에 다같이 연주하고 놀았던 곡입니다. 언젠가는 루프탑에서 합주해보고 싶네요."
     },
     {
       "year": 2019,
@@ -115,7 +115,147 @@
       "title": "염라(Karma)",
       "artist": "달의하루",
       "src": "/assets/music/album_covers/karma.jpeg",
-      "desc": "'밤 12시쯤 투니버스 갬성' 이라는 유튜브 댓글이 모든 것을 설명한다."
+      "desc": "'밤 12시쯤 투니버스 갬성' 이라는 유튜브 댓글이 모든 것을 표현해준다고 생각합니다."
+    },
+    {
+      "year": 2020,
+      "title": "funtwo - Canon",
+      "artist": "funtwo",
+      "src": "/assets/music/album_covers/canon_rock_funtwo.jpeg",
+      "desc": "꼭 완주해보고 싶은 곡들 중 하나입니다."
+    },
+    {
+      "year": 2020,
+      "title": "버클 (Feat. 지코 (ZICO)) (Prod. 기리보이)",
+      "artist": "나플라 (nafla)",
+      "src": "/assets/music/album_covers/buckle.jpg",
+      "desc": "가장 좋아하는 ZICO의 벌스 중 하나입니다."
+    },
+    {
+      "year": 2020,
+      "title": "권지용",
+      "artist": "G-DRAGON",
+      "src": "/assets/music/album_covers/kwonjiyong.jpg",
+      "desc": "수록곡을 모두 들은 흔치 않은 EP입니다. 코로나로 인해 학교에서 집으로 쫓겨나야 했을 때 독서실을 다니며 들었던 것으로 기억합니다."
+    },
+    {
+      "year": 2021,
+      "title": "대답해줘",
+      "artist": "Dragon Ocean (드래곤오션)",
+      "src": "/assets/music/album_covers/prison_break.jpg",
+      "desc": "본격적으로 수능 준비를 시작한 2021년 1-2월에 매일 들었던 곡입니다."
+    },
+    {
+      "year": 2021,
+      "title": "Face & Mask (Feat. ron)",
+      "artist": "키드밀리 (Kid Milli), dress",
+      "src": "/assets/music/album_covers/cliche.jpg",
+      "desc": "위 곡과 같은 시기에 매일 들었던 곡입니다. 키드밀리의 서사를 알고 들은 것은 아니지만, 이 곡에서의 쓸쓸함이 느껴지는 랩에서 편안함을 느꼈던 것 같습니다."
+    },
+    {
+      "year": 2021,
+      "title": "Joker (Feat. JAMIE)",
+      "artist": "BIG Naughty (서동현)",
+      "src": "/assets/music/album_covers/bucket_list.jpg",
+      "desc": "고등학교 3학년 1학기를 함께 한 곡입니다. 몇 달만에 재생 횟수만 1000회를 넘겼던, 당시 독보적으로 많이 들은 곡이었습니다."
+    },
+    {
+      "year": 2021,
+      "title": "Dry Flower",
+      "artist": "페노메코 (PENOMECO)",
+      "src": "/assets/music/album_covers/dry_flower.jpg",
+      "desc": "가벼운 마음으로 가볍게 들을 수 있는 앨범입니다."
+    },
+    {
+      "year": 2021,
+      "title": "And July (Feat. DEAN, DJ Friz)",
+      "artist": "헤이즈 (Heize)",
+      "src": "/assets/music/album_covers/and_july.jpg",
+      "desc": "당시 새롭게 올라온 헤이즈 킬링벌스 영상을 보다가 빠진 곡입니다. 선선한 여름 밤의 분위기를 표현하는 데에 있어 독보적인 곡이라고 생각합니다."
+    },
+    {
+      "year": 2021,
+      "title": "Double Helix",
+      "artist": "Sithu Aye",
+      "src": "/assets/music/album_covers/cassini.jpeg",
+      "desc": "수능이 1-2달 다가온 시점에 공부할 때 들을 곡으로 가사가 없는 로파이나 기타 연주곡을 많이 들었는데, 이 때 유튜브에서 10 Levels of electric guitar로 알게 된 Ichika Nito의 앨범들(N I T O, Until the end 등)을 애플뮤직에 다운받아놓으니 비슷한 연주곡들이 자동으로 추천돼서 알게 된 곡입니다. 이 외에도 Owane의 Fashion, Mestís의 Sedosa, Stephen Taranto의 Quantum Leap 등을 들으며 수능을 준비했습니다."
+    },
+    {
+      "year": 2021,
+      "title": "회전목마 (Feat. Zion.T, 원슈타인) (Prod. Slom)",
+      "artist": "sokodomo",
+      "src": "/assets/music/album_covers/merrygoround.jpg",
+      "desc": "수능이 끝난 후 가장 많이 들었던 곡입니다. 고등학교에 입학할 때 고등래퍼에 나오던 소코도모가 수능이 끝날 쯤 다시 주목받고 있어 신기하기도 했고, 곡의 연말 분위기가 수능이 끝난 상황과 참 잘 맞았습니다."
+    },
+    {
+      "year": 2022,
+      "title": "FIESTA",
+      "artist": "IZ*ONE (아이즈원)",
+      "src": "/assets/music/album_covers/fiesta.jpg",
+      "desc": "대학교 입학을 앞둔 시점에서 종로스타 영상을 보다가 듣기 시작했습니다. '나의 모든 순간이 아름답고 눈부셔' 라는 가사를 가장 좋아합니다."
+    },
+    {
+      "year": 2022,
+      "title": "Alright",
+      "artist": "Kendrick Lamar",
+      "src": "/assets/music/album_covers/alright.jpg",
+      "desc": "가장 좋아하는 켄드릭의 곡들 중 하나입니다."
+    },
+    {
+      "year": 2022,
+      "title": "열대야 (Fever)",
+      "artist": "여자친구 (GFRIEND)",
+      "src": "/assets/music/album_covers/fever.jpg",
+      "desc": "더운 여름도 시원한 느낌이 들게 하는 곡입니다. 여자친구의 곡들 중에서도 너무 동요스럽지 않고, 너무 활동 후반기의 느낌도 아닌 밸런스가 잘 맞는 곡이라고 생각합니다."
+    },
+    {
+      "year": 2023,
+      "title": "Can I Get It Back (R3HAB Remix)",
+      "artist": "Jordana Bryant, R3hab",
+      "src": "/assets/music/album_covers/can_i_get_it_back.jpeg",
+      "desc": "하우스 장르의 곡을 듣고 싶어서 찾아보던 중에 알게 된, 정확히 원하던 느낌의 곡이었습니다."
+    },
+    {
+      "year": 2023,
+      "title": "Fast Forward",
+      "artist": "전소미",
+      "src": "/assets/music/album_covers/fast_forward.jpeg",
+      "desc": "이런 느낌의 곡이 국내 아이돌 출신에게서 나왔다는 게 신기해서 잠깐 열심히 들었던 곡입니다."
+    },
+    {
+      "year": 2023,
+      "title": "피카부 (Peek-A-Boo)",
+      "artist": "Red Velvet (레드벨벳)",
+      "src": "/assets/music/album_covers/peekaboo.jpg",
+      "desc": "레드벨벳의 곡들 중에서 가장 좋아하는 곡입니다. 적당히 신나고, 적당히 활기차고, 스산하면서 유쾌한 분위기가 독특합니다."
+    },
+    {
+      "year": 2023,
+      "title": "アイドル",
+      "artist": "YOASOBI",
+      "src": "/assets/music/album_covers/idol.jpeg",
+      "desc": "장원영이 콘서트에서 챌린지를 하는 영상에 나온 곡이 이거라는 걸 알고 나서 듣기 시작했습니다. 원곡도 좋고, 기타로 커버한 버전들도 좋아합니다."
+    },
+    {
+      "year": 2023,
+      "title": "Mice on Venus",
+      "artist": "C418",
+      "src": "/assets/music/album_covers/mice_on_venus.jpg",
+      "desc": "2학년 2학기 기말고사가 다가올 때, 백남학술정보관 이순규 라운지의 컴퓨터로 마인크래프트 OST를 틀어놓고 머신러닝2 과제를 위해 코랩을 돌리며 미시경제2 공부를 한 적이 있습니다."
+    },
+    {
+      "year": 2024,
+      "title": "Space Cadet (Instrumental)",
+      "artist": "Metro Boomin",
+      "src": "/assets/music/album_covers/space_cadet.jpeg",
+      "desc": "수능이 끝난 직후(2021)에는 '이면서다'라는 채널 영상이 유튜브 알고리즘에 떴고, 대학생이 된 직후(2022)에는 그가 출연한 '신입사원 탄생기 굿피플'이라는 예능을 알게 돴습니다. 햇수로 2년이 지나(2024) 굿피플을 다시 보던 중 귀에 꽂히는 곡이 있었습니다. 채승훈 변호사의 자기소개 장면과 임현서 인턴의 변론 장면에 삽입된 곡이 이것이었고, 이 곡을 들으면 괜히 비장해집니다."
+    },
+    {
+      "year": 2024,
+      "title": "SHEESH",
+      "artist": "BABYMONSTER",
+      "src": "/assets/music/album_covers/sheesh.jpg",
+      "desc": "음식점에서 들리던 걸 음성 검색해서 알게 되었고, 특히 첫 소절이 제일 좋은 곡이라고 생각합니다. 첫 소절은 팝송같기도 하고 분위기가 참 좋은데 곡 전체적으로는..."
     }
   ]
 }

@@ -16,13 +16,13 @@ export default function Home() {
           />
           <figcaption className="text-gray-500">2024.04.27</figcaption>
         </figure>
-        <p className="text-2xl my-2 text-center">
+        <p className="md:text-2xl text-lg my-2 px-4 text-center">
           제 삶에 있었던 하이라이트 순간들을 모아둔 전시관과 같은 공간입니다.
         </p>
-        <p className="text-2xl my-2 text-center">
+        <p className="md:text-2xl text-lg my-2 px-4 text-center">
           마치 예술가와 같은 주도적인 삶을 누구나 살아갈 수 있다고 믿습니다.
         </p>
-        <div className="w-[75rem] my-4 mx-auto text-center">
+        <div className="md:w-[75vw] w-[372px] my-4 mx-auto text-center">
           <SimpleButton text="Profile" href="/profile" />
           <SimpleButton text="CV" href="/cv/en" />
           <SimpleButton text="Blog" href="/posts" />
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </section>
       <section className="mt-16 text-gray-300 text-center">
-        <p className="text-3xl">
+        <p className="text-3xl px-2">
           We also need things that make us excited to be alive, that make us
           glad to wake up in the morning.
         </p>

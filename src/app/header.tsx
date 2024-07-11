@@ -33,7 +33,7 @@ export function HeaderButton({ text, href }: Prop) {
     <div className="my-4 mx-2 inline-block">
       <Link
         href={href}
-        className={`text-2xl md:text-4xl font-bold text-black hover:text-veriperi px-5 py-2.5 text-center `}
+        className="xl:text-2xl md:text-xl text-xs font-bold text-black hover:text-veriperi px-5 py-2.5 text-center"
       >
         {text}
       </Link>

@@ -28,16 +28,16 @@ export function MusicElement({
 }: Props) {
   return (
     <tr>
-      <td className="text-5xl font-bold text-right py-8 whitespace-nowrap w-[10rem] h-[250px] px-8 py-4 relative">
+      <td className="lg:text-5xl text-3xl font-bold text-right py-8 whitespace-nowrap w-[10rem] h-[250px] px-8 py-4 relative">
         {year}
       </td>
       <td className={timelineLine(islast)}>
-        <div className="flex items-center ">
-          <div className="inline-block flex items-center shadow-2xl">
+        <div className="flex items-center">
+          <div className="inline-block items-center shadow-2xl">
             <Image src={src} alt={title} width={200} height={200}></Image>
           </div>
-          <div className="inline-block pl-8 w-[750px]">
-            <h2 className="text-3xl pb-1">{title}</h2>
+          <div className="inline-block pl-8 w-[100%]">
+            <h2 className="text-3xl pb-1 font-bold">{title}</h2>
             <h3 className="text-2xl pb-1">{artist}</h3>
             <p className="text-xl">{desc}</p>
           </div>

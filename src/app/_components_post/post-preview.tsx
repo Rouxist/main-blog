@@ -24,7 +24,7 @@ export function PostPreview({
   tags,
 }: Props) {
   return (
-    <div className="px-12 py-8 w-[50rem] my-2 text-black border-2 border-black-600 hover:scale-105 transition-all duration-250">
+    <div className="px-12 py-8 md:w-[50vw] w-[350px] my-2 text-black border-2 border-black-600 hover:scale-105 transition-all duration-250">
       {coverImage ? (
         <div className="mb-5">
           <CoverImage slug={slug} title={title} src={coverImage} />
@@ -36,7 +36,7 @@ export function PostPreview({
       <div className="text-lg mb-2">
         <DateFormatter dateString={date} />
       </div>
-      <div className="w-[40rem] mb-2  ">
+      <div className="md:w-[40vw] w-[280px]  mb-2">
         <Tags tags={tags} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>

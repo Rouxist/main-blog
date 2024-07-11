@@ -18,10 +18,10 @@ export function MusicAuthorElement({
   desc,
 }: Props) {
   return (
-    <div className="p-10 w-[30rem] h-[40rem] m-0 border-2 border-black-600 hover:text-veriperi hover:scale-105 transition-all duration-250">
+    <div className="p-10 w-[350px] h-[600px] m-0 border-2 border-black-600 hover:text-veriperi hover:scale-105 transition-all duration-250">
       <Image
         src={profileImgSrc}
-        width={300}
+        width={350}
         height={300}
         alt={'thumbnail_' + slug}
       />

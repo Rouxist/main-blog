@@ -7,20 +7,25 @@ type Props = {
 
 export function MusicAuthorList({ authors }: Props) {
   return (
-    <article className="grid grid-cols-1 md:grid-cols-3 place-items-center md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-8 mb-32">
-      {authors.map((author) => (
-        <div key={'gallery_' + author.slug}>
-          <a className="text-black" href={`/music/${author.slug}`}>
-            <MusicAuthorElement
-              slug={author.slug}
-              name={author.name}
-              profileImgSrc={author.profileImgSrc}
-              title={author.title}
-              desc={author.desc}
-            />
-          </a>
-        </div>
-      ))}
+    <article>
+      <div className="2xl:w-[1528px] lg:w-[1146px] md:w-[764px] w-[382px] mx-auto">
+        {authors.map((author) => (
+          <div
+            className="m-4 inline-block align-top"
+            key={'gallery_' + author.slug}
+          >
+            <a className="text-black" href={`/music/${author.slug}`}>
+              <MusicAuthorElement
+                slug={author.slug}
+                name={author.name}
+                profileImgSrc={author.profileImgSrc}
+                title={author.title}
+                desc={author.desc}
+              />
+            </a>
+          </div>
+        ))}
+      </div>
     </article>
   )
 }

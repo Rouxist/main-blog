@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-  color: #6667ab;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
-  font-family: 'Pretendard-Regular';
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+a {
+  color: #6667ab;
 }
 
 header {
