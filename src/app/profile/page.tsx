@@ -19,8 +19,8 @@ export default async function Profile() {
           <figcaption className="text-gray-500">2024.04.27</figcaption>
         </figure>
         <h2 className="text-4xl mt-12 mb-4 font-bold text-center">소개</h2>
-        <article className="md:w-[60vw] w-[350px]  mx-auto text-2xl">
-          <ul className="list-disc">
+        <article className="md:w-[60vw] w-[350px] mx-auto">
+          <ul className="list-disc md:text-2xl text-xl">
             <li className="my-3">이것저것 배우고 공부하는 것을 좋아합니다.</li>
             <li className="my-3">
               2021년부터 시작한 사이드프로젝트를 통해{' '}
