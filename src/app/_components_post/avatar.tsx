@@ -8,11 +8,11 @@ const Avatar = ({ name, picture }: Props) => {
     <div className="flex items-center">
       <img
         src={picture}
-        className="w-12 h-12 rounded-full mr-4"
+        className="md:w-12 w-8 md:h-12 h-8 md:mr-4 mr-2 rounded-full"
         alt={name}
         id="profile-img"
       />
-      <div className="text-xl font-bold">{name}</div>
+      <div className="md:text-xl text-md font-bold">{name}</div>
     </div>
   )
 }

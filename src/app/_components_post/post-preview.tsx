@@ -32,7 +32,7 @@ export function PostPreview({
       ) : (
         <></>
       )}
-      <h3 className="text-3xl mb-3 leading-snug">{title}</h3>
+      <h3 className="md:text-3xl text-2xl mb-3 leading-snug">{title}</h3>
       <div className="text-lg mb-2">
         <DateFormatter dateString={date} />
       </div>
