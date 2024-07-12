@@ -3,8 +3,15 @@
   "order": 1,
   "profileImgSrc": "/assets/music/authors/malwhan.png",
   "title": "말환잉의 희망찬 어제 🐻",
-  "desc": "고등학교에서 작곡 동아리 활동을 2년간 함께 했던 친구입니다. ",
+  "desc": "고등학교에서 작곡 동아리 활동을 2년간 함께 했던 친구입니다. 음악은 앨범 단위로 감상하는 것을 즐깁니다.",
   "elements": [
+    {
+      "year": 2019,
+      "title": "LANGUAGE",
+      "artist": "XXX",
+      "src": "/assets/music/album_covers/language.jpg",
+      "desc": "익스페리멘탈 힙합에 처음 눈을 뜨게 된 앨범 지금 들어도 충격적인 유노"
+    },
     {
       "year": 2020,
       "title": "Drops (Feat. Tom Bailey)",
@@ -18,6 +25,20 @@
       "artist": "Mura Masa",
       "src": "/assets/music/album_covers/mura_masa.jpg",
       "desc": "아주 세련되고 감각적인... you know?"
+    },
+    {
+      "year": 2021,
+      "title": "1000gecs",
+      "artist": "100gecs",
+      "src": "/assets/music/album_covers/1000_gecs.jpg",
+      "desc": "처음 stupid horse로 100gecs를 접하게 되었을 때 너무 좋아서 육성으로 허억 했던 기억이 있습니다. 허억은 아니고 헤에? 이게 텍스트로 쓸려니까 뭔가 전달이 잘 안되는데 유노"
+    },
+    {
+      "year": 2021,
+      "title": "PRIVATE PINK",
+      "artist": "A.TRAIN",
+      "src": "/assets/music/album_covers/private_pink.jpeg",
+      "desc": "A.TRAIN의 1집인 PAINGREEN을 꽤 괜찮게 들었습니다. 기대를 품고 2집 PRIVATE PINK의 첫번째 트랙을 틀었을 때 그 기대를 완전히 채워버리는 그 느낌을 잊지 못합니다. 그 느낌은 앨범이 끝날 때 까지 계속됩니다. (전곡이 다 좋다는 뜻)"
     }
   ]
 }
