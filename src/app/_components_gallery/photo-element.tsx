@@ -19,14 +19,16 @@ export function PhotoElement({
   setHighlightedIdx,
 }: Props) {
   function heightSize() {
-    if (window.innerWidth >= 768) {
-      if (isScaledElement) {
-        return '65vh'
+    if (typeof window !== 'undefined') {
+      if (window.innerWidth >= 768) {
+        if (isScaledElement) {
+          return '65vh'
+        } else {
+          return '40vh'
+        }
       } else {
-        return '40vh'
+        return 'auto'
       }
-    } else {
-      return 'auto'
     }
   }
 
