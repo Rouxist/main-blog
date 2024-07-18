@@ -177,3 +177,14 @@ export function getAllMusicAuthors(): MusicAuthor[] {
     )
   return musicAuthors
 }
+
+// weekly
+
+const pastWeeklyPostsDirectory = join(process.cwd(), 'public/_threads')
+
+export function getHTMLstring(): string {
+  const fullPath = join(pastWeeklyPostsDirectory, '690-07.01—07.07.html')
+  const fileContents = fs.readFileSync(fullPath, 'utf8')
+
+  return fileContents
+}
