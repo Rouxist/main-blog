@@ -14,6 +14,11 @@ const Header = () => {
               href="/profile"
               isMobileVisible={false}
             />
+            <HeaderButton
+              text="Project"
+              href="/project"
+              isMobileVisible={false}
+            />
             <HeaderButton text="Blog" href="/posts" isMobileVisible={true} />
             <HeaderButton text="Music" href="/music/" isMobileVisible={true} />
             <HeaderButton
