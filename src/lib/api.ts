@@ -39,6 +39,8 @@ export function getPostBySlug(slug: string) {
 
 export function getAllPosts(): Post[] {
   const slugs = getPostSlugs()
+  const idx = slugs.indexOf('.DS_Store')
+  if (idx > -1) slugs.splice(idx, 1)
   const posts = slugs
     .map((slug) => getPostBySlug(slug))
     // sort posts by date in descending order
@@ -122,6 +124,8 @@ export function getThreadBySlug(slug: string) {
 
 export function getAllThreads(): Thread[] {
   const slugs = getThreadSlugs()
+  const idx = slugs.indexOf('.DS_Store')
+  if (idx > -1) slugs.splice(idx, 1)
   const threads = slugs
     .map((slug) => getThreadBySlug(slug))
     .sort((thread1, thread2) => (thread1.date > thread2.date ? -1 : 1))
