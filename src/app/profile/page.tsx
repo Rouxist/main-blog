@@ -20,7 +20,7 @@ export default async function Profile() {
         </figure>
         <h2 className="text-4xl mt-12 mb-4 font-bold text-center">소개</h2>
         <article className="md:w-[60vw] w-[350px] mx-auto">
-          <ul className="list-disc md:text-2xl text-xl">
+          <ul className="list-disc md:text-xl text-md">
             <li className="my-3">이것저것 배우고 공부하는 것을 좋아합니다.</li>
             <li className="my-3">
               민트초코, 하와이안 피자, 닥터페퍼, 토닉워터를 좋아합니다.
