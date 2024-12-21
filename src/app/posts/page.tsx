@@ -1,11 +1,10 @@
-import { getAllPosts } from '@/lib/api'
-import { MoreStories } from '@/app/_components_post/post-list'
+import { getAllPosts, getCategoryTree } from '@/lib/api'
+import { PostArea } from '../_components_post/post-area'
 import Header from '../header'
 
 export default function Categories() {
   const allPosts = getAllPosts()
-  const recentPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
+  const categoryTree = getCategoryTree()
 
   return (
     <main>
@@ -17,11 +16,7 @@ export default function Categories() {
           Blog
         </h1>
         <article>
-          <div className="pt-4">
-            {allPosts.length > 0 && (
-              <MoreStories title="All posts" posts={allPosts} />
-            )}
-          </div>
+          <PostArea allPosts={allPosts} categoryTree={categoryTree} />
         </article>
       </section>
     </main>

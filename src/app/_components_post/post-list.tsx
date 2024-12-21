@@ -9,7 +9,7 @@ type Props = {
 
 export function MoreStories({ title, posts }: Props) {
   return (
-    <section className="grid grid-cols-1 place-items-center md:gap-x-16 lg:gap-x-32 md:gap-y-4 gap-y-2 mb-32">
+    <section>
       {posts.map((post) => (
         <Link href={`/posts/${post.slug}`} key={'post_' + post.slug}>
           <PostPreview

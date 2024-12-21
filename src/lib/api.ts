@@ -1,6 +1,7 @@
 import { Post } from '@/interfaces/posts'
 import { Gallery } from '@/interfaces/gallery'
 import { Thread } from '@/interfaces/thread'
+import { CategoryTree } from '@/interfaces/categoryTree'
 import { Music } from '@/interfaces/music'
 import { MusicAuthor } from '@/interfaces/musicAuthor'
 import fs from 'fs'
@@ -23,6 +24,8 @@ export function getPostBySlug(slug: string) {
       title: '',
       excerpt: '',
       date: '',
+      categories: [''],
+      tags: [''],
       author: { name: '', picture: '' },
       ogImage: { url: '' },
       alert: '',
@@ -48,13 +51,33 @@ export function getAllPosts(): Post[] {
   return posts
 }
 
-export function getQuriedPosts(category: string): Post[] {
+export function getPostCategoriesArray(): string[][] {
   const slugs = getPostSlugs()
-  const queriedPosts = slugs
-    .map((slug) => getPostBySlug(slug))
-    .filter((post) => post.categories.includes(category))
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-  return queriedPosts
+  const postCategoriesArray = slugs.map(
+    (slug) => getPostBySlug(slug).categories,
+  )
+  return postCategoriesArray
+}
+
+export function getCategoryTree(): CategoryTree {
+  const postsCategories = getPostCategoriesArray()
+  const tree: CategoryTree = {}
+
+  postsCategories
+    .filter((category) => category.length > 0 && category[0] !== '')
+    .forEach((categories) => {
+      let currentLevel = tree
+
+      categories.forEach((category) => {
+        if (!currentLevel[category]) {
+          currentLevel[category] = { count: 0, subcategories: {} }
+        }
+        currentLevel[category].count += 1 // Increment count for the category
+        currentLevel = currentLevel[category].subcategories
+      })
+    })
+
+  return tree
 }
 
 // _gallery
