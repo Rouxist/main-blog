@@ -3,7 +3,7 @@ title: 'Importance Sampling, LOTUS'
 excerpt: ''
 coverImage: ''
 date: '2023-09-28T23:39:06.000Z'
-categories: [Mathematics, Statistics]
+categories: [Mathematics, Probability]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

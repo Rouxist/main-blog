@@ -3,7 +3,7 @@ title: 'Euler-Maruyama, Predictor-Corector method'
 excerpt: ''
 coverImage: ''
 date: '2024-06-03T15:30:21.000Z'
-categories: [Mathematics, Stochastic Calculus]
+categories: [Mathematics, Numerical Analysis]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

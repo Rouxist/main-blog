@@ -3,7 +3,7 @@ title: 'Finite Set, Infinite Set, Countable Set, Uncountable Set'
 excerpt: ''
 coverImage: ''
 date: '2024-05-07T17:28:29.000Z'
-categories: [Mathematics, etc]
+categories: [Mathematics, Set Theory]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

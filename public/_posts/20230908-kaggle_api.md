@@ -3,7 +3,7 @@ title: 'Kaggle Public API로 Notebook 사용하기'
 excerpt: 'Kaggle CLI로 사용하기'
 coverImage: ''
 date: '2023-09-08T12:09:00.000Z'
-categories: [Data Science, Kaggle]
+categories: [Dev]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

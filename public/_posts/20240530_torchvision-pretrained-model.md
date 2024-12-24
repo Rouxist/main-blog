@@ -3,7 +3,7 @@ title: 'Torchvision'
 excerpt: 'torchivision에서 pretrained model 가져다 쓰기'
 coverImage: ''
 date: '2024-05-30T00:35:07.322Z'
-categories: [DS, PyTorch]
+categories: [Dev, Python]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

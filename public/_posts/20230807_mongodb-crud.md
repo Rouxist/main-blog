@@ -3,7 +3,7 @@ title: 'MongoDB operator 정리'
 excerpt: 'MongoDB 기초'
 coverImage: ''
 date: '2023-08-22T16:16:48.000Z'
-categories: [Developing, Backend]
+categories: [Dev, Database]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

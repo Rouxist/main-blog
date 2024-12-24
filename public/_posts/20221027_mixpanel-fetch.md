@@ -3,7 +3,7 @@ title: 'Mixpanel에서 10000개 이상의 데이터를 Export하기'
 excerpt: ''
 coverImage: ''
 date: '2022-10-27T12:22:30.322Z'
-categories: [Developing]
+categories: [Dev]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

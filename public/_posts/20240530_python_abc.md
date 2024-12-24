@@ -3,7 +3,7 @@ title: 'Abstract Class, abc'
 excerpt: '파이썬에서의 추상클래스를 구현하는 법, abc'
 coverImage: ''
 date: '2024-05-30T16:01:12.000Z'
-categories: [Developing, Python]
+categories: [Dev, Python]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

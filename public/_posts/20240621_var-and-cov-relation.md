@@ -3,7 +3,7 @@ title: 'Variance, Covariance'
 excerpt: ''
 coverImage: ''
 date: '2024-06-21T00:35:07.000Z'
-categories: [Mathematics, etc]
+categories: [Mathematics, Probability]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

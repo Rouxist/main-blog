@@ -3,8 +3,7 @@ title: '온드림스쿨 다빈치교실 21기 - 오리엔테이션'
 excerpt: '1박 2일 오리엔테이션'
 coverImage: ''
 date: '2023-01-10T04:24:23.000Z'
-categories:
-  [Activities, 대외활동 - 현대차 정몽구 재단 온드림스쿨 다빈치교실 21기]
+categories: [대외활동, 온드림스쿨 다빈치교실 21기]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

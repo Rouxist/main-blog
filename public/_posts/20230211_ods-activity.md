@@ -3,8 +3,7 @@ title: '온드림스쿨 다빈치교실 21기 - 활동'
 excerpt: '5박 6일 할동'
 coverImage: ''
 date: '2023-02-11T12:22:30.322Z'
-categories:
-  [Activities, 대외활동 - 현대차 정몽구 재단 온드림스쿨 다빈치교실 21기]
+categories: [대외활동, 온드림스쿨 다빈치교실 21기]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

@@ -3,7 +3,7 @@ title: 'E[X^4] = 3σ^4'
 excerpt: 'Calculating expectation of even power of r.v. that follows normal distribution'
 coverImage: ''
 date: '2024-05-08T00:35:07.000Z'
-categories: [Mathematics, etc]
+categories: [Mathematics, Probability]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

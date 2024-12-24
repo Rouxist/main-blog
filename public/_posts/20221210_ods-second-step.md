@@ -3,8 +3,7 @@ title: '온드림스쿨 다빈치교실 21기 - 2차 면접 준비 과정'
 excerpt: '다같이 촉박하게 준비했던 면접 준비 과정'
 coverImage: ''
 date: '2022-12-10T21:00:58.000Z'
-categories:
-  [Activities, 대외활동 - 현대차 정몽구 재단 온드림스쿨 다빈치교실 21기]
+categories: [대외활동, 온드림스쿨 다빈치교실 21기]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

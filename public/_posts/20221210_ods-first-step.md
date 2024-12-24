@@ -3,8 +3,7 @@ title: '온드림스쿨 다빈치교실 21기 - 1차 서류 준비 과정'
 excerpt: '고생했던 서류 접수까지의 과정'
 coverImage: ''
 date: '2022-12-10T20:56:23.000Z'
-categories:
-  [Activities, 대외활동 - 현대차 정몽구 재단 온드림스쿨 다빈치교실 21기]
+categories: [대외활동, 온드림스쿨 다빈치교실 21기]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

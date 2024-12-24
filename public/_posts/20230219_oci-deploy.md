@@ -3,7 +3,7 @@ title: 'Nginx로 MERN 웹 여러 개 배포하기'
 excerpt: 'Nginx'
 coverImage: ''
 date: '2023-02-20T13:23:21.000Z'
-categories: [Developing, Backend]
+categories: [Dev, Server]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'

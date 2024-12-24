@@ -3,7 +3,7 @@ title: 'Conditional Entropy 유도'
 excerpt: 'Law of total expectation'
 coverImage: ''
 date: '2023-09-25T17:58:06.000Z'
-categories: [Mathematics, etc]
+categories: [Mathematics, Information Theory]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'
