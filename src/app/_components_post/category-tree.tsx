@@ -30,9 +30,25 @@ export default function CategoryTreeComponent({
     }
   }
 
+  const sortCategoryTree = (tree: CategoryTree): CategoryTree => {
+    const sortedTree: CategoryTree = {}
+    const sortedKeys = Object.keys(tree).sort()
+
+    sortedKeys.forEach((key) => {
+      sortedTree[key] = {
+        ...tree[key],
+        subcategories: sortCategoryTree(tree[key].subcategories),
+      }
+    })
+
+    return sortedTree
+  }
+
+  const sortedTree = sortCategoryTree(tree)
+
   return (
     <ul className="list-none pl-0">
-      {Object.keys(tree).map((category) => {
+      {Object.keys(sortedTree).map((category) => {
         const fullPath = path ? `${path}/${category}` : category
         return (
           <li
@@ -42,10 +58,10 @@ export default function CategoryTreeComponent({
             }`}
             onClick={(event) => handleCategoryClick(event, category)}
           >
-            {category} ({tree[category].count})
-            {Object.keys(tree[category].subcategories).length > 0 && (
+            {category} ({sortedTree[category].count})
+            {Object.keys(sortedTree[category].subcategories).length > 0 && (
               <CategoryTreeComponent
-                tree={tree[category].subcategories}
+                tree={sortedTree[category].subcategories}
                 level={level + 1}
                 path={fullPath}
                 selectedCategory={selectedCategory}
