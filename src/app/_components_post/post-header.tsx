@@ -15,7 +15,7 @@ type Props = {
 
 export function PostHeader({ title, coverImage, date, author, tags }: Props) {
   return (
-    <div className="container max-w-5xl mx-auto pt-12">
+    <div className="container max-w-5xl px-8 mx-auto pt-12">
       <PostTitle>{title}</PostTitle>
       <div className="hidden md:block mb-8">
         <Avatar name={author.name} picture={author.picture} />

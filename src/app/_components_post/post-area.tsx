@@ -27,11 +27,11 @@ export function PostArea({ allPosts, categoryTree }: Props) {
 
   return (
     <div className="flex flex-row pt-4">
-      <div className="w-[25vw]"></div>
+      <div className="w-[25vw]  hidden sm:block"></div>
 
       {posts.length > 0 && <MoreStories title="All posts" posts={posts} />}
 
-      <div className="flex justify-center w-[25vw] pt-2 px-16">
+      <div className="flex justify-center w-[25vw] pt-2 px-16 hidden sm:block">
         <CategoryTreeComponent
           tree={categoryTree}
           level={0}
