@@ -256,6 +256,27 @@
       "artist": "BABYMONSTER",
       "src": "/assets/music/album_covers/sheesh.jpg",
       "desc": "음식점에서 들리던 걸 음성 검색해서 알게 되었고, 특히 첫 소절이 제일 좋은 곡이라고 생각합니다. 첫 소절은 팝송같기도 하고 분위기가 참 좋은데 곡 전체적으로는..."
+    },
+    {
+      "year": 2024,
+      "title": "POSE!",
+      "artist": "LIGHTSUM",
+      "src": "/assets/music/album_covers/pose.jpg",
+      "desc": "2024년 여름에 발매된 여러 걸그룹들의 곡들 중 가장 인상적인 곡이었습니다."
+    },
+    {
+      "year": 2024,
+      "title": "SECOND LANGUAGE",
+      "artist": "XXX",
+      "src": "/assets/music/album_covers/second_language.jpg",
+      "desc": "전곡을 제대로 감상해본 세 번째(두 번째는 LANGUAGE) 앨범이었습니다. 언제 들어도 다채로운 사운드로 귀가 즐거워집니다."
+    },
+    {
+      "year": 2024,
+      "title": "해방",
+      "artist": "스카이민혁 (Skyminhyuk)",
+      "src": "/assets/music/album_covers/haebang.jpg",
+      "desc": "2024년에 들었던 곡들과 앨범들 중 가장 기억에 남습니다. 청춘의 또다른 이면을 생생하게 담아낸 거친 랩을 들을 때마다 나의 모습이 오버랩되는 것 같아 문득 슬퍼지는 앨범이었습니다. 쏜애플의 시퍼런 봄이 청춘을 정열적으로 표현했다면, 스카이민혁의 해방은 청춘의 말못할 불편함을 절규합니다."
     }
   ]
 }
