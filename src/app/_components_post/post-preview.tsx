@@ -24,7 +24,7 @@ export function PostPreview({
   tags,
 }: Props) {
   return (
-    <div className="md:px-12 px-6 md:py-8 py-4 md:w-[50vw] w-[80vw] my-6 text-black border-2 border-black-600 hover:scale-105 transition-all duration-250">
+    <div className="md:px-12 px-6 md:py-8 py-4 md:w-[50vw] sm:w-[65vw] w-[80vw] my-6 text-black border-2 border-black-600 hover:scale-105 transition-all duration-250">
       {coverImage ? (
         <div className="mb-5">
           <CoverImage slug={slug} title={title} src={coverImage} />
@@ -33,13 +33,13 @@ export function PostPreview({
         <></>
       )}
       <h3 className="md:text-3xl text-2xl mb-3 leading-snug">{title}</h3>
-      <div className="text-lg mb-2">
+      <div className="md:text-lg text-base mb-2">
         <DateFormatter dateString={date} />
       </div>
-      <div className="md:w-[40vw] w-[280px]  mb-2">
+      <div className="mb-2">
         <Tags tags={tags} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+      <p className="md:text-lg text-base leading-relaxed mb-4">{excerpt}</p>
       <Avatar name={author.name} picture={author.picture} />
     </div>
   )
