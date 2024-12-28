@@ -16,7 +16,7 @@ alert: ''
 
 ---
 
-Torchvision에서는 [몇 가지 모델 구조들에 대한 pre-trained weights](https://pytorch.org/vision/stable/models){:target=”\_blank”}를 제공하고 있다.
+Torchvision에서는 [몇 가지 모델 구조들에 대한 pre-trained weights](https://pytorch.org/vision/stable/models)를 제공하고 있다.
 
 여러가지 모델들 중 VGG16을 가져다 쓴다면,
 

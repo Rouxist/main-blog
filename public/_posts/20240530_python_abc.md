@@ -20,7 +20,7 @@ alert: ''
 
 향후 클래스들을 선언할 때 일관적으로 맞춰갈 형식이 있다면, 추상 클래스로 미리 정해둘 수 있다. 특정 method를 반드시 정의하도록 강제하는 등의 기능을 할 수 있고, 추상 클래스 자체에 대해서는 인스턴스를 만들 수 없다.
 
-[(Song et al., 2021.)](https://github.com/yang-song/score_sde_pytorch){:target=”\_blank”}에서 사용된 [코드](https://github.com/yang-song/score_sde_pytorch/blob/main/sde_lib.py){:target=”\_blank”}를 보면 확률미분방정식들을 클래스로 정의하기 전에 먼저 **SDE**라는 추상클래스를 정의해서 사용했다.
+[(Song et al., 2021.)](https://github.com/yang-song/score_sde_pytorch)에서 사용된 [코드](https://github.com/yang-song/score_sde_pytorch/blob/main/sde_lib.py)를 보면 확률미분방정식들을 클래스로 정의하기 전에 먼저 **SDE**라는 추상클래스를 정의해서 사용했다.
 
 ## abc (Abstract Base Classes)
 
@@ -55,8 +55,8 @@ sigmoid = NormalDistribution()   # 가능
 
 ### 참고 자료
 
-[https://github.com/python/cpython/blob/3.9/Lib/abc.py](https://github.com/python/cpython/blob/3.9/Lib/abc.py){:target=”\_blank”}  
-[https://peps.python.org/pep-3119/](https://peps.python.org/pep-3119/){:target=”\_blank”}
+[https://github.com/python/cpython/blob/3.9/Lib/abc.py](https://github.com/python/cpython/blob/3.9/Lib/abc.py)
+[https://peps.python.org/pep-3119/](https://peps.python.org/pep-3119/)
 
 <br/><br/>
 

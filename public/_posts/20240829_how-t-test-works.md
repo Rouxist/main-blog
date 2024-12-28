@@ -108,6 +108,7 @@ $y = X\beta + \varepsilon$ 에 대한 OLS estimator $\hat{\beta}_j$ 에 대해 �
   - 먼저, residual $\hat{u}$ 가 정규분포를 따름을 보일 수 있다.
 
   $$
+  \scriptsize
   \begin{aligned}
   \hat{\mu} & = y - X \hat{\beta} \\
   & = X \beta + \varepsilon - X \hat{\beta} \\

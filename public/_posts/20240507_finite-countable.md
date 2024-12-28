@@ -29,7 +29,7 @@ for some natural number $n$.
 - bijection이란 one-to-one correspondence를 말한다. ([위키](https://en.wikipedia.org/wiki/Bijection))
 - **Finite set은 countable set이다**.
 
-보통 위와 같이 $$\rightarrow$$를 사용한 함수 표현은 화살표 앞뒤로 집합이 오고 [stackexchange에서도 그런 얘기](https://math.stackexchange.com/q/1751187){:target=”\_blank”}가 있는데, 위 정의에서는 갑자기 (집합이 아닌?) 수 $n$이 나와서 혼란이 있었는데... $n$을 1부터 $n$까지의 자연수들이 포함된 ($n$개의 원소가 들어있는) 집합으로 보면 의미상 맞아보인다.
+보통 위와 같이 $$\rightarrow$$를 사용한 함수 표현은 화살표 앞뒤로 집합이 오고 [stackexchange에서도 그런 얘기](https://math.stackexchange.com/q/1751187)가 있는데, 위 정의에서는 갑자기 (집합이 아닌?) 수 $n$이 나와서 혼란이 있었는데... $n$을 1부터 $n$까지의 자연수들이 포함된 ($n$개의 원소가 들어있는) 집합으로 보면 의미상 맞아보인다.
 
 #### Examples
 
