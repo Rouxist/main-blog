@@ -14,8 +14,9 @@ export default function Categories() {
         <h1 className="text-5xl font-bold tracking-tighter leading-tight mt-12 mb-8 text-center">
           Photo
         </h1>
-        <article></article>
-        {allGalleries.length > 0 && <GalleryList galleries={allGalleries} />}
+        <article>
+          {allGalleries.length > 0 && <GalleryList galleries={allGalleries} />}
+        </article>
       </section>
     </main>
   )

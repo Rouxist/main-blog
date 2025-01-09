@@ -74,7 +74,7 @@ export function PhotoList({ photos, year }: Props) {
 
   return (
     <div>
-      <div className="w-[100vw] h-[70vh] p-8 flex items-center justify-start overflow-x-scroll scrollbar-hide">
+      <div className="w-[100vw] h-[70vh] md:p-8 flex items-center justify-start overflow-x-scroll scrollbar-hide">
         {photos.map((photo, idx) => (
           <PhotoElement
             key={'image_' + idx}

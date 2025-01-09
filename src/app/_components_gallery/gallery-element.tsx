@@ -26,18 +26,18 @@ export function GalleryElement({
   thumbnail,
 }: Props) {
   return (
-    <div className="w-[350px] h-[600px] hover:scale-105 transition-all duration-250">
-      <div className="h-[400px] flex items-center">
+    <div className="md:w-[350px] w-[40vw] md:h-[600px] h-[75vw] md:hover:scale-105 md:transition-all md:duration-250">
+      <div className="md:h-[400px] h-[200px] flex items-center">
         <Image
           src={thumbnail}
           width={200}
           height={200}
-          style={{ width: '350px', height: '400px' }}
+          className="w-[40vw] h-[50vw] md:w-[350px] md:h-[400px]"
           alt={'thumbnail_' + slug}
         />
       </div>
-      <div className="w-[300px] h-[100px] mx-auto mt-4 mb-2 p-2 text-xl leading-snug border border-black">
-        <h3 className="text-xl leading-snug mb-1">{title}</h3>
+      <div className="md:w-[300px] w-[40vw] md:h-[100px] mx-auto md:mt-4 mt-4 mb-2 p-2 md:text-xl text-sm leading-snug border border-black">
+        <h3 className="md:text-xl text-xs leading-snug md:mb-1">{title}</h3>
         <DateFormatter dateString={date}></DateFormatter>
       </div>
     </div>

@@ -29,10 +29,10 @@ export default async function Photo({ params }: Params) {
         Back
       </a>
       <section>
-        <div className="text-xl px-24">
-          <p>행사: {gallery.title}</p>
-          <p>설명: {gallery.desc}</p>
-          <p>
+        <div className="md:px-24 px-8">
+          <p className="md:text-xl text-sm font-bold mb-2">{gallery.title}</p>
+          <p className="md:text-xl text-sm mb-2">{gallery.desc}</p>
+          <p className="md:text-xl text-sm">
             일시: <DateFormatter dateString={gallery.date} />, 장소:{' '}
             {gallery.location.toString()}
           </p>

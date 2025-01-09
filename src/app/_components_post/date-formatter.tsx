@@ -20,7 +20,7 @@ const DateFormatter = ({ dateString }: Props) => {
 
   const formattedTime = formatInTimeZone({
     date: parsedTime,
-    fmt: 'yyyy-MM-dd kk:mm:ss xxx',
+    fmt: 'yyyy-MM-dd kk:mm:ss',
     tz: 'UTC',
   })
   return <time dateTime={dateString}>{formattedTime}</time>
