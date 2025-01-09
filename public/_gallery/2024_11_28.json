@@ -1,0 +1,56 @@
+{
+  "date": "2024-11-28T08:57:00.000Z",
+  "location": ["서울", "성동구"],
+  "category": ["view"],
+  "excerpt": "처음이자 마지막 눈",
+  "title": "2024년 겨울, 한양대학교 설경",
+  "desc": "2024년 겨울의 첫 눈으로 내렸던 폭설 다음날 한양대학교의 모습입니다.",
+  "thumbnail": "/assets/gallery/2024_11_28/2024_11_28__view_0.png",
+  "elements": [
+    {
+      "src": "/assets/gallery/2024_11_28/2024_11_28__view_1.JPG",
+      "title": "경제금융관 전경",
+      "alt": "경제금융관",
+      "desc": "아침 8시 57분, 학교에 가자마자 동화 속에 들어온 것 같은 풍경이었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2024_11_28/2024_11_28__view_2.JPG",
+      "title": "경영관 전경",
+      "alt": "경영관",
+      "desc": "눈 쌓인 행원파크의 모습입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2024_11_28/2024_11_28__view_3.JPG",
+      "title": "경영관 뒷길",
+      "alt": "경영관 뒤",
+      "desc": "폭설로 쑥@대밭이 된 현장니다.",
+      "width": 3024,
+      "height": 4032,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2024_11_28/2024_11_28__view_4.JPG",
+      "title": "한강 방면 뷰",
+      "alt": "한강 방면",
+      "desc": "적당히 하늘에 석양이 드리우기 시작한 시간에 도착할 수 있었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2024_11_28/2024_11_28__view_5.JPG",
+      "title": "한양플라자 방면 뷰",
+      "alt": "한양플라자 방면",
+      "desc": "예상 외로 마음에 들었던 사진입니다. 88계단과 신본관, 한양플라자 건물이 보이네요.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}

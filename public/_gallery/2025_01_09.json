@@ -1,0 +1,38 @@
+{
+  "date": "2025-01-09T10:42:00.000Z",
+  "location": ["서울", "동대문구"],
+  "category": ["home"],
+  "excerpt": "집, 2025 1분기",
+  "title": "집, 2025 1분기",
+  "desc": "2025 1분기 집의 모습입니다.",
+  "thumbnail": "/assets/gallery/2025_01_09/2025_01_09__home_0.png",
+  "elements": [
+    {
+      "src": "/assets/gallery/2025_01_09/2025_01_09__home_1.JPG",
+      "title": "책상",
+      "alt": "책상",
+      "desc": "얼마 전 마음에 드는 스테인리스 트레이를 구매하고 신나서 찍어둔 책상의 모습입니다. OKC vs. CLE 경기가 있던 아침이기도 했죠.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_09/2025_01_09__home_2.JPG",
+      "title": "선반",
+      "alt": "선반",
+      "desc": "뭐가 많이 복잡해진 선반입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_09/2025_01_09__home_3.JPG",
+      "title": "화장실",
+      "alt": "화장실",
+      "desc": "뭐가 많이 복잡해진 화장실입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}
