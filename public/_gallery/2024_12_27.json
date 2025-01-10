@@ -1,0 +1,56 @@
+{
+  "date": "2024-12-27T12:06:00.000Z",
+  "location": ["서울", "성북구"],
+  "category": ["friends"],
+  "excerpt": "2024 실감 종무식",
+  "title": "2024 실감 종무식",
+  "desc": "2024년 마지막 실감 오프라인 회의가 있었습니다.",
+  "thumbnail": "/assets/gallery/2024_12_27/2024_12_27__friends_0.png",
+  "elements": [
+    {
+      "src": "/assets/gallery/2024_12_27/2024_12_27__friends_1.JPG",
+      "title": "점심",
+      "alt": "점심",
+      "desc": "시작 전 점심을 먹는 모습입니다. 메뉴는 두찜.",
+      "width": 3024,
+      "height": 4032,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2024_12_27/2024_12_27__friends_2.JPG",
+      "title": "카페",
+      "alt": "카페",
+      "desc": "주변의 아무 카페에 가봤는데 기억에 남습니다. 성북구에 위치한 '킵업커피로스터스'입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2024_12_27/2024_12_27__friends_3.JPG",
+      "title": "자몽차",
+      "alt": "자몽차",
+      "desc": "커피도 우유도 안마시느라 항상 차를 마시곤 했습니다.",
+      "width": 3024,
+      "height": 4032,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2024_12_27/2024_12_27__friends_4.JPG",
+      "title": "종무식",
+      "alt": "종무식",
+      "desc": "올해 매 오프라인 모임마다 사용했던 템플릿입니다. 1월부터 시작했던 흔적이 남아있네요.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2024_12_27/2024_12_27__friends_5.JPG",
+      "title": "저녁",
+      "alt": "저녁",
+      "desc": "저녁을 먹으며 할 일을 쳐내는 모습입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}
