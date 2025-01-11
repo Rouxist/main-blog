@@ -1,0 +1,128 @@
+{
+  "date": "2025-01-11T14:55:00.000Z",
+  "location": ["서울"],
+  "category": ["view"],
+  "excerpt": "2025 겨울, 한강 걷기",
+  "title": "동호대교-성수대교 걷기: 2025 겨울",
+  "desc": "2025년, ",
+  "thumbnail": "/assets/gallery/2025_01_11/2025_01_11__view_0.png",
+  "elements": [
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_1.JPG",
+      "title": "옥수역 전경",
+      "alt": "옥수역",
+      "desc": "약속 장소였던 옥수역의 모습",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_2.JPG",
+      "title": "옥수역 2번 출구",
+      "alt": "옥수역 2번 출구",
+      "desc": "2번 출구는 동호대교로 이어지는 줄 모르고 나갔다가 보게 된 멋진 절경입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_3.JPG",
+      "title": "동호대교",
+      "alt": "동호대교",
+      "desc": "걷기의 시작점, 돌아온 동호대교입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_4.JPG",
+      "title": "성수대교 방면",
+      "alt": "성수대교 방면",
+      "desc": "목적지인 성수대교 방면을 바라봅니다. 7년 전과 다르게 성수동에는 아크로 서울포레스트도 보입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_5.JPG",
+      "title": "용비교 초입",
+      "alt": "용비교 초입",
+      "desc": "용비교에 진입하며 뒤를 돌아보면 강변북로와 동호대교가 보입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_6.JPG",
+      "title": "용비교",
+      "alt": "용비교",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_7.JPG",
+      "title": "용비교 위에서",
+      "alt": "용비교",
+      "desc": "7년 전에도 빠르게 달리는 자동차들 바로 옆의 좁은 길을 걸으며, 이 길이 정말 성수대교로 향할지 의구심과 설렘이 교차했습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_8.JPG",
+      "title": "성수대교 전경",
+      "alt": "성수대교 전경",
+      "desc": "이번에는 7년 전과 다른 길로 가게 되어 성수대교의 전경을 먼저 보게 되었습니다. 7년만에 다시 보아도 아름다운 광경이었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_9.JPG",
+      "title": "성수대교 전경",
+      "alt": "성수대교 전경",
+      "desc": "해가 지고, 한강에 비친 성수대교의 모습은 더욱 선명해져 갑니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_10.JPG",
+      "title": "성수대교",
+      "alt": "성수대교",
+      "desc": "목적지인 성수대교입니다. 여전히 아름다웠고, 여전히 영하 6도 가량으로 추웠습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_11.JPG",
+      "title": "성수구름다리",
+      "alt": "성수구름다리",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_12.JPG",
+      "title": "육지고기",
+      "alt": "육지고기",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_01_11/2025_01_11__view_13.JPG",
+      "title": "띵똥와플",
+      "alt": "띵똥와플",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}

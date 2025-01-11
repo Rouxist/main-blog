@@ -1,0 +1,92 @@
+{
+  "date": "2018-01-25T11:51:00.000Z",
+  "location": ["서울"],
+  "category": ["view"],
+  "excerpt": "2018 겨울, 한강 걷기",
+  "title": "동호대교-성수대교 걷기: 2018 겨울",
+  "desc": "2018년, ",
+  "thumbnail": "/assets/gallery/2018_01_25/2018_01_25__view_0.png",
+  "elements": [
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_1.JPG",
+      "title": "한강대교, 한강철교 방면",
+      "alt": "한강대교",
+      "desc": "한강철교를 보고 싶어 무작정 노량진역에 내렸습니다. 열심히 걸어 한강대교에 도착했고, 그곳에서 한강철교를 볼 수 있었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_2.JPG",
+      "title": "한강대교",
+      "alt": "한강대교",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_3.JPG",
+      "title": "성수대교 방면",
+      "alt": "성수대교 방면",
+      "desc": "이날 큐브 커뮤니티를 통해 알게 된 친구와 처음 만나 향한 곳이 동호대교였습니다. 그리고 멀리 보이는 성수대교까지 걸어가보자는 원대한 여정을 꿈꾸게 됩니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_4.JPG",
+      "title": "성수대교",
+      "alt": "성수대교",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_5.JPG",
+      "title": "성수대교",
+      "alt": "성수대교",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_6.JPG",
+      "title": "성수대교",
+      "alt": "성수대교",
+      "desc": "성수대교에 도착하고 말았습니다. 마침 도착했을 때 다리에 불이 켜지던 모습은 잊지 못할 추억으로 남았습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_7.JPG",
+      "title": "성수대교 전경",
+      "alt": "성수대교 전경",
+      "desc": "성수대교를 떠나며 노을과 함께 담아낸 모습입니다. 이 모습을 7년간 추억하게 됩니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_8.JPG",
+      "title": "성수구름다리",
+      "alt": "성수구름다리",
+      "desc": "중학교 3학년이 되던 저는 이렇게 많은 자동차들 위를 걸어 지나가는 경험이 제법 신기했습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2018_01_25/2018_01_25__view_9.JPG",
+      "title": "왕십리역",
+      "alt": "왕십리역",
+      "desc": "목적지였던 성수대교에 도착한 후에는 너무 추워서 가장 가까운 지하철 역인 서울숲 역으로 이동했고, 가장 가까운 왕십리역으로 이동했습니다. 살면서 처음 왕십리에 가본 날이었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}
