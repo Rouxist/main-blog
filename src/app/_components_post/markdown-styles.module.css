@@ -32,7 +32,8 @@
 }
 
 .markdown p {
-  @apply md:text-lg sm:text-base text-sm leading-snug;
+  @apply md:text-lg sm:text-base text-sm md:leading-8 leading-6;
+  line-height: 2rem;
 }
 
 .markdown ul {
@@ -60,7 +61,7 @@
 }
 
 .markdown code {
-  @apply md:text-lg sm:text-base text-sm leading-snug;
+  @apply md:text-base sm:text-sm text-xs leading-snug;
 }
 
 .markdown pre code {
