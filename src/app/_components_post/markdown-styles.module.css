@@ -19,8 +19,13 @@
 }
 
 .markdown h3 {
-  @apply md:text-2xl text-xl md:mt-12 mt-8 mb-4 leading-snug;
-  margin-top: 80px;
+  @apply md:text-2xl text-xl md:mt-12 mt-8 mb-4 leading-snug font-black;
+  margin-top: 40px;
+}
+
+.markdown h4 {
+  @apply md:text-xl text-base md:mt-8 mt-4 mb-4 leading-snug font-black;
+  margin-top: 40px;
 }
 
 .markdown > * > * > span {
