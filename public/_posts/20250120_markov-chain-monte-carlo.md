@@ -21,7 +21,7 @@ alert: ''
 
 [Markov Chain](20250120_markov_chain)에서와 동일한 예시를 사용하였다.
 
-<img src="/assets/blog/posts/20250120_markov_chain/markov_chain.png" alt="markov_chain" width=600>
+<img src="/assets/blog/posts/20250120_markov-chain/markov_chain.png" alt="markov_chain" width=600>
 
 <br/>
 
@@ -163,6 +163,72 @@ $$
 <br/>
 
 #### 예시
+
+```Python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def target_distribution(x):
+    return 0.5 * np.exp(-0.5 * ((x - 3) / 0.75) ** 2) / (0.75 * np.sqrt(2 * np.pi)) + \
+           0.25 * np.exp(-0.5 * ((x - 1) / 0.5) ** 2) / (0.5 * np.sqrt(2 * np.pi)) + \
+           0.25 * np.exp(-0.5 * ((x + 2) / 1.0) ** 2) / (1.0 * np.sqrt(2 * np.pi))
+
+def proposal_distribution(x_prev, std):
+    return np.random.normal(x_prev, std)
+
+SEED = 100
+N = 10000
+STD = 1.5
+
+np.random.seed(SEED)
+
+if __name__ == "__main__":
+    data_x_accepted = []
+
+    x_prev = 0
+
+    for i in range(N):
+        u = np.random.uniform(0, 1)
+
+        target = target_distribution(x_prev)
+        x_proposal = proposal_distribution(x_prev, STD)
+
+        p_x_star = target_distribution(x_proposal)
+        p_x = target_distribution(x_prev)
+
+        acceptance_probability = min(1, p_x_star/p_x)
+
+        if u <= acceptance_probability:
+            data_x_accepted.append(x_proposal)
+            x_prev = x_proposal
+
+    # Plot histogram and sampled data
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+    axes[0].set_title(f"Result of MCMC sampling, std={STD}")
+    axes[1].set_title(f"Trace plot, std={STD}")
+
+    axes[0].hist(data_x_accepted, bins=500, color="gray", alpha=0.75)
+
+    ax1_2 = axes[0].twinx()
+    x = np.linspace(-8, 8, 500)
+    y_1 = target_distribution(x)
+    ax1_2.plot(x, y_1, color="#6667ab", label=r"$p(x)$")
+
+    x2 = np.arange(1, len(data_x_accepted)+1)
+    axes[1].plot(x2, data_x_accepted, color="gray", alpha=0.75)
+
+    # Visualize
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(f'./result_std_{str(STD).replace(".", "_")}.png')
+    plt.show()
+
+```
+
+<img src="/assets/blog/posts/20250121_markov-chain-monte-carlo/result_std_1_5.png" alt="markov_chain" width=600>
+<img src="/assets/blog/posts/20250121_markov-chain-monte-carlo/result_std_3.png" alt="markov_chain" width=600>
+<img src="/assets/blog/posts/20250121_markov-chain-monte-carlo/result_std_5.png" alt="markov_chain" width=600>
+<img src="/assets/blog/posts/20250121_markov-chain-monte-carlo/result_std_10.png" alt="markov_chain" width=600>
 
 <br/>
 

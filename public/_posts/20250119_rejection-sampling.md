@@ -126,7 +126,7 @@ if __name__ == "__main__":
     # y_1 = target_distribution(x)
     # y_2 = proposal_distribution(x)
     # plt.plot(x, y_1, color="#6667ab", label=r"$p(x)$")
-    # plt.plot(x, y_2, color="gray", label=r"$M \cdot g(x)$")
+    # plt.plot(x, y_2, color="gray", label=r"$M \cdot q(x)$")
 
     # Plot additional vertical line
     # x_1_plot, x_2_plot = -1, 3.5
@@ -144,7 +144,7 @@ if __name__ == "__main__":
     # print("Acceptance probability of x_2 =",
     #       target_distribution(x_2_plot)/ proposal_distribution(x_2_plot))
 
-    # Plot histogram using boh y-axes
+    # Plot histogram using both y-axes
     x = np.linspace(-8, 8, 500)
     plt.hist(data_x_accepted, bins=500, color="gray", alpha=0.75)
 
