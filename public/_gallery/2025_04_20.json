@@ -1,0 +1,29 @@
+{
+  "date": "2025-04-20T11:49:35.000Z",
+  "location": ["서울", "동대문구"],
+  "category": ["home"],
+  "excerpt": "집, 2025 2분기",
+  "title": "집, 2025 2분기",
+  "desc": "2025 2분기 집의 모습입니다.",
+  "thumbnail": "/assets/gallery/2025_04_20/2025_04_20__home_0.png",
+  "elements": [
+    {
+      "src": "/assets/gallery/2025_04_20/2025_04_20__home_1.JPG",
+      "title": "선반",
+      "alt": "선반",
+      "desc": "더 복잡해진 선반입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_04_20/2025_04_20__home_2.JPG",
+      "title": "화장실",
+      "alt": "화장실",
+      "desc": "여전히 복잡한 화장실입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}
