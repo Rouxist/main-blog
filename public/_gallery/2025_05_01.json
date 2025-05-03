@@ -1,0 +1,65 @@
+{
+  "date": "2025-05-01T16:14:00.000Z",
+  "location": ["경기도", "수원시", "권선구"],
+  "category": ["friends"],
+  "excerpt": "인생 첫 음주",
+  "title": "음주가",
+  "desc": "음주가무에서 무 빼고 음주가를 즐겼습니다.",
+  "thumbnail": "/assets/gallery/2025_05_01/2025_05_01__friends_5.JPG",
+  "elements": [
+    {
+      "src": "/assets/gallery/2025_05_01/2025_05_01__friends_1.JPG",
+      "title": "진토닉, 화이트레이디",
+      "alt": "진토닉, 화이트레이디",
+      "desc": "진토닉과 화이트레이디로 시작되었습니다. 이때 시각 16시 14분이었습니다. 인생 첫 술이었던 진토닉은 상쾌해서 좋은 첫 인상이었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_05_01/2025_05_01__friends_2.JPG",
+      "title": "위스키사워, 듀닥",
+      "alt": "위스키사워, 듀닥",
+      "desc": "위스키를 두 잔과 위스키사워가 한 잔 추가되었고, 뒤에 있는 것은 잭콕... 은 아니고 듀어스 위스키를 넣었으니 듀콕...도 아니고 닥터페퍼를 넣었으니 이른바 '듀닥'이 추가되었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_05_01/2025_05_01__friends_3.JPG",
+      "title": "쌀통닭",
+      "alt": "쌀통닭",
+      "desc": "쌀통닭이 추가되었습니다. 쌀통닭은 밀가루가 들어가지 않았다고 하여 치킨이 먹고 싶을 때 자주 찾는 메뉴입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_05_01/2025_05_01__friends_4.JPG",
+      "title": "블로그",
+      "alt": "블로그",
+      "desc": "티스토리 블로그에서 출연한 집주인의 모습을 다시 함께 보는 시간이 있었습니다. 사진 속 모습은 벌써 3년 전입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_05_01/2025_05_01__friends_5.JPG",
+      "title": "second language",
+      "alt": "second language",
+      "desc": "값싼 위스키에 페어링된 음악 중 하나였던 XXX의 Second Language입니다. 명반을 정주행하며 음주가를 즐겼습니다.",
+      "width": 3024,
+      "height": 4032,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_05_01/2025_05_01__friends_6.JPG",
+      "title": "야외 실습",
+      "alt": "야외",
+      "desc": "야외 음주 실습도 이어졌습니다.",
+      "width": 3024,
+      "height": 4032,
+      "video": false
+    }
+  ]
+}
