@@ -21,11 +21,6 @@ const Header = () => {
               href="/gallery/timeline"
               isMobileVisible={true}
             />
-            <HeaderButton
-              text="Threads"
-              href="/threads"
-              isMobileVisible={false}
-            />
           </td>
         </tr>
       </tbody>
