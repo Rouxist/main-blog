@@ -13,6 +13,7 @@ export default function Notice() {
         <article className="w-[75rem] mx-auto text-2xl">
           <ul className="list-disc">
             <li>2024.07.02 사이트 첫 배포</li>
+            <li>2025.05.04 도메인 연결 (rouxist.com)</li>
           </ul>
         </article>
       </section>
