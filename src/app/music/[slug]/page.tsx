@@ -22,13 +22,13 @@ export default function MusicTimeline({ params }: Params) {
         <Header />
       </header>
       <section>
-        <h3 className="text-3xl md:text-5xl lg:text-4xl font-bold tracking-tighter leading-tight md:leading-none my-8 text-center md:text-center">
+        <h3 className="text-3xl md:text-5xl lg:text-4xl text-base font-bold tracking-tighter leading-tight md:leading-none my-8 text-center md:text-center">
           {name}
         </h3>
-        <h2 className="text-4xl md:text-6xl lg:text-5xl font-bold tracking-tighter leading-tight md:leading-none my-8 text-center md:text-center">
+        <h2 className="text-4xl md:text-6xl lg:text-5xl text-xl font-bold tracking-tighter leading-tight md:leading-none my-8 text-center md:text-center">
           {title}
         </h2>
-        <p className="text-1xl md:text-3xl lg:text-2xl tracking-tighter leading-tight md:leading-none my-4 text-center md:text-center">
+        <p className="text-1xl md:text-3xl lg:text-2xl text-sm tracking-tighter leading-tight md:leading-none px-8 md:my-4 text-center md:text-center">
           {desc}
         </p>
         <article className="pt-16">

@@ -18,7 +18,7 @@ export default async function Profile() {
           />
           <figcaption className="text-gray-500">2024.04.27</figcaption>
         </figure>
-        <article className="md:w-[60vw] w-[400px] mx-auto">
+        <article className="md:w-[60vw] w-[90vw] mx-auto">
           {/* Links */}
           <div className="space-x-2 text-center md:text-xl mt-2">
             <a href="/assets/cv/cv_20250504.pdf" target="_blank">
@@ -120,8 +120,8 @@ export default async function Profile() {
                 </tr>
               </tbody>
             </table>
-            <ul className="list-disc pl-10">
-              <li className="md:text-xl text-base my-1 leading-snug">
+            <ul className="list-disc md:pl-10 pl-4">
+              <li className="md:text-xl text-sm my-1 leading-snug">
                 데이터사이언스학부 (다중전공: 경제금융학부)
               </li>
             </ul>

@@ -7,10 +7,10 @@ export default function Notice() {
         <Header />
       </header>
       <section className="my-16">
-        <h1 className="text-5xl md:text-7xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none my-12 text-center md:text-center">
+        <h1 className="text-5xl md:text-7xl lg:text-6xl text-xl font-bold tracking-tighter leading-tight md:leading-none md:my-12 my-4 text-center md:text-center">
           History
         </h1>
-        <article className="w-[75rem] mx-auto text-2xl">
+        <article className="md:w-[75rem] w-[90vw] mx-auto md:text-2xl text-sm px-4">
           <ul className="list-disc">
             <li>2024.07.02 사이트 첫 배포</li>
             <li>2025.05.04 도메인 연결 (rouxist.com)</li>
@@ -18,10 +18,10 @@ export default function Notice() {
         </article>
       </section>
       <section className="my-16">
-        <h1 className="text-5xl md:text-7xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none my-12 text-center md:text-center">
+        <h1 className="text-5xl md:text-7xl lg:text-6xl text-xl font-bold tracking-tighter leading-tight md:leading-none md:my-12 my-4 text-center md:text-center">
           Ongoing
         </h1>
-        <article className="w-[75rem] mx-auto text-2xl">
+        <article className="md:w-[75rem] w-[90vw] mx-auto md:text-2xl text-sm px-4">
           <ol className="list-decimal">
             <li>remark-gfm 적용</li>
             <li>

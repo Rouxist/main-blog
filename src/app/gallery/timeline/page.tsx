@@ -11,7 +11,7 @@ export default function Categories() {
         <Header />
       </header>
       <section>
-        <h1 className="text-5xl font-bold tracking-tighter leading-tight mt-12 mb-8 text-center">
+        <h1 className="md:text-5xl text-4xl font-bold tracking-tighter leading-tight mt-12 mb-8 text-center">
           Photo
         </h1>
         <article>

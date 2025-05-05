@@ -12,7 +12,7 @@ export default function Categories() {
         <Header />
       </header>
       <section>
-        <h1 className="text-5xl mt-6 py-4 md:text-7xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none text-center">
+        <h1 className="md:textl-5xl text-4xl mt-6 py-4 md:text-7xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none text-center">
           Blog
         </h1>
         <article>

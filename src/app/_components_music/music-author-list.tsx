@@ -8,7 +8,7 @@ type Props = {
 export function MusicAuthorList({ authors }: Props) {
   return (
     <article>
-      <div className="2xl:w-[1528px] lg:w-[1146px] md:w-[764px] w-[382px] mx-auto">
+      <div className="2xl:w-[1528px] lg:w-[1146px] md:w-[764px] mx-auto">
         {authors.map((author) => (
           <div
             className="m-4 inline-block align-top"

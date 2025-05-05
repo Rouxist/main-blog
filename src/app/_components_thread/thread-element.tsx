@@ -8,12 +8,12 @@ type Props = {
 
 export function ThreadElement({ date, title, content }: Props) {
   return (
-    <div className="p-10 md:w-[70vw] w-[350px]  m-0 border-2 border-black-600">
-      <h3 className="text-3xl mb-3 leading-snug">{title}</h3>
+    <div className="md:p-10 p-4 md:w-[70vw] w-[90vw] m-0 border-2 border-black-600">
+      <h3 className="md:text-3xl text-2xl mb-3 leading-snug">{title}</h3>
       <div className="mb-3">
         <DateFormatter dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4 whitespace-pre-line">
+      <p className="md:text-lg text-sm leading-relaxed mb-4 whitespace-pre-line">
         {content}
       </p>
     </div>
