@@ -26,8 +26,8 @@ export function GalleryElement({
   thumbnail,
 }: Props) {
   return (
-    <div className="md:w-[350px] w-[40vw] md:h-[600px] h-[75vw] md:hover:scale-105 md:transition-all md:duration-250">
-      <div className="md:h-[400px] h-[200px] flex items-center">
+    <div className="md:w-[350px] w-[40vw] md:h-[600px] base:h-[75vw] h-[60vw] md:hover:scale-105 md:transition-all md:duration-250">
+      <div className="md:h-[400px] flex items-center">
         <Image
           src={thumbnail}
           width={200}
