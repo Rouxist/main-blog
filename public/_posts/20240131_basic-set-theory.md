@@ -3,7 +3,7 @@ title: '집합론 기초 내용 정리'
 excerpt: ''
 coverImage: ''
 date: '2024-01-31T12:08:29.000Z'
-categories: [Mathematics, Set Theory]
+categories: [Mathematics, Topology]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'
