@@ -26,19 +26,22 @@ export function GalleryElement({
   thumbnail,
 }: Props) {
   return (
-    <div className="md:w-[350px] w-[40vw] md:h-[600px] base:h-[75vw] h-[60vw] md:hover:scale-105 md:transition-all md:duration-250">
-      <div className="md:h-[400px] flex items-center">
+    <div className="md:w-[300px] w-[40vw] md:h-[360px] md:hover:scale-105 md:transition-all md:duration-250">
+      <div className="relative md:h-[400px] flex items-center">
         <Image
           src={thumbnail}
           width={200}
           height={200}
-          className="w-[40vw] h-[50vw] md:w-[350px] md:h-[400px]"
+          className="w-[40vw] h-[50vw] md:w-[300px] md:h-[360px]"
           alt={'thumbnail_' + slug}
         />
-      </div>
-      <div className="md:w-[300px] w-[40vw] md:h-[100px] mx-auto md:mt-4 mt-4 mb-2 p-2 md:text-xl text-sm leading-snug border border-black">
-        <h3 className="md:text-xl text-xs leading-snug md:mb-1">{title}</h3>
-        <DateFormatter dateString={date}></DateFormatter>
+        <div className="absolute md:bottom-4 bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black to-transparent pointer-events-none" />
+        <div className="absolute md:bottom-8 bottom-4 left-4 text-white md:text-lg text-xs z-10 md:h-[3.5em] truncate max-w-[80%] overflow-hidden whitespace-nowrap">
+          {title}
+        </div>
+        <div className="absolute md:bottom-0 bottom-0 left-4 text-white md:text-base md:block hidden z-10 h-[3.5em]">
+          <DateFormatter dateString={date}></DateFormatter>
+        </div>
       </div>
     </div>
   )

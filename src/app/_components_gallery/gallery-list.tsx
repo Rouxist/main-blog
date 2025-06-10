@@ -9,10 +9,10 @@ type Props = {
 export function GalleryList({ galleries }: Props) {
   return (
     <article>
-      <div className="2xl:w-[1528px] md:w-[764px] mx-auto">
+      <div className="xl:w-[1264px] md:w-[632px] w-[calc(80vw+32px)] mx-auto">
         {galleries.map((gallery) => (
           <div
-            className="md:m-4 m-[5vw] inline-block align-top"
+            className="m-2 inline-block align-top"
             key={'gallery_' + gallery.slug}
           >
             <a className="text-black" href={`/gallery/${gallery.slug}`}>
