@@ -1,0 +1,74 @@
+{
+  "date": "2025-06-04T19:23:00.000Z",
+  "location": ["서울"],
+  "category": ["view"],
+  "excerpt": "Quotient Space",
+  "title": "Quotient Space Day",
+  "desc": "Quotient Space를 처음 배웠던 날은 유난히 날씨가 좋았습니다.",
+  "thumbnail": "/assets/gallery/2025_06_04/2025_06_04__view_0.png",
+  "elements": [
+    {
+      "src": "/assets/gallery/2025_06_04/2025_06_04__view_1.JPG",
+      "title": "수업",
+      "alt": "판서",
+      "desc": "제목에서부터 언급했으니 이날의 수업 내용이 나와야 할 것 같습니다. Quotient Space입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_06_04/2025_06_04__view_2.JPG",
+      "title": "인문관 뷰",
+      "alt": "인문대 카페 뷰",
+      "desc": "이곳에서 가시거리가 유난히 좋은 것을 보고 하교 길에 사진을 좀 찍어가야겠다는 생각이 들었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_06_04/2025_06_04__view_3.JPG",
+      "title": "백남학술정보관",
+      "alt": "백남학술정보관",
+      "desc": "원자력 발전소같다고 평가받기도 하는 도서관이지만 오늘은 다르게 보입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_06_04/2025_06_04__view_4.JPG",
+      "title": "올림픽 체육관",
+      "alt": "올림픽 체육관",
+      "desc": "한양대학교 한 구석에 숨겨진 명소입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_06_04/2025_06_04__view_5.JPG",
+      "title": "군자교 - 남향",
+      "alt": "군자교",
+      "desc": "이날 최대 수확 중 하나는 이 구도를 발굴했다는 것입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_06_04/2025_06_04__view_6.JPG",
+      "title": "중랑천 - 북향",
+      "alt": "중랑천1",
+      "desc": "장안1 수변공원 방면을 바라본 풍경으로, 유난히 녹음이 짙어보입니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_06_04/2025_06_04__view_7.JPG",
+      "title": "중랑천 - 남향",
+      "alt": "중랑천2",
+      "desc": "이곳으로 이사를 온 후 사진으로 담은 중랑천의 모습이 가장 동화처럼 예쁜 날이었습니다. 참고로 이전에 중랑천을 가장 극적으로 담았던 순간은 장평교를 건너던 2024년 9월 29일이었습니다.",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}
