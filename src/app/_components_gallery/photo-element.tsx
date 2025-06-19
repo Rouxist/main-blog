@@ -18,20 +18,6 @@ export function PhotoElement({
   isScaledElement,
   setHighlightedIdx,
 }: Props) {
-  function heightSize() {
-    if (typeof window !== 'undefined') {
-      if (window.innerWidth >= 768) {
-        if (isScaledElement) {
-          return '65vh'
-        } else {
-          return '40vh'
-        }
-      } else {
-        return 'auto'
-      }
-    }
-  }
-
   function getClassName(isScaled: boolean, isTransparent: boolean) {
     if (isTransparent) {
       return 'px-8 transition-all duration-250 opacity-25'
@@ -51,10 +37,10 @@ export function PhotoElement({
       }}
       className={getClassName(isScaledElement, isTransparentElement)}
       src={src}
-      width={400}
-      height={400}
+      width={1000}
+      height={1000}
       alt={alt}
-      style={{ width: 'auto', height: heightSize() }}
+      style={{ width: 'auto', height: '60vh' }}
     />
   )
 }

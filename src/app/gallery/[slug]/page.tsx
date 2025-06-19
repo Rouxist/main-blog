@@ -30,12 +30,12 @@ export default async function Photo({ params }: Params) {
       </a>
       <section>
         <div className="md:px-24 px-8">
-          <p className="md:text-xl text-sm font-bold mb-2">{gallery.title}</p>
-          <p className="md:text-xl text-sm mb-2">{gallery.desc}</p>
-          <p className="md:text-xl text-sm">
-            일시: <DateFormatter dateString={gallery.date} />, 장소:{' '}
+          <p className="md:text-3xl text-2xl font-bold mb-1">{gallery.title}</p>
+          <p className="md:text-base text-xs mb-1">
+            <DateFormatter dateString={gallery.date} /> |{' '}
             {gallery.location.toString()}
           </p>
+          <p className="md:text-xl text-sm">{gallery.desc}</p>
         </div>
         <article>
           {elementsArray.length > 0 && (
