@@ -25,7 +25,7 @@ export default function Home() {
           <SimpleButton text="Notice" href="/notice" />
         </div>
       </section>
-      <section className="mt-16 text-gray-300 text-center">
+      <section className="mt-10 text-gray-300 text-center">
         <p className="md:text-3xl text-xl px-2">
           We also need things that make us excited to be alive, that make us
           glad to wake up in the morning.
