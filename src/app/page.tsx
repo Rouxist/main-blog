@@ -1,32 +1,51 @@
-import { SimpleButton } from './_components_main/simple-button'
-import Image from 'next/image'
+import Link from 'next/link'
+import TeXRenderer from './tex-renderer'
+
 export default function Home() {
   return (
     <main>
-      <section>
-        <h1 className="text-5xl md:text-7xl lg:text-6xl font-bold tracking-tighter leading-tight md:leading-none my-12 text-center md:text-center">
-          Gallery
-        </h1>
-        <figure className="w-fit mt-16 mx-auto">
-          <Image
-            src="/assets/main/profile_full.png"
-            width={300}
-            height={400}
-            alt="profile_image"
-          />
-          <figcaption className="text-gray-500">2024.04.27</figcaption>
-        </figure>
-        <div className="md:w-[75vw] mt-16 px-4 mx-auto text-center">
-          <SimpleButton text="Profile" href="/profile" />
-          <SimpleButton text="Blog" href="/posts" />
-          <SimpleButton text="Music" href="/music" />
-          <SimpleButton text="Photo" href="/gallery/timeline" />
-          <SimpleButton text="Threads" href="/threads" />
-          <SimpleButton text="Notice" href="/notice" />
+      <section className="pb-0">
+        <div className="flex w-full h-[85vh] items-center justify-center bg-gray-50">
+          <Link
+            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
+            href="/profile"
+          >
+            <TeXRenderer content={'('} />
+          </Link>
+          <Link
+            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
+            href="/threads"
+          >
+            <TeXRenderer content={'$$\\Omega$$'} />
+          </Link>
+          <Link className="text-black" href="/">
+            <TeXRenderer content={','} />
+          </Link>
+          <Link
+            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
+            href="/gallery/timeline"
+          >
+            <TeXRenderer content={'$$\\mathcal{F}$$'} />
+          </Link>
+          <Link className="text-black" href="/">
+            <TeXRenderer content={','} />
+          </Link>
+          <Link
+            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
+            href="/posts"
+          >
+            <TeXRenderer content={'$$\\mathbb{P}$$'} />
+          </Link>
+          <Link
+            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
+            href="/notice"
+          >
+            <TeXRenderer content={')'} />
+          </Link>
         </div>
       </section>
-      <section className="mt-10 text-gray-300 text-center">
-        <p className="md:text-3xl text-xl px-2">
+      <section className="h-[15vh] text-gray-300 text-center bg-gray-50">
+        <p className="md:text-3xl text-xl px-16">
           We also need things that make us excited to be alive, that make us
           glad to wake up in the morning.
         </p>
