@@ -4,14 +4,6 @@ import '../styles/globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Gallery',
-  description: '삶을 담아내는 공간',
-  icons: {
-    icon: '/favicon.ico',
-  },
-}
-
 export default function RootLayout({
   children,
 }: Readonly<{

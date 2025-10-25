@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 import TeXRenderer from './tex-renderer'
 
@@ -53,4 +54,16 @@ export default function Home() {
       </section>
     </main>
   )
+}
+
+export const metadata: Metadata = {
+  title: 'Gallery',
+  description: 'Exclusive personal gallery',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
+    title: 'Gallery',
+    description: 'Exclusive personal gallery',
+  },
 }
