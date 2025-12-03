@@ -21,7 +21,7 @@ export default async function Profile() {
         <article className="md:w-[60vw] w-[90vw] mx-auto">
           {/* Links */}
           <div className="space-x-2 text-center md:text-xl mt-2">
-            <a href="/assets/cv/cv_20250507.pdf" target="_blank">
+            <a href="/assets/cv/cv_20251203.pdf" target="_blank">
               [cv]
             </a>
             <a
