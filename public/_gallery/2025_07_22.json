@@ -1,0 +1,38 @@
+{
+  "date": "2025-07-22T00:52:00.000Z",
+  "location": ["서울", "동대문구"],
+  "category": ["home"],
+  "excerpt": "집, 2025 3분기",
+  "title": "집, 2025 3분기",
+  "desc": "2025 3분기 집의 모습입니다.",
+  "thumbnail": "/assets/gallery/2025_07_22/2025_07_22__home_0.png",
+  "elements": [
+    {
+      "src": "/assets/gallery/2025_07_22/2025_07_22__home_1.JPG",
+      "title": "책상",
+      "alt": "책상",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_07_22/2025_07_22__home_2.JPG",
+      "title": "선반",
+      "alt": "선반",
+      "desc": "파티온 토너 패드가 생겼고, 리들샷과 글루타치온 및 트라넥삼산 영입",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    },
+    {
+      "src": "/assets/gallery/2025_07_22/2025_07_22__home_3.JPG",
+      "title": "화장실",
+      "alt": "화장실",
+      "desc": "",
+      "width": 4032,
+      "height": 3024,
+      "video": false
+    }
+  ]
+}
