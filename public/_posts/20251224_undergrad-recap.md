@@ -1353,10 +1353,35 @@ Work super hard.
 
 <br/>
 
-<img src="https://agate-walrus-c6e.notion.site/image/attachment%3Acce8efb3-d296-49a3-9c7e-c2100c462f87%3A2023.07.26-2.jpg?table=block&id=2c4beff3-7473-8032-964d-d75f918f6573" alt="2023.07.26-2" width=300>
+<img src="https://agate-walrus-c6e.notion.site/image/attachment%3Acce8efb3-d296-49a3-9c7e-c2100c462f87%3A2023.07.26-2.jpg?table=block&id=2c4beff3-7473-8032-964d-d75f918f6573" alt="2023-07-26-2" width=300>
 
 ```
 일체유심조
+```
+
+<br/>
+
+<img src="https://agate-walrus-c6e.notion.site/image/attachment%3A750a4f2f-5aa2-4d99-8348-8a5426832dfc%3Athe_real_cost_of_launching_a_startup.png?table=block&id=2ddbeff3-7473-80f5-8e67-dacb666ab0f5" alt="the_real_cost_of_launching_a_startup" width=500>
+
+```
+상상력의 한계가 그 사람의 한계가 된다
+```
+
+<br/>
+
+<img src="https://agate-walrus-c6e.notion.site/image/attachment%3A608ae774-1eff-4175-b57a-57596a54b4f0%3Ainside_our_startup.png?table=block&id=2ddbeff3-7473-80fd-b672-d59d37b67c97" alt="inside_our_startup" width=500>
+
+```
+Help will always be given at Hogwarts to those who ask for it
+- Albus Dumbldore
+```
+
+<br/>
+
+<img src="https://agate-walrus-c6e.notion.site/image/attachment%3A0299ba73-e031-4297-a01e-73de19e257e2%3A2025.11.11.jpg?table=block&id=2ddbeff3-7473-802c-9ff3-d46c4b55d1bb" alt="2025-11-11" width=300>
+
+```
+Brave doesn't mean you're not scared. It means you go on even though you're scared.
 ```
 
 <br/><br/>
@@ -1364,3 +1389,4 @@ Work super hard.
 2025.12.24
 2025.12.26
 2025.12.31
+2026.01.03
