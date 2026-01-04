@@ -4,6 +4,7 @@ excerpt: ''
 coverImage: ''
 date: '2026-01-04T10:45:09.000Z'
 categories: [Mathematics, Numerical Analysis]
+tags: [Finite Difference]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'
@@ -12,7 +13,7 @@ ogImage:
 alert: ''
 ---
 
-유한차분법 복습을 하던 중 도함수의 근사는 forward/backward/central difference가 있지만 이계도함수의 근사는 하나의 식만 있는 걸 보면서, '그럼 도함수와 이계도함수의 정의도 이런 식인가?' 라는 생각이 들었다. 그러다보니 '그럼 애초에 이계도함수의 정의는 무엇이었나' 하는 생각이 들어서 돌아와보기로 했다.
+유한차분법 복습을 하던 중 도함수의 근사는 forward/backward/central difference가 있지만 이계도함수의 근사는 하나의 식만 주로 사용되는 걸 보면서, '그럼 도함수와 이계도함수의 정의도 이런 식인가?' 라는 생각이 들었다. 그러다보니 '그럼 애초에 이계도함수의 정의는 무엇이었나' 하는 생각이 들어서 돌아와보기로 했다.
 
 ## 도함수의 정의
 
