@@ -8,7 +8,7 @@ author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'
 ogImage:
-  url: ''
+  url: '/assets/blog/og_images/default_og.png'
 alert: ''
 ---
 
