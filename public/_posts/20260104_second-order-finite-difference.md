@@ -51,6 +51,18 @@ $f''(x) = \lim_{k \rightarrow 0}\frac{f'(x+k)-f'(x)}{k}$
 
 또한 이계도함수에 대해서도 [Second Symmetric Derivative](https://en.wikipedia.org/wiki/Symmetric_derivative#The_second_symmetric_derivative)라는 정의가 존재하고, 이것이 2계 유한차분법에 쓰이는 식과 동일하게 생겼다.
 
+### 왜 이계도함수 기호의 분자에서는 $d$ 를 제곱하고, 분모에서는 $dx$ 를 제곱하는가
+
+아마 고등학교 다닐 때에도 이게 궁금했었는데, $\frac{d}{dx} \left( \frac{d}{dx} \right) = \frac{d^2}{dx^2}$ 와 같이 기호끼리 곱한다는 설명이 납득이 되지 않았다.
+
+$\frac{d^2}{d^2x^2}$ 도 아니고,$\frac{d^2}{(dx)^2}$ 도 아니고, 꼭 $\frac{d^2}{dx^2}$ 이라고 통상적으로 쓰는 이유가 뭘까? 애초에 $d$ 는 왜 $d$ 끼리 곱해져서 $d^2$ 라는 게 될 수 있는 걸까?
+
+근데 이것저것 찾다보니 [이런](https://math.stackexchange.com/questions/854860/is-there-a-difference-between-d2x-and-dx2) 걸 보게 됐는데
+
+Derivative는 Finite difference에 극한을 취한 것이고, Difference operator를 <span style="color:gray;">(예를 들어, $\Delta_h$ 라고)</span> 정의했을 때 이계도함수(의 근사)는 $\frac{\Delta_h^2 f(x)}{(\Delta_h x )^2}$ 라고 쓸 수 있다는 설명은 굉장히 그럴 듯해보였다.
+
+(위 식의 분자와 관련해서) 생각해보면 시계열 수업에서도 Difference Operator를 <span style="color:gray;">(예를 들어, $\Delta$ 라고 정의하고)</span> 두 번 적용하면 $\Delta^2 Y_t$ 와 같이 표기하는 걸 본 적이 있다.
+
 ## Taylor Series로 유도하는 Finite Difference
 
 ---
@@ -106,6 +118,7 @@ $$
 <br><br>
 
 2026.01.04
+2026.01.06
 
 ## References
 
