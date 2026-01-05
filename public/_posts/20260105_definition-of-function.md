@@ -51,6 +51,8 @@ alert: ''
 
 ## 기타 용어 정리
 
+---
+
 - Domain($X$), Codomain($Y$), range($f(X)$)
 - Image ($f(X)$), Pre-image($f^{-1}(Y)$)
 - Injective (one-to-one)
