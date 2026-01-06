@@ -1,0 +1,108 @@
+---
+title: 'Group, Ring, Field'
+excerpt: ''
+coverImage: ''
+date: '2026-01-07T01:19:37.000Z'
+categories: [Mathematics, Algebra]
+tags: [Group, Ring, Field]
+author:
+  name: Yongjin
+  picture: '/assets/blog/authors/yongjin.png'
+ogImage:
+  url: '/assets/blog/og_images/default_og.png'
+alert: ''
+---
+
+등장했다.
+
+## Group, Ring, Field
+
+---
+
+### Definition (Binary Operation)
+
+다음과 같은 \*, 즉 [함수](20260105_definition-of-function)라고 생각할 수 있겠다.
+
+> set $S$ 에 대해 $*: S \times S \rightarrow S$
+
+- 즉 닫혀있지 않은 연산은 Binary Operation이라고 할 수 없다.
+
+  - e.g. 나눗셈은 자연수 집합에 대한 이항 연산이 될 수 없다.
+
+### Group
+
+<span style="color:gray;">위상수학 교재를 참고했다.</span>
+
+> Set $G$ 와 mapping<span style="color:gray;">(하나의 Binary Operation)</span> $(a, b) \rightarrow a * b \ $ <span style="color:gray;"> $(*: G \times G \rightarrow G)$ </span> 이 다음 세 가지 공리를 만족하면 **Group**이라고 한다.
+>
+> 1. Associativity of Multiplication : $a * (b * c) = (a * b) * c \quad \forall a, b, c \in G$
+> 2. Existence of Identity(항등원) : $\exist e \in G \ \ s.t. \ \ e * a = a * e = a \quad \forall a \in G$
+> 3. Existence of Inverse(역원) : $\text{For each} \ \ a \in G, \ \exist b \in G \ \ s.t. \ \ a * b = b * a = e$
+
+- Group $G$ 는 $(G, *)$ 와 같이 표기할 수 있다.
+- 항등원과 역원은 unique하게 존재한다. <span style="color:gray;">증명은 교재에</span>
+- $a$ 의 역원은 $a^{-1}$ 이라고도 표기한다.
+- Associativity와 Identity가 만족되면 **Monoid** 라고 한다. 모든 군은 Monoid이며, $G$ is a monoid under \* 라고도 표현할 수 있다.
+
+> Group $G$ 가 $\forall a,b \in G \ \ a * b = b * a$ 이면 **Commutative Group** 또는 **Abelian Group**이라 한다.
+
+### Ring
+
+> Set $R$ 이 두 개의 Binary Operation에(e.g. +: operation1, $\cdot$ : operation2) 대하여 다음의 공리를 만족하면 **Ring**이라고 한다.
+>
+> 1. $R$ 은 operation1에 대하여 Abelian Group이다.
+> 2. operation2의 Associativity.
+> 3. operation2에 대한 항등원의 존재
+> 4. Distributivity : $a \cdot (b + c) = (a \cdot b) + (a \cdot c), \ (a + b) \cdot c = (a \cdot c) + (b \cdot c)$
+
+- 집합에 두 개의 연산이 동반되는 경우에 대해 다루기 시작한다.
+
+  - 보통 operation1을 **Addition**, operation2를 **Multiplication** 이라고 부르지만, 이 정의에 대하여는 _'어떠한 연산 2개에 대하여 하나는 이런 조건들을 만족, 다른 하나는 이런 조건들을 만족하면 된다'_ 라는 뉘앙스를 강조하고자 했다.
+
+- 공리 2와 3을 결합하면 Monoid로 이어지는데, 항등원의 필요성에 대해서는 [변화가 있었던 듯하다.](<https://en.wikipedia.org/wiki/Ring_(mathematics)#Multiplicative_identity_and_the_term_%22ring%22>) 항등원이 모든 원소에 대해 존재해야 한다고 정의에 포함했다면 **Ring with unity**라고 명시하자.
+
+> operation2에 대해 commutativity도 성립하는 Ring은 **Commutative Ring**이라고 한다. \ ($a \cdot b = b \cdot a$)
+
+### Field
+
+여기서부터는 곱셈의 역원을 정의 후 모든 원소에 대해 곱셈의 역원의 존재성을 요구하므로, 사칙연산이 가능해지기 시작한다.
+
+> Ring with unity $R$ 의 원소 $a \in R$ 에 대해 $ab=ba=1$ 인 $b \in R$ 가 존재하면 $a$ 는 invertible element. $b$ 는 Multiplicaiton inverse라고 한다.
+
+<br/>
+
+> Commutative Ring with unity $F$ 가 $\forall a \in F\backslash\{0\}, a \ \text{is invertible element}$ 를 만족하면 **Field**라고 한다.
+
+## 연산이란
+
+---
+
+Field의 정의까지 보고 있으면, 그간 내가 초등학교에서부터 배웠던 덧셈과 곱셈이라고 부르는 연산이란 어디에서 유래된 것일까 하는 생각이 든다.
+
+한 가지 와닿는 건 정의를 하는 방식이 직관과는 반대되는 순서로 것인데, 흡사 [위상공간]()에서 열린 집합을 정의할 때 '이런 조건을 만족하는 것을 잘 찾아서 열린 집합이라고 칭하자' 하는 식이 아니라 <span style="color:gray;">(이건 metric space)</span>
+
+```
+일단 어떠한 T 라는 family of sets이 있다고 하자 -> 그 T가 특정 조건들을 만족하면, T의 원소들은 모두 열린 집합이라고 부르자
+```
+
+라는 순서로 정의되는 것과 유사하게, Field에서 두 개의 연산을 정의하는 방식도
+
+1. 일단 *어떤 이항 연산 두 개*를 가져온다.
+
+2. 그 둘이 여러 조건들을 만족하는지 확인한다.
+
+이런 느낌.
+
+그리고 1번의 *어떤 이항 연산 두 개*를 정할 때 (페아노 공리계로 정의되는 arithmetic 연산들 중) 덧셈, 곱셈을 가져오면, 실수체의 Addition과 Multiplication으로 기능할 수 있다는 것으로 이해했다.
+
+<br><br>
+
+2026.01.07
+
+## References
+
+---
+
+Introduction to Topology, 2ed (T.W. Gamelin and R.E. Greene)
+
+[https://gosamy.tistory.com/26](https://gosamy.tistory.com/26)
