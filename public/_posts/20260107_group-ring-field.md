@@ -13,7 +13,11 @@ ogImage:
 alert: ''
 ---
 
-등장했다.
+처음 수학에 재미를 붙였던 고등학교 2학년 당시 수학 선생님께서 직접 보유 중이시던 _에바리스트 갈루아, 한 수학 천재를 위한 레퀴엠_ 이라는 책을 추천 및 빌려주셨었는데
+
+나도 읽었고 친구도 읽었지만 친구는 그래도 항등원, 역원 등 군의 정의에 대해 오래도록 기억한 반면 나는 거의 이해를 못했던 기억이 있다.
+
+큐브와 관해서도 자주 엮이는 만큼 군(Group)이라는 이름은 자주 들어봤지만 어려운 존재였는데, 그걸 학부 졸업하는 지금이 돼서야 다시 돌아본다.
 
 ## Group, Ring, Field
 
@@ -40,9 +44,9 @@ alert: ''
 > 3. Existence of Inverse(역원) : $\text{For each} \ \ a \in G, \ \exist b \in G \ \ s.t. \ \ a * b = b * a = e$
 
 - Group $G$ 는 $(G, *)$ 와 같이 표기할 수 있다.
+- 역원은 어떠한 element $a$ 를 **항등원**으로 만들어주는 element를 말하며, $a^{-1}$ 이라고도 표기한다.
 - 항등원과 역원은 unique하게 존재한다. <span style="color:gray;">증명은 교재에</span>
-- $a$ 의 역원은 $a^{-1}$ 이라고도 표기한다.
-- Associativity와 Identity가 만족되면 **Monoid** 라고 한다. 모든 군은 Monoid이며, $G$ is a monoid under \* 라고도 표현할 수 있다.
+- Associativity와 Identity가 만족되면 **Monoid** 라고 한다. 모든 군은 Monoid이며, $G$ is a monoid under \* 라고도 표현한다.
 
 > Group $G$ 가 $\forall a,b \in G \ \ a * b = b * a$ 이면 **Commutative Group** 또는 **Abelian Group**이라 한다.
 
@@ -61,7 +65,7 @@ alert: ''
 
 - 공리 2와 3을 결합하면 Monoid로 이어지는데, 항등원의 필요성에 대해서는 [변화가 있었던 듯하다.](<https://en.wikipedia.org/wiki/Ring_(mathematics)#Multiplicative_identity_and_the_term_%22ring%22>) 항등원이 모든 원소에 대해 존재해야 한다고 정의에 포함했다면 **Ring with unity**라고 명시하자.
 
-> operation2에 대해 commutativity도 성립하는 Ring은 **Commutative Ring**이라고 한다. \ ($a \cdot b = b \cdot a$)
+> operation2에 대해 commutativity도 성립하는 Ring은 **Commutative Ring**이라고 한다. ($a \cdot b = b \cdot a$)
 
 ### Field
 
@@ -79,7 +83,7 @@ alert: ''
 
 Field의 정의까지 보고 있으면, 그간 내가 초등학교에서부터 배웠던 덧셈과 곱셈이라고 부르는 연산이란 어디에서 유래된 것일까 하는 생각이 든다.
 
-한 가지 와닿는 건 정의를 하는 방식이 직관과는 반대되는 순서로 것인데, 흡사 [위상공간]()에서 열린 집합을 정의할 때 '이런 조건을 만족하는 것을 잘 찾아서 열린 집합이라고 칭하자' 하는 식이 아니라 <span style="color:gray;">(이건 metric space)</span>
+그 전에 또 한 가지 와닿는 건 무언가를 정의하는 방식이 직관과는 반대되는 순서로 것인데, 흡사 [위상공간]()에서 열린 집합을 정의할 때 '이런 조건을 만족하는 것을 잘 찾아서 열린 집합이라고 칭하자' 하는 식이 아니라 <span style="color:gray;">(이건 metric space)</span>
 
 ```
 일단 어떠한 T 라는 family of sets이 있다고 하자 -> 그 T가 특정 조건들을 만족하면, T의 원소들은 모두 열린 집합이라고 부르자
