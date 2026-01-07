@@ -25,7 +25,7 @@ alert: ''
 
 ### Definition (Binary Operation)
 
-다음과 같은 \*, 즉 [함수](20260105_definition-of-function)라고 생각할 수 있겠다.
+`Binary Operation`이란 다음과 같은 \*, 즉 [함수](20260105_definition-of-function)라고 생각할 수 있겠다.
 
 > set $S$ 에 대해 $*: S \times S \rightarrow S$
 
@@ -37,7 +37,8 @@ alert: ''
 
 <span style="color:gray;">위상수학 교재를 참고했다.</span>
 
-> Set $G$ 와 mapping<span style="color:gray;">(하나의 Binary Operation)</span> $(a, b) \rightarrow a * b \ $ <span style="color:gray;"> $(*: G \times G \rightarrow G)$ </span> 이 다음 세 가지 공리를 만족하면 **Group**이라고 한다.
+> **Definition**  
+> Set $G$ 와 mapping<span style="color:gray;">(하나의 Binary Operation)</span> $(a, b) \rightarrow a * b \ $ <span style="color:gray;"> $(*: G \times G \rightarrow G)$ </span> 이 다음 세 가지 공리를 만족하면 `Group`이라고 한다.
 >
 > 1. Associativity of Multiplication : $a * (b * c) = (a * b) * c \quad \forall a, b, c \in G$
 > 2. Existence of Identity(항등원) : $\exist e \in G \ \ s.t. \ \ e * a = a * e = a \quad \forall a \in G$
@@ -52,7 +53,7 @@ alert: ''
 
 ### Ring
 
-> Set $R$ 이 두 개의 Binary Operation에(e.g. +: operation1, $\cdot$ : operation2) 대하여 다음의 공리를 만족하면 **Ring**이라고 한다.
+> Set $R$ 이 두 개의 Binary Operation에(e.g. +: operation1, $\cdot$ : operation2) 대하여 다음의 공리를 만족하면 `Ring`이라고 한다.
 >
 > 1. $R$ 은 operation1에 대하여 Abelian Group이다.
 > 2. operation2의 Associativity.
@@ -65,17 +66,17 @@ alert: ''
 
 - 공리 2와 3을 결합하면 Monoid로 이어지는데, 항등원의 필요성에 대해서는 [변화가 있었던 듯하다.](<https://en.wikipedia.org/wiki/Ring_(mathematics)#Multiplicative_identity_and_the_term_%22ring%22>) 항등원이 모든 원소에 대해 존재해야 한다고 정의에 포함했다면 **Ring with unity**라고 명시하자.
 
-> operation2에 대해 commutativity도 성립하는 Ring은 **Commutative Ring**이라고 한다. ($a \cdot b = b \cdot a$)
+> operation2에 대해 commutativity도 성립하는 Ring은 `Commutative Ring`이라고 한다. ($a \cdot b = b \cdot a$)
 
 ### Field
 
 여기서부터는 곱셈의 역원을 정의 후 모든 원소에 대해 곱셈의 역원의 존재성을 요구하므로, 사칙연산이 가능해지기 시작한다.
 
-> Ring with unity $R$ 의 원소 $a \in R$ 에 대해 $ab=ba=1$ 인 $b \in R$ 가 존재하면 $a$ 는 invertible element. $b$ 는 Multiplicaiton inverse라고 한다.
+> Ring with unity $R$ 의 원소 $a \in R$ 에 대해 $ab=ba=1$ 인 $b \in R$ 가 존재하면 $a$ 는 `invertible element`. $b$ 는 `Multiplicaiton inverse`라고 한다.
 
 <br/>
 
-> Commutative Ring with unity $F$ 가 $\forall a \in F\backslash\{0\}, a \ \text{is invertible element}$ 를 만족하면 **Field**라고 한다.
+> Commutative Ring with unity $F$ 가 $\forall a \in F\backslash\{0\}, a \ \text{is invertible element}$ 를 만족하면 `Field`라고 한다.
 
 ## 연산이란
 
@@ -105,7 +106,7 @@ Field의 정의까지 보고 있으면, 그간 내가 초등학교에서부터 �
 
 이제 큐브(특히 블라인드)에 사용되는 커뮤테이터(Commutator)라는 것의 이름이 [어디서 유래되었는지 알 수 있다.](https://en.wikipedia.org/wiki/Commutator)
 
-군의 두 element $g, h \in G$ 에 대한 Commutator의 정의가 $[g, h] = g^{-1} h^{-1} g h$ 이다.
+군의 두 element $g, h \in G$ 에 대한 `Commutator`의 정의가 $[g, h] = g^{-1} h^{-1} g h$ 이다.
 
 따라서 왜 수많은 큐브 커뮤테이터 공식들이 모두 *A B A' B'의 형태*를 띄는 것이며, 이런 건 _대체 누가 어떻게 발견해낸 걸까_ 싶었던 10년 이상의 의문도 해결할 수 있다.
 
