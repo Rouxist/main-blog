@@ -109,7 +109,7 @@ $S$ 의 모든 adherent point들의 집합을 $\overline{S}$ 라 표기하고, *
 > **Definition**  
 > point $x \in X$ 가 $X$ 의 subset $S$ 에 대해 $S$ 와 $X \backslash S$ 모두에 대해 adherent point일 경우 `boundary point`라 한다.
 >
-> `boundary point 들의 집합을 `boundary`라 하고 $\partial S$ 라 표기하며, $\partial S = \overline{S} \cap (\overline{X \backslash S})$ 이다.
+> `boundary point` 들의 집합을 `boundary`라 하고 $\partial S$ 라 표기하며, $\partial S = \overline{S} \cap (\overline{X \backslash S})$ 이다.
 
 - 2차원 평면의 집합의 **테두리**를 떠올려볼 수 있다.
 
