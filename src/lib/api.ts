@@ -112,6 +112,8 @@ export function getGalleryBySlug(slug: string) {
 
 export function getAllGalleries(): Gallery[] {
   const slugs = getGallerySlugs()
+  const idx = slugs.indexOf('.DS_Store')
+  if (idx > -1) slugs.splice(idx, 1)
   const galleries = slugs
     .map((slug) => getGalleryBySlug(slug))
     .sort((gallery1, gallery2) => (gallery1.date > gallery2.date ? -1 : 1))
