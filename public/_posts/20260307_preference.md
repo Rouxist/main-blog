@@ -126,4 +126,4 @@ Case 3. $\textbf{x}_1 = (4, 2)^{\top}, \textbf{x}_2 = (1, 3)^{\top}$
 \[1\] Andreu Mas-Colell, Michael Whinston, and Jerry Green, Microeconomic Theory,
 Oxford University Press, 1995.
 
-\[2\] 김영산・왕규호, 미시경제학, 박영사, 2020, 105쪽
+\[2\] 김영산・왕규호, 미시경제학, 박영사, 2020, 105쪽.
