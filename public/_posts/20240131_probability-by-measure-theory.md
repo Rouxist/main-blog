@@ -3,7 +3,7 @@ title: '측도론으로 정의하는 확률'
 excerpt: ''
 coverImage: ''
 date: '2024-01-31T13:15:06.000Z'
-categories: [Mathematics, Real Analysis]
+categories: [Mathematics, Probability]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'
