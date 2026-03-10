@@ -114,6 +114,8 @@ $$
 \end{aligned}
 $$
 
+- 실수 집합 또는 실수 집합의 부분 집합을 sample space로 쓰려면 Borel $\sigma$-algebra를 이용할 수 있다.
+  - 직관적으로는 실수 집합 $\mathbb{R}$ 의 부분 집합이면서 Borel $\sigma$-algebra에는 포함되지 않는 것을 떠올리기 어려운데, 이에 대한 예시로도 Vitali set이 있다.
 - 열린 집합의 complement는 닫힌 집합이니 닫힌 집합도 $\sigma$-algebra에 포함된다.
 - $\text{(2)}$ 의 정의는 이후 CDF의 정의에 활용된다.
 
