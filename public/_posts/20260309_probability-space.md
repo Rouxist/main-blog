@@ -68,9 +68,9 @@ collection of _subsets_ 이니, $\sigma$-algebra의 각 원소는 **event**임�
 
 위 3가지 조건을 말로 풀어내면
 
-- 어떤 일도 일어나지 않는 경우($\emptyset$), 아무 일이나 일어나는 경우($\Omega$)에 대해 다룰 수 있어야 하고
-- $A$ 가 있다면 $A^{\complement}$ 에 대해서도 다룰 수 있어야 하고,
-- $A_1, A_2, ...$ 가 있다면 그것의 union에 대해서도 다룰 수 있어야 하겠다, 라는 의미에서 저렇게 정의되는 것이라고 보면 되겠다.
+- 가능한 모든 사건들 중 하나라도(=$\Omega$) 발생하는 경우에 대해 다룰 수 있어야 하고
+- 어떤 사건 $A$ 에 대해 다룰 수 있다면 그 사건이 일어나지 않는 경우(=$A^{\complement}$) 에 대해서도 다룰 수 있어야 하고,
+- $A_1, A_2, ...$ 가 있다면, 그중 하나라도 발생하는 경우(=union)에 대해 다룰 수 있어야 한다, 라는 의미에서 저렇게 정의되는 것이라고 보면 되겠다.
 
 #### 예시
 
@@ -127,11 +127,14 @@ $$
 > 3. $\text{Countable additivity: If} \ A_1, A_2, ... \in \mathcal{F} \ \text{are pairwise disjoint, then} \ \mathbb{P}(\bigcup_{n=1}^{\infty} A_i) = \sum_{n=1}^{\infty} \mathbb{P}(A_i)$
 
 - **Kolmogorov Axiom** 이다.
+- 3번의 의미를 생각해보면, 여러 사건들에 대해 그중 하나라도 일어날 확률은 그 사건들 각각이 일어날 확률의 합과 같다.
 - **이건 정의역이 $\mathcal{F}$ 이다.**
 
 ### Properties of probability measures
 
 $P(\emptyset)=0$, Finite additivity, $P(A^{\complement}) = 1 - P(A)$, Monotonicity, Subadditivity, Inclusion-Exclusion 의 성질을 가진다.
+
+<span style="color:gray">Finite additivity 하에 continuity from below, continuity from above는 countable additivity와 같다.</span>
 
 ### Conditional Probability
 
@@ -180,17 +183,24 @@ triple $(\Omega,\mathcal{F},\mathbb{P})$ 을 `Probability space` 라고 한다.
 > $\mathcal{F}$-measurable: $X^{-1}(B) = \{ \omega \in \Omega : X(\omega) \in B \} \in \mathcal{F} \quad \forall \ B \in \mathcal{B}(\mathbb{R})$
 
 - **이건 정의역이 $\Omega$ 이다.**
-- sample space를 실수로 맵핑하고 나면 결국 관심사는 그 확률변수를 $\mathbb{R}$ 위의 모든 부분에서 문제 없이 다룰 수 있는가 하는 것이다.
+- sample space를 실수로 맵핑하고 나면 결국 관심사는 그 random variable을 $\mathbb{R}$ 에서 다루는 것이고, 그렇다면 $\mathbb{R}$ 의 모든 부분에서 random variable을 문제 없이 다룰 수 있어야 할 것이다.
 
   - 따라서 함수의 <span style="color:#6667ab">**공역**</span>에 해당하는 $\mathbb{R}$ 의 모든 부분(=Borel $\sigma$-algebra의 모든 원소)에 대해서 정의역에 preimage가 존재하는지를 따진다.
 
-    - <s>정의역, 치역 말고 공역이라는 것까지 존재하는 이유가 뭔가요? 라는 질문에 대한 예시가 될 수 있지 않을까</s>
+    - <s>정의역, 치역 말고 공역이라는 개념도 존재하는 이유가 뭔가요? 라는 질문에 대한 예시가 될 수 있지 않을까</s>
+
+  - $\{ X \in B\} := \{ \omega : X(\omega) \in B \}$ 라고도 쓰고, Measurable하다는 것은 $\mathbb{P}(X \in B)$ 가 잘 정의되어 있음을 보장(ensure)한다.
+
+    - 이후 Distribution의 정의와 직결된다.
 
 - 위 예시의 경우
+
   - $\{1\} \in \mathcal{B}(\mathbb{R})$ 이다. $X^{-1}(\{1\})=\{HT, TH\}$ 이고, $\{HT, TH\} \in \mathcal{F}$ 이다.
   - $(1,2) \in \mathcal{B}(\mathbb{R})$ 이다. $X^{-1}(\{(1,2)\})=\emptyset$ 이고, $\emptyset \in \mathcal{F}$ 이다.
   - $[1,2) \in \mathcal{B}(\mathbb{R})$ 이다. $X^{-1}(\{[1,2)\})=\{HT, TH\}$ 이고, $\{HT, TH\} \in \mathcal{F}$ 이다.
   - $[2,\infty) \in \mathcal{B}(\mathbb{R})$ 이다. $X^{-1}(\{[2,\infty)\})=\{HH\}$ 이고, $\{HH\} \in \mathcal{F}$ 이다.
+
+- 즉 $\mathcal{G}$-measurable이냐? 를 따지는 기준이 **Borel $\sigma$-algebra의 원소**<span style="color:gray">의 preimage가 항상 $\mathcal{G}$ 안에 존재하는지를 따지는 것</span>이니, 이 역시 Borel $\sigma$-algebra의 중요성이라고 볼 수 있겠다.
 
 ### Indicator Variable
 
@@ -206,6 +216,12 @@ $$
 \end{aligned}
 $$
 
+### Simple Random Variable
+
+$X = \sum_{i=1}^{n}{a_1 \mathbb{1}_{A_i}} \ \text{where} \ a_i \in \mathbb{R} \ \text{and} \ A_i \in \mathcal{F}$
+
+유한한 개수의 random variable의 합으로 새로운 random variable을 정의할 수 있고, 다른 random variable을 근사하는 데에도 쓰일 수 있다.
+
 ### Operations on Random Variable
 
 Random Variable $X, Y$ 에 대해 다음도 Random Variable이다.
@@ -215,6 +231,8 @@ $X+Y, \ X-Y, \ XY, \ cX, \ \vert X \vert, \ X^2, \ X/Y \text{(where )} \ Y \ne 0
 그리고 $f(X) \ \text{for any Borel measurable} \ f: \mathbb{R} \rightarrow \mathbb{R}$.
 
 `Borel measurable function`의 정의는 함수 $f: \mathbb{R} \rightarrow \mathbb{R}$ 가 $\ \forall B \in \mathcal{B}(\mathbb{R}) \text{(=Borel set)} f^{-1}(B) \in \mathcal{B}(\mathbb{R})$ 이라는 것이다.
+
+심지어 random variable의 limit도 <span style="color:gray">(특정 조건 하에)</span> random variable이다.
 
 ### Distribution
 
@@ -241,17 +259,20 @@ Probability Space $$(\Omega,\mathcal{F},\mathbb{P})$$ 에 대한 Random Variable
 
 - $(-\infty,x]$ 는 모두 Borel $\sigma$-algebra의 원소이다.
 
-### Probability Distribution Function
+### Probability Density Function
 
 > **Definition**  
 > 연속적인 $X$ 에 대해, 다음과 같은 함수 $f: \mathbb{R} \rightarrow [0, \infty)$ 가 존재할 경우 이를 `Probability Distribution Function` 이라 한다.
 > $F_X(x) = \int_{-\infty}^{x}{f(t)dt}$
 
 - 즉 PDF는 항상 존재성이 보장되는 것은 아니다.
+- $\mathbb{P}(a < X \leq b) = F(b) - F(a) = \int_a^b{f(x)dx}$
+- Continuous $X$ 에 대해 $\mathbb{P}(X = x) = 0$
 
 <br><br>
 
-2026.03.09
+2026.03.09  
+2026.03.10
 
 ## References
 
