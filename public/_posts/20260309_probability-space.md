@@ -122,7 +122,7 @@ $$
 ### Probability Measure
 
 > **Definition**  
-> 다음을 만족하는 함수 $P: \mathcal{F} \rightarrow [0,1]$ 은 $(\Omega, \mathcal{F})$ 에 대한 `probability measure`라고 한다.
+> 다음을 만족하는 함수 $\mathbb{P}: \mathcal{F} \rightarrow [0,1]$ 은 $(\Omega, \mathcal{F})$ 에 대한 `probability measure`라고 한다.
 >
 > 1. $\mathbb{P}(\Omega) =1$
 > 2. $\mathbb{P}(E) \geq 0 \quad \forall E \in \mathcal{F}$
@@ -131,6 +131,7 @@ $$
 - **Kolmogorov Axiom** 이다.
 - 3번의 의미를 생각해보면, 여러 사건들에 대해 그중 하나라도 일어날 확률은 그 사건들 각각이 일어날 확률의 합과 같다.
 - **이건 정의역이 $\mathcal{F}$ 이다.**
+- <span style="color:gray">이후로는 $\mathbb{P}$ 와 $P$ 를 혼용하여 표기한다.</span>
 
 ### Properties of probability measures
 
