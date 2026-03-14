@@ -292,7 +292,7 @@ GPT에서 나온 예시를 보면
 
 이래버리면 위 두 경우는 sample space가 완전히 다르지만 **동일한 distribution**을 가지게 된다.
 
-하지만 현실적으로 중요한 takeaway는, <span style="color:gray">(보통의 경우에는)</span> 1번과 같이 정의한다면 $X \sim N(0,1)$ 와 같이 표기할 수 있다는 점일 것이다.
+하지만 현실적으로 중요한 takeaway는, <span style="color:gray">(보통의 경우에는)</span> 1번과 같이 정의한다면 $X \sim N(\mu,\sigma^2)$ 과 같이 표기할 수 있다는 점일 것이다.
 
 <br><br>
 
