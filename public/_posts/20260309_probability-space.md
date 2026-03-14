@@ -272,10 +272,33 @@ Probability Space $$(\Omega,\mathcal{F},\mathbb{P})$$ 에 대한 Random Variable
 - $\mathbb{P}(a < X \leq b) = F(b) - F(a) = \int_a^b{f(x)dx}$
 - Continuous $X$ 에 대해 $\mathbb{P}(X = x) = 0$
 
+## 확률변수가 확률분포를 '따른다'는 것의 의미
+
+---
+
+흔히 $N(\mu,\sigma^2), \text{Unif}(a,b), \text{Expo}(\lambda),	\text{Pois}(\lambda)$ 와 같이 표기하는 것들은 probability space와 어떤 관련이 있는 것일지 생각해보면 이게 또 어렵다.
+
+일단 위의 분포들은 모두 **distribution**에 대한 정보이다. 즉 **'이 random variable로부터 특정 값이 튀어나올 확률'** 정도를 알려줄 뿐, probability space에 대한 정보를 제공하는 것은 아니다. _즉 다른 두 개의 probability space가 동일한 distribution을 가질 수도 있다._
+
+GPT에서 나온 예시를 보면
+
+1. $(\mathbb{R}, \mathcal{B}(\mathbb{R}), P) \ \text{where} \ P(A) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$
+
+- Random variable $X(w) = w$
+
+2. $((0,1), \mathcal{B}((0,1)), P) \ \text{where} \ P(A) = \text{length}(A)$
+
+- Random variable $X(w) = \Phi^{-1}(w)$
+
+이래버리면 위 두 경우는 sample space가 완전히 다르지만 **동일한 distribution**을 가지게 된다.
+
+하지만 현실적으로 중요한 takeaway는, <span style="color:gray">(보통의 경우에는)</span> 1번과 같이 정의한다면 $X \sim N(0,1)$ 와 같이 표기할 수 있다는 점일 것이다.
+
 <br><br>
 
 2026.03.09  
-2026.03.10
+2026.03.10  
+2026.03.14
 
 ## References
 
