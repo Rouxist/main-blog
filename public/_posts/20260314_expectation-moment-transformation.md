@@ -30,6 +30,24 @@ alert: ''
 - sum, integral 결과값이 (absolute하게) 수렴해야 한다는 조건이 있다. 발산하는 예시로 St. Petersburg Paradox가 있다.
 - $\mathbb{E}X$ 라고 표기하기도 한다. <s>얼마 전 재무론 교재에서 진짜로 봤다.</s>
 
+### 기댓값 계산 시 적분 기호 안의 $x$ 는 무엇인가
+
+헷갈리는 지점은, 적분 기호 안에 들어있는 $x$ 는 확률변수 $X$ 와 무슨 관계인가 하는 것이다. (특히 확률변수를 소문자로 쓰면 뭐가 뭔지 더 헷갈린다.)
+
+<img src="/assets/blog/posts/20260314_expectation-moment-transformation/expectation.png" alt="expectation" width=400>
+
+결론은 적분 기호 안의 $x$ 는 그냥 적분 연산의 대상으로써 등장하는 변수이고, 확률변수 $X$ 그 자체가 적분식 안에 들어가있는 것은 아니다.
+
+### 미분과 기댓값 계산의 순서 바꾸기
+
+(위와 같은 혼란의 원천이 이것이었는데) Asset pricing 교재들 앞 부분에서는 어떠한 *기댓값*을 미분하는 계산이 많이 등장했다.
+
+일반적으로는 _적당한 조건 하에_ 두 계산의 순서를 바꿀 수 있다고 설명하고 있었다.
+
+조금 더 자세한 설명은:
+
+[https://math.stackexchange.com/questions/217702/when-can-we-interchange-the-derivative-with-an-expectation](https://math.stackexchange.com/questions/217702/when-can-we-interchange-the-derivative-with-an-expectation)
+
 ### LOTUS
 
 학부 2학년 1학기에 이것의 존재를 배우고 2학기에 이것에 대해 [글](20230928_lotus)을 쓴 적이 있었는데, 새롭게 더 알게 된 점은 1. 함수 $g(\cdot)$ 가 Borel measureable function이어야 한다는 점, 그리고 2. 이름이 'unconscious' 인 이유는 당연해보여서 다들 그렇게 쓰지만 증명이 별도로 필요하기 때문이다.
@@ -235,7 +253,8 @@ $\int_{0}^{\infty}{(\int_{\Omega}{\mathbb{1}(X > t)d\mathbb{P}})dt}$
 
 <br><br>
 
-2026.03.14
+2026.03.14  
+2026.03.17
 
 ## References
 
