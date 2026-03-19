@@ -4,7 +4,7 @@ excerpt: ''
 coverImage: ''
 date: '2026-03-14T14:21:50.000Z'
 categories: [Mathematics, Probability]
-tags: [Probability Space]
+tags: [Expectation, Moment, MGF]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'
