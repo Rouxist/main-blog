@@ -195,3 +195,5 @@ $\mathcal{L}(x_1, x_2, \lambda, \mu_1, \mu_2) = f(x_1, x_2) - \lambda g_1(x_1, x
 ## References
 
 ---
+
+[https://pasus.tistory.com/73](https://pasus.tistory.com/73)
