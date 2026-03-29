@@ -1,10 +1,10 @@
 ---
-title: 'Types of preference'
+title: 'Properties of preference'
 excerpt: ''
 coverImage: ''
 date: '2026-03-29T15:01:52.000Z'
 categories: [Economics, Microeconomics]
-tags: [Monotone, quasi-linear]
+tags: [Monotone, Quasi-linear]
 author:
   name: Yongjin
   picture: '/assets/blog/authors/yongjin.png'
