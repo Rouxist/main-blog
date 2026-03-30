@@ -100,7 +100,7 @@ $$
 
 이고, 이는 방향도함수를 구하는 공식인 $\nabla f \cdot \textbf{v}$ 와 같다.
 
-### Case 3: $f(x_1, x_2)
+### Case 3: $f(x_1, x_2)$
 
 $x_1=g(t)=t, x_2=h(s)=s$ 인 것이라고 생각하면, $\frac{\partial g}{\partial s}=\frac{\partial h}{\partial t}=0$ 이므로
 
