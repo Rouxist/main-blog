@@ -188,9 +188,14 @@ $\mathcal{L}(x_1, x_2, \lambda, \mu_1, \mu_2) = f(x_1, x_2) - \lambda g_1(x_1, x
 - $\mu_1 x_1=0$
 - $\mu_2 x_2=0$
 
+다만 이러한 Khun-Tucker condition은 Necessary condition이므로 이걸 만족해도 그렇게 구한 (candidate) point들이 min / max / saddle point 중 무엇일지 알 수는 없고, 결국 또다시 Second Order Condition이 함께 충족되어야 Sufficient condition이 된다.
+
+만약 함수 $f(x_1, x_2)$ 가 quasi-concave하고, feasible set은 convex하면, 이를 만족하는 local constrained max는 **global constrained max**이다.
+
 <br><br>
 
-2026.03.25
+2026.03.25  
+2026.03.30
 
 ## References
 
