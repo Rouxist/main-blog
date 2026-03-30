@@ -236,7 +236,7 @@ $\int_{0}^{\infty}{(\int_{\Omega}{\mathbb{1}(X > t)d\mathbb{P}})dt}$
     - Exponential distribution의 경우 $t < \lambda$ 인 구간에 대해서만 MGF가 정의된다.
 
   - 또한 저런 expectation이 *존재*해야 한다. 즉, 0의 neighborhood 내의 모든 $t$ 에 대해 $M_X(t)=\mathbb{E}[e^{tX}] < \infty$ 여야 한다.
-    - 이걸 만족하지 못하는 예시가 Logormal. $t>0$ 이면 항상 $\mathbb{E}[e^{tX}] = \infty$ 이다.
+    - 이걸 만족하지 못하는 예시가 Lognormal. $t>0$ 이면 항상 $\mathbb{E}[e^{tX}] = \infty$ 이다.
 
 - MGF가 항상 존재하는 것은 아니다. 예를 들어 Cauchy distribution에 대해서는 MGF가 존재하지 않는다.
 - 세 가지 property로 1. uniquness, 2. Linear Transformation, 3. Sum of independents 가 있는데
