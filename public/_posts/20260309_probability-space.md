@@ -43,7 +43,17 @@ e.g. 두 개의 동전을 동시에 던지는 random experiment에 대해서는 
 
 outcome에 대한 관측은 **맥락**을 붙여 이루어질 수도 있다. 예를 들어 **'앞면이 한 개만 나오는 사건'**은 $\{\text{HT}, \text{TH}\}$ 이다.
 
+이후 정말 다양한 event가 정의된다. 예를 들어
+
+- '$n$ 명의 표본을 추출해서 계산한 sample mean과 population mean의 차이가 0.1 이상인 event' 같은 것도 있고 (mode of convergence 중...)
+- Sample space가 $[H, T]^{\mathbb{N}}$ 일 때 'n번째 동전 던지기가 Head인 event' 같은 것도 정의할 수 있다. (limsup of event 중...)
+
 이러한 $\Omega$ 의 subset $A$ 를 `event` 라고 한다. 아무래도 outcome 하나하나를 넘어 그것들의 조합들도 관측/측정을 해야 할테니, event라는 개념을 추가적으로 도입하고 **확률을 <span style="color:gray">outcome이 아니라</span> event에 부여** 하는 것은 아주 그럴듯해 보인다.
+
+그리고 Event $A$ 가 발생(occur)한다는 것의 의미는, event $A$ `occurs` if realized outcome $\omega \in A$ 이다.
+
+- 예를 들어 실현된 outcome $\omega = \text{HT}$ 라면, '앞면이 한 개만 나오는 사건'은 발생(occur)했다고 말할 수 있다.
+- '앞면이 나오는 사건', '뒷면이 나오는 사건' 같은 것도 발생했다고 말할 수 있을 것이다.
 
 한 가지 문제는, event란 sample space의 subset인데 그럼 sample space의 모든 subset에 확률을 assign할 수 있는가 하는 것이다.
 
@@ -298,7 +308,8 @@ GPT에서 나온 예시를 보면
 
 2026.03.09  
 2026.03.10  
-2026.03.14
+2026.03.14  
+2026.04.11
 
 ## References
 
