@@ -116,7 +116,7 @@ $X_n(\omega) := \mathbb{1}(\omega \in [\frac{n-2^k}{2^k}, \frac{n-2^k-1}{2^k}]) 
 
 - 이 경우에는 각 $\omega$ 하나하나를 관찰해야 한다.  
   (왜냐하면, 그것이 정의이니까.)
-- 임의의 fixed $\omega$ ($\tilde{\omega}$ 라 하자) 에 대하여 $X_n(\tilde{\omega})$ 이 $X(\omega)$ 에 수렴해야 한다.
+- 임의의 fixed $\omega$ ($\tilde{\omega}$ 라 하자) 에 대하여 $X_n(\tilde{\omega})$ 이 $X(\tilde{\omega})$ 에 수렴해야 한다.
   - 즉 Sample path를 그려봤을 때, $n$ 이 커지면 **$X_n(\tilde{\omega})=1$ 인 부분이 없어야 한다.**
   - 그런데 이 예시에서는, $n$ 이 아무리 커져도 $X_n(\tilde{\omega})=1$ 인 부분은 계속해서 등장한다.
 - 따라서 모든 $\omega$ 에 대해 $X_n(\omega)$ 가 $X(\omega)$ 로 수렴하지 못한다. 따라서 $P(\lim_{n \to \infty}{X_n = X}) = 0$ 이라는 처참한 결과(...)에 의해 Almost Sure Convergence는 성립하지 않음을 알 수 있다.
