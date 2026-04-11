@@ -123,6 +123,41 @@ $X_n(\omega) := \mathbb{1}(\omega \in [\frac{n-2^k}{2^k}, \frac{n-2^k-1}{2^k}]) 
 
 <img src="https://agate-walrus-c6e.notion.site/image/attachment%3Ac7409c2a-17e6-4b01-8959-14713e41ffc3%3Atypewriter_sequence.png?table=block&id=339beff3-7473-8036-8e75-d0a5c20384b4" alt="typewriter_sequence" width=500>
 
+### Example (평균 키 구하기)
+
+인구가 1000만명 있다고 하고, 그 사람들 다 조사할 수 없으니 n명을 샘플링해서 계산하는 키의 sample mean을 X_n 이라 하자.
+
+평균 키의 true value는 $X(=\mu)$ 는 이 세상 누구도 모르는 값일 것이다.
+
+이 경우 outcome $\omega$ 는 (e.g. $n=3$ 이면) (175,170,181) 뭐 이렇게 생겼을 것이고
+
+이때 event $A_n=\{\omega: \vert X_n(\omega) - X \vert > \varepsilon\}$ 을 정의해보자. 해석은 'sample을 이상한 거 뽑아서 평균 키 계산 값에 오차가 너무 큰 outcome들(=event)' 정도로 볼 수 있겠다.
+
+이제 이 예시를 바탕으로 두 convergence의 정의를 다시 생각해보자.
+
+- convergence in probability: 일단 임의의 $\varepsilon$ 과 $\delta$ 를 정하고, 그러면 우리는 자연수 $N$ 을 찾을 수 있다. 근데 그게 어떤 대단한 $N$ 이냐면
+
+  - 모든 $n \geq N$ 에 대해, $n$ 명을 뽑아서 sample mean(=평균 키) $X_n$ 을 계산하면, **우리가 1000만명 중 n명을 뽑는 수많은 sample들의 경우의 수 중 ' $X_n - \mu > \varepsilon$ '인 (=오차가 너무 큰) 경우의 수가 매우 적다**. 얼마나 적냐면 저 비율(=이상한 sample 뽑을 확률)이 $\delta$ 보다 작다. (아니라면 $\delta$ 보다 작아질 때까지 $N$ 을 더 크게 잡아보자.)
+    - 여기서 알 수 있는 것은, fixed $n$ 에 대해 bad case ($X_n - \mu > \varepsilon$) 를 일으키는 $\omega$ 가 엄청 많아도(uncountably infinite 여도), 위에서 말한 확률이 $\delta$ 보다 작아지게 하는 건 가능하니 convergence in probability의 성립에는 문제가 없다.
+  - 이게 '$P(|X_n - X| > \varepsilon)$' 에 대한 해석이다. <span style="color:gray">지금처럼 population이 finite한 경우에 대해</span> 이걸 측정하는 방법을 더 구체적으로 생각해보면: n명을 샘플링을 할 때 1000만명 중 그 n명을 고르는 수많은 조합이 있을텐데, 수많은 조합들 중 '$|X_n - X| > \varepsilon$' 을 만족하는 조합들을 bad case라 부르자. 'bad case의 개수 나누기 n명 뽑는 모든 조합의 수' 뭐 이렇게 계산할 수 있을 것이다.
+  - 즉 convergence in probability는, **표본을 많이 뽑을수록, 모든 표본 추출의 경우의 수 중 내가 하필 이상한 표본을 뽑아서 평균 키를 이상하게 계산할 확률이 점점 작아진다는 뜻**이다.
+    => <span style="color:#6667ab">그러니까 이름이 convergence in 'probability' 인가보다.</span>
+  - 그래서 생길 수 있는 한계점: $n$ 을 더 크게 했는데 $X_n$ 과 $X$ 의 오차가 갑자기 커질 수도 있고, n을 더 더 키우니 갑자기 오차가 $\varepsilon$ 보다 작아질 수도 있고... 그렇다. 심지어 n을 끝없이 키워도 끝없이 (**infinitely often**) 그런 bad case가 관찰될 수도 있다. (다르게 말하면 $P(\{A_n \ i.o. \}) > 0$ 일 수 있다.)
+    - 그런데 이런 문제가 있다고 해도 convergence in probability는 성립이 가능하다. 정의를 $A_n$ 으로 다시 생각해보면, convergence in probability는 $P(A_n) \rightarrow 0$ 이다. 즉 fixed $n$ 에 대해 '내가 하필 이상한 거 뽑게 되는 확률 = 이상한 sample이 나오는 경우의 수/뽑을 수 있는 sample들의 경우의 수' 이게 점점 줄어들어서 0에 수렴하면 된다.
+    - 즉 저 비율(=확률)만 보면 되지, 저것의 분자에 해당하는 '이상한 sample이 나오는 경우의 수 (=bad case를 일으키는 $\omega$ 의 개수)' 의 **원소 하나하나를 관찰할 필요가 없다.** 즉 개별 $\omega$ 가 $n$ 의 변화에 따라 어떻게 변화하는지 관찰할 필요는 없다.(=sample path를 관찰할 필요는 없다.) 위에서 말한 한계점은 이런 식으로 sample path를 관찰하는 건데, **그걸 관찰하지 않는 게 convergence in probability의 정의이다.**
+
+- converge almost surely: 우리가 뽑을 수 있는 조합들 즉 $\omega$ 하나하나가 $n$ 의 변화에 따라 어떻게 변하는지 다 살펴본다. (=sample path를 관찰한다.)
+
+  - 예를 들어 $n=3$ 이면, (174,179,181)을 뽑을 수도 있고 (184,178,172)로 뽑을 수도 있고... 이걸 하나하나 다 살펴봐야 한다.
+  - 각 $\omega$ 들마다 $N(\omega)$ 를 잘 정한다. 그 $N(\omega)$ 이 만족해야 하는 건: 모든 $n \geq N(\omega)$ 에 대해 $|X_n(\omega) - X| < \varepsilon$. 즉 n이 특정 값($N(\omega)$) 이상이 되면 오차가 항상 $\varepsilon$ 보다 작아야 한다. 이게 되는 $\omega$ 가 얼마나 있는지가 관심사이다.
+  - $P(\{ \text{그런} \ \omega \text{들}\}) = 1$ 이면 (=그런 $\omega$ 가 almost every하게 많으면) almost sure convergence이다.
+  - 이제부터는 **$n$ 이 특정 $N(\omega)$ 보다 크면 $X_n$ 은 항상 $X$ 근처에 있다고 말할 수 있다.** 이 부분이 **convergence in probability와의 차이점**이다.
+  - 다르게 말하면 $P(\{A_n \ i.o. \}) = 0$ 이어야 하고, **이게 a.s. convergence의 또다른 정의**이다.
+
+- 둘의 차이점:
+  - convergence in probability는 **$n$ 이 변함에 따른 변화를 관찰**한다. 무엇의 변화? '샘플링 하는 경우의 수 중 내가 하필 이상한 거 뽑게 되는 확률'. 그런 확률이 점점 작아지는 추세면 된다. 설령 어떤 outcome $\omega$는 $n$ 이 아무리 커져도 '오차가 너무 큰 상황' 이 intinitely often하게 발생하더라도 상관 없다. **거기에 관심이 없다는 것이 정의이다. $\omega$ 하나하가 $n$ 에 대해 어떻게 변화하는지 추적하진 않는다.**
+  - a.s.는 애초에 각 $\omega$ 를 관찰한다. sample path를 다 관찰해서, P(문제가 되는 sample path)=0을 만족해야 한다. **각 $\omega$ 를 하나하나 다 관찰한다는 것이 정의이다.**
+
 ### Definition (Convergence in $L^p$)
 
 > **Definition**  
@@ -206,7 +241,8 @@ _Weak_ LLN은 **Convergence in Probability**, _Strong_ LLN은 **Almost Sure Conv
 
 <br><br>
 
-2026.04.05
+2026.04.05  
+2026.04.11
 
 ## References
 
