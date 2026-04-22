@@ -115,7 +115,7 @@ $$
   \hline
     \text{Concave function} & O & X & X & O & O & O \\
   \hline
-    \text{Strictly concave function} & X & X & X & X & X & X \\
+    \text{Strictly concave function} & X & X & X & O & X & X \\
   \hline
     \text{Quasi-concave function} & O & O & O & O & O& O \\
   \hline
