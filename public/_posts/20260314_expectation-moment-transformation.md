@@ -74,15 +74,47 @@ $\mathbb{E}[g(X)] = \int_{-\infty}^{\infty}{g(x_i)f_X(x)dx} \ \cdots \ \text{(Co
 
 의 성질을 가진다.
 
-## Lebesgue Integration
+## General Definition of Expectation
 
 ---
+
+이 부분은 뭔지 잘 모르겠어서 그냥 넘겼었는데, 이후 Weak/Strong LLN의 assumption에 대해 보다가 이 내용으로 자연스럽게 돌아오게 됐다.
+
+위와 같은 기댓값의 정의는 (GPT의 표현에 따르면) nice한 케이스에 대한, elementary한 정의이고 _기댓값이 유한한 값을 가지는_ 편안한 케이스들을 다룬다.
+
+이보다 더 general한, 기댓값이 무한대일 수도 있는 더 일반적인 정의는 아래와 같이 이루어진다.
+
+### Lebesgue Integration
 
 리만 스틸체스 적분을 떠올려서
 
 $\mathbb{E}[X] = \int_{\Omega}{X(\omega) d\mathbb{P}}$
 
 라고 쓰면 discrete/continous case들을 모두 하나로 표현할 수 있다.
+
+### Construction of the integral
+
+세 단계에 나눠 기댓값을 정의한다.
+
+1. Simple functions: $X=\sum_{i=1}^{n}{a_i \mathbb{1}_{A_i}}$ 에 대해
+
+   $\mathbb{E}[X] = \sum_{i=1}^{n}{a_i P(A_i)}$
+
+2. Non-negative functions: $X \geq 0$ 에 대해
+
+   $\mathbb{E}[X] = \sup{\{\mathbb{E}[Y] \: Y \ \text{simple}, 0 \leq Y \leq X\}}$
+
+3. General functions: $X = X^+ - X^-, \quad (X^+ = \max{\{X,0\}}, \quad X^- = \max{\{-X,0\}})$ 에 대해
+
+   $\mathbb{E}[X] = \mathbb{E}[X^+] - \mathbb{E}[X^-]$ **if at least one is finite**
+
+   - 이 때 '**at least one is finite**'라 함은, $\mathbb{E}[X^+] = \mathbb{E}[X^-] = \infty$ 여서 $\infty - \infty$ 로 값이 정의되지 않는 경우를 제외하기 위함이다. 즉 이 general definition 하에서는 **기댓값이 무한대인 경우가 허용된다**
+
+   - 만약 $\mathbb{E}[X^+] < \infty, \ \mathbb{E}[X^-] < \infty$ 인 경우에는 기댓값이 유한한 값이고 ($\mathbb{E}[X] = \mu$), $X$ 는 absolute integrable ($\mathbb{E}[\vert X \vert] < \infty$) 하다.
+
+   - 또는 둘 중 하나가 무한대, 예를 들어 $\mathbb{E}[X^+] = \infty, \quad \mathbb{E}[X^-] < \infty$ 라면 $\mathbb{E}[X] = \mathbb{E}[\vert X \vert] = \infty$ 이 된다.
+   - 즉 만약 확률 변수 $X$ 에 대해 $\mathbb{E}[X] = \mu \in \mathbb{R}$ 라고 주어졌다면, absolute integrable함도 알 수 있다. (그렇지 않다면 애초에 기댓값이 무한대였을 것)
+   - 물론 이 모든 것은 기댓값에 대한 정보일 뿐, 그 확률 변수의 **분산**은 유한할 수도 있고 무한할 수도 있다.
 
 ## Convergence Theorems
 
@@ -255,6 +287,7 @@ $\int_{0}^{\infty}{(\int_{\Omega}{\mathbb{1}(X > t)d\mathbb{P}})dt}$
 
 2026.03.14  
 2026.03.17
+2026.05.05
 
 ## References
 
