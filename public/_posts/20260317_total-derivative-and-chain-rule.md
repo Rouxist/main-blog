@@ -3,7 +3,7 @@ title: 'Total derivative, Chain rule'
 excerpt: ''
 coverImage: ''
 date: '2026-03-17T13:27:37.000Z'
-categories: [Calculus]
+categories: [Mathematics, Calculus]
 tags: [Chain rule]
 author:
   name: Yongjin
