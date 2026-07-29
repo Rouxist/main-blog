@@ -157,6 +157,7 @@ $X_n(\omega) := \mathbb{1}(\omega \in [\frac{n-2^k}{2^k}, \frac{n-2^k-1}{2^k}]) 
 - 둘의 차이점:
   - convergence in probability는 **$n$ 이 변함에 따른 변화를 관찰**한다. 무엇의 변화? '샘플링 하는 경우의 수 중 내가 하필 이상한 거 뽑게 되는 확률'. 그런 확률이 점점 작아지는 추세면 된다. 설령 어떤 outcome $\omega$는 $n$ 이 아무리 커져도 '오차가 너무 큰 상황' 이 intinitely often하게 발생하더라도 상관 없다. **거기에 관심이 없다는 것이 정의이다. $\omega$ 하나하가 $n$ 에 대해 어떻게 변화하는지 추적하진 않는다.**
   - a.s.는 애초에 각 $\omega$ 를 관찰한다. sample path를 다 관찰해서, P(문제가 되는 sample path)=0을 만족해야 한다. **각 $\omega$ 를 하나하나 다 관찰한다는 것이 정의이다.**
+  - 교수님의 말씀을 빌리면, 'deviations become unlikely vs for almost every outcome, deviation stops happening' 의 차이가 있다.
 
 ### Definition (Convergence in $L^p$)
 
