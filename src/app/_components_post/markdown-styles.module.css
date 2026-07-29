@@ -98,3 +98,26 @@
   padding: 1px 12px 1px 12px;
   margin: 0px 24px 0px 12px;
 }
+
+/* Custom tag styles */
+.markdown figure {
+  width: 30vw;
+  min-width: 300px;
+  min-height: 100px;
+  border: 1px solid darkgray;
+  padding: 4px 16px 4px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  color: gray;
+}
+
+.markdown figure p {
+  color: black;
+  font-weight: 500;
+  font-size: large;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
