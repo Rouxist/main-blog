@@ -1384,9 +1384,42 @@ Help will always be given at Hogwarts to those who ask for it
 Brave doesn't mean you're not scared. It means you go on even though you're scared.
 ```
 
+<br/>
+
+<img src="https://agate-walrus-c6e.notion.site/image/attachment%3A4e124b9a-a9f5-46f5-b44e-11d5cec3eb13%3Agoal.png?table=block&id=2fbbeff3-7473-808a-b334-cdf8c74c0bc4" alt="" width=500>
+
+```
+
+```
+
+<br/>
+
+<img src="https://agate-walrus-c6e.notion.site/image/attachment%3Ad9c2f613-a980-4009-a73a-a99d1f6a3581%3Aalcaraz.png?table=block&id=2fbbeff3-7473-800c-9fff-e91fcc146702" alt="" width=500>
+
+```
+
+```
+
+<br/>
+
+<img src="https://agate-walrus-c6e.notion.site/image/attachment%3A7a73e3f8-aa5f-4b2c-aa51-29305a4d9c16%3Aash_island.png?table=block&id=2fbbeff3-7473-8025-8e91-c8c798ea03a1" alt="ash_island" width=500>
+
+```
+
+```
+
+<br/>
+
+<img src="https://agate-walrus-c6e.notion.site/image/attachment%3A533f7707-b901-47f9-bc24-da27b54258eb%3Aenjoy.png?table=block&id=2fbbeff3-7473-8094-b7fd-ef55de940576" alt="enjoy" width=500>
+
+```
+
+```
+
 <br/><br/>
 
-2025.12.24
-2025.12.26
-2025.12.31
-2026.01.03
+2025.12.24  
+2025.12.26  
+2025.12.31  
+2026.01.03  
+2026.02.02
