@@ -2,27 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-p,
-figcaption,
-time,
-td,
-li {
-  font-family: 'Playfair Display', serif;
+body {
+  font-family: var(--font-noto-serif), var(--font-noto-serif-kr), serif;
   font-optical-sizing: auto;
-  font-style: normal;
 }
 
 a {
   color: #6667ab;
+}
+
+article p {
+  text-align: justify;
 }
 
 header {

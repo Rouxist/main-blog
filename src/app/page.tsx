@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex w-full h-[85vh] items-center justify-center bg-gray-50">
           <Link
             className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
-            href="/profile"
+            href="/about-me"
           >
             <TeXRenderer content={'('} />
           </Link>
