@@ -256,6 +256,14 @@ export function generateMetadata() {
     title,
     openGraph: {
       title,
+      images: [
+        {
+          url: '/assets/blog/og_images/default_og.png',
+          width: 1202,
+          height: 630,
+          alt: 'default_og_image',
+        },
+      ],
     },
   }
 }
