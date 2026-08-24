@@ -62,10 +62,25 @@ export default function Cubing() {
             <ul className="list-disc pl-10">
               <li className="md:text-xl text-base my-1 leading-snug">
                 (2026.06) 13-year anniversary solves :P{' '}
-                <a
-                  href="https://youtu.be/zZte1DZWa-4?si=FSh3O3jCaevlJ7rr"
-                  target="_blank"
-                >
+                <a href="https://youtu.be/zZte1DZWa-4" target="_blank">
+                  [video]
+                </a>
+              </li>
+              <li className="md:text-xl text-base my-1 leading-snug">
+                (2019.01) 31.xx Official 3BLD DNF with 2 corners twisted :/{' '}
+                <a href="https://youtu.be/pJZcmsPHiCQ" target="_blank">
+                  [video]
+                </a>
+              </li>
+              <li className="md:text-xl text-base my-1 leading-snug">
+                (2018.08) 41.79 Official 3BLD single{' '}
+                <a href="https://youtu.be/ZMQV9b_H7UA" target="_blank">
+                  [video]
+                </a>
+              </li>
+              <li className="md:text-xl text-base my-1 leading-snug">
+                (2013.09) Probably the oldest video I have :0{' '}
+                <a href="https://youtu.be/h_WWjz1QSWI" target="_blank">
                   [video]
                 </a>
               </li>
