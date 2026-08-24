@@ -177,7 +177,7 @@ section {
   }
 
   .home-center {
-    grid-template-rows: minmax(0, 7fr) minmax(0, 3fr);
+    grid-template-rows: minmax(0, 2fr) minmax(0, 3fr);
   }
 
   .home-categories {
