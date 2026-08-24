@@ -21,3 +21,14 @@ export default function Categories() {
     </main>
   )
 }
+
+export function generateMetadata() {
+  const title = 'Gallery | Yongjin Kang'
+
+  return {
+    title,
+    openGraph: {
+      title,
+    },
+  }
+}

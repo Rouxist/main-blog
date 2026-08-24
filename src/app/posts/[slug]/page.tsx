@@ -62,7 +62,7 @@ export function generateMetadata({ params }: Params): Metadata {
     return notFound()
   }
 
-  const title = `${post.title} | Gallery`
+  const title = `${post.title} | Yongjin Kang`
 
   return {
     title,

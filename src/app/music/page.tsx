@@ -28,3 +28,13 @@ export default function Categories() {
     </main>
   )
 }
+export function generateMetadata() {
+  const title = 'Music | Yongjin Kang'
+
+  return {
+    title,
+    openGraph: {
+      title,
+    },
+  }
+}

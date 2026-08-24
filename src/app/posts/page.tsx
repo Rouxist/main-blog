@@ -22,3 +22,14 @@ export default function Categories() {
     </main>
   )
 }
+
+export function generateMetadata() {
+  const title = 'Blog | Yongjin Kang'
+
+  return {
+    title,
+    openGraph: {
+      title,
+    },
+  }
+}

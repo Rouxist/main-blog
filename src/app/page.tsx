@@ -57,13 +57,13 @@ export default function Home() {
 }
 
 export const metadata: Metadata = {
-  title: 'Gallery',
+  title: 'Yongjin Kang',
   description: 'Exclusive personal gallery',
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
-    title: 'Gallery',
+    title: 'Yongjin Kang',
     description: 'Exclusive personal gallery',
   },
 }
