@@ -1,69 +1,74 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import TeXRenderer from './tex-renderer'
+
+const categories = [
+  { title: 'About Me', href: '/about-me' },
+  { title: 'Research', href: '/research' },
+  { title: 'Essay', href: '/essay' },
+  { title: 'Cubing', href: '/cubing' },
+  { title: 'Photo', href: '/gallery/timeline' },
+]
 
 export default function Home() {
   return (
-    <main>
-      <section className="pb-0">
-        <div className="flex w-full h-[85vh] items-center justify-center bg-gray-50">
-          <Link
-            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
-            href="/about-me"
-          >
-            <TeXRenderer content={'('} />
-          </Link>
-          <Link
-            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
-            href="/threads"
-          >
-            <TeXRenderer content={'$$\\Omega$$'} />
-          </Link>
-          <Link className="text-black" href="/">
-            <TeXRenderer content={','} />
-          </Link>
-          <Link
-            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
-            href="/gallery/timeline"
-          >
-            <TeXRenderer content={'$$\\mathcal{F}$$'} />
-          </Link>
-          <Link className="text-black" href="/">
-            <TeXRenderer content={','} />
-          </Link>
-          <Link
-            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
-            href="/posts"
-          >
-            <TeXRenderer content={'$$\\mathbb{P}$$'} />
-          </Link>
-          <Link
-            className="text-black hover:text-veriperi transition-colors duration-200 ease-in-out"
-            href="/notice"
-          >
-            <TeXRenderer content={')'} />
-          </Link>
+    <main className="home-page">
+      <header className="home-bar"></header>
+
+      <div className="home-center">
+        <div className="home-name">
+          <h1>Yongjin Kang</h1>
+          <p className="home-description text-gray-500">
+            MSc Studnet @KAIST College of Business
+          </p>
         </div>
-      </section>
-      <section className="h-[15vh] text-gray-300 text-center bg-gray-50">
-        <p className="md:text-3xl text-xl px-16">
-          We also need things that make us excited to be alive, that make us
-          glad to wake up in the morning.
+
+        <div className="home-lower">
+          <div className="home-navigation-area">
+            <nav className="home-categories" aria-label="Main categories">
+              {categories.map((category) => (
+                <Link href={category.href} key={category.href}>
+                  {category.title}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
+          <div className="home-quote">
+            <blockquote className="text-gray-500">
+              We also need things that make us excited to be alive, that make us
+              glad to wake up in the morning.
+              <cite>— Elon Musk</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <footer className="home-bar home-footer">
+        <p className="text-gray-500">
+          Content on this website may not be scraped or used to train AI without
+          prior permission.
         </p>
-        <p className="md:text-2xl text-base">- Elon Musk</p>
-      </section>
+      </footer>
     </main>
   )
 }
 
 export const metadata: Metadata = {
   title: 'Yongjin Kang',
-  description: 'Exclusive personal gallery',
+  description: 'Research, essays, cubing, and photography by Yongjin Kang.',
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
     title: 'Yongjin Kang',
-    description: 'Exclusive personal gallery',
+    description: "Yongjin Kang's website",
+    images: [
+      {
+        url: '/assets/blog/og_images/default_og.png',
+        width: 1202,
+        height: 630,
+        alt: 'default_og_image',
+      },
+    ],
   },
 }

@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-noto-serif), var(--font-noto-serif-kr), serif;
   font-optical-sizing: auto;
+  background: #f2f2ef;
+  color: #111111;
 }
 
 a {
@@ -19,12 +25,184 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: white;
-  box-shadow:
-    0 4px 6px -1px rgb(0 0 0 / 0.1),
-    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: #f2f2ef;
+  border-bottom: 1px solid #111111;
 }
 
 section {
   padding-bottom: 32px;
+}
+
+.home-page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100svh;
+  background: #f2f2ef;
+  color: #111111;
+}
+
+.home-bar {
+  position: static;
+  display: flex;
+  min-height: 58px;
+  align-items: center;
+  padding: 0 20px;
+  border: 0;
+  border-bottom: 1px solid #111111;
+  background: #f2f2ef;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+.home-footer {
+  border-top: 1px solid #111111;
+  border-bottom: 0;
+}
+
+.home-center {
+  display: grid;
+  grid-template-rows: minmax(0, 7fr) minmax(0, 3fr);
+  margin: 0 clamp(24px, 10vw, 160px);
+  border-right: 1px solid #111111;
+  border-left: 1px solid #111111;
+}
+
+.home-name {
+  display: grid;
+  min-width: 0;
+  align-content: center;
+  justify-items: center;
+  gap: 36px;
+  overflow: hidden;
+}
+
+.home-name h1 {
+  margin: 0;
+  font-size: clamp(28px, 4.5vw, 72px);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.065em;
+  white-space: nowrap;
+}
+
+.home-description {
+  margin: 0;
+  padding: 0 20px;
+  font-size: clamp(15px, 1.25vw, 19px);
+  line-height: 1.4;
+  text-align: center;
+}
+
+.home-lower {
+  display: grid;
+  grid-template-rows: minmax(0, 6fr) minmax(0, 4fr);
+  min-height: 0;
+}
+
+.home-navigation-area {
+  display: grid;
+  min-height: 0;
+  place-items: center;
+}
+
+.home-categories {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  width: 100%;
+  border-top: 1px solid #111111;
+  border-bottom: 1px solid #111111;
+}
+
+.home-categories a {
+  display: grid;
+  min-height: 132px;
+  place-items: center;
+  padding: 20px 12px;
+  border-right: 1px solid #111111;
+  color: #111111;
+  font-size: clamp(17px, 1.7vw, 24px);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    color 150ms ease,
+    background-color 150ms ease;
+}
+
+.home-categories a:last-child {
+  border-right: 0;
+}
+
+.home-categories a:hover,
+.home-categories a:focus-visible {
+  color: #f2f2ef;
+  background: #111111;
+  outline: 0;
+}
+
+.home-quote {
+  display: grid;
+  place-items: center;
+  padding: 4px 20px;
+  text-align: center;
+}
+
+.home-quote blockquote {
+  font-size: clamp(13px, 1vw, 16px);
+  line-height: 1.25;
+}
+
+.home-quote cite {
+  display: block;
+  margin-top: 0.35em;
+  font-style: normal;
+}
+
+@media (max-width: 860px) {
+  .home-center {
+    margin: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .home-page {
+    min-height: 100svh;
+  }
+
+  .home-name h1 {
+    font-size: clamp(48px, 13vw, 64px);
+  }
+
+  .home-center {
+    grid-template-rows: minmax(0, 7fr) minmax(0, 3fr);
+  }
+
+  .home-categories {
+    grid-template-columns: 1fr;
+    width: min(420px, 100%);
+  }
+
+  .home-categories a {
+    min-height: 76px;
+    border-right: 0;
+    border-bottom: 1px solid #111111;
+    font-size: 20px;
+  }
+
+  .home-categories a:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .home-categories a {
+    transition: none;
+  }
 }
