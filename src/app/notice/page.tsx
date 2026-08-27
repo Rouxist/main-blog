@@ -33,6 +33,10 @@ export default function Notice() {
             <li>Essay: 화면 구현</li>
             <li>Photo: 디자인 개선</li>
             <li>Music: 디자인 개선</li>
+            <li>
+              etc:잡다한 코드 구현 아카이브 페이지 만들기 (e.g. indirect utility
+              플롯)
+            </li>
           </ol>
           <h2 className="text-3xl md:text-5xl lg:text-4xl tracking-tighter leading-tight md:leading-none my-4 text-center ">
             entertainments
