@@ -57,7 +57,7 @@ export default async function Profile() {
               KAIST College of Business
             </a>
             . I am interested in exploring applications of AI to text and visual
-            analysis in empirical corporate finance .
+            analysis in empirical corporate finance.
           </p>
 
           <p className="md:text-xl text-base my-4 leading-snug indent-8">
