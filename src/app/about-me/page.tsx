@@ -228,6 +228,19 @@ export default async function Profile() {
                 <b>Rubik's cube</b>. My cubing history is outlined{' '}
                 <a href="/cubing">here</a>.
               </li>
+              <li className="md:text-xl text-sm my-1 leading-snug">
+                City/Country visitied
+                <ul className="list-disc md:pl-10 pl-4">
+                  <li className="md:text-xl text-sm my-1 leading-snug">
+                    <a href="https://youtu.be/3tGmhqUw2ik" target="_blank">
+                      [Kyoto, Japan]
+                    </a>{' '}
+                    <a href="https://youtu.be/NPVL83JnmYI" target="_blank">
+                      [Osaka, Japan]
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
 
