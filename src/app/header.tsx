@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const navigationItems = [
   { text: 'About Me', href: '/about-me' },
@@ -11,6 +14,8 @@ const navigationItems = [
 ]
 
 const Header = () => {
+  const pathname = usePathname()
+
   return (
     <div className="flex min-h-[58px] items-center justify-between px-4 md:px-6">
       <Link
@@ -25,7 +30,12 @@ const Header = () => {
         aria-label="Primary navigation"
       >
         {navigationItems.map((item) => (
-          <HeaderButton key={item.href} text={item.text} href={item.href} />
+          <HeaderButton
+            key={item.href}
+            text={item.text}
+            href={item.href}
+            active={isActivePath(pathname, item.href)}
+          />
         ))}
       </nav>
 
@@ -41,7 +51,10 @@ const Header = () => {
             <Link
               key={item.href}
               href={item.href}
-              className={`block px-4 py-3 text-sm text-black no-underline hover:bg-black hover:text-[#f2f2ef] ${index < navigationItems.length - 1 ? 'border-b border-black' : ''}`}
+              aria-current={
+                isActivePath(pathname, item.href) ? 'page' : undefined
+              }
+              className={`block px-4 py-3 text-sm no-underline hover:bg-black hover:text-[#f2f2ef] ${isActivePath(pathname, item.href) ? 'bg-black text-[#f2f2ef]' : 'text-black'} ${index < navigationItems.length - 1 ? 'border-b border-black' : ''}`}
             >
               {item.text}
             </Link>
@@ -57,15 +70,21 @@ export default Header
 type Prop = {
   text: string
   href: string
+  active?: boolean
 }
 
-export function HeaderButton({ text, href }: Prop) {
+export function HeaderButton({ text, href, active = false }: Prop) {
   return (
     <Link
       href={href}
-      className="border-b border-transparent py-2 text-black no-underline hover:border-black"
+      aria-current={active ? 'page' : undefined}
+      className={`border-b py-2 text-black no-underline hover:border-black ${active ? 'border-black font-bold' : 'border-transparent'}`}
     >
       {text}
     </Link>
   )
+}
+
+function isActivePath(pathname: string, href: string) {
+  return pathname === href || pathname.startsWith(`${href}/`)
 }
