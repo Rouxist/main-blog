@@ -30,13 +30,16 @@ export default function Notice() {
             <li>Blog: 태그 디자인 개선</li>
             <li>Blog: 카테고리 개선</li>
             <li>Blog: 게시물 마크다운 파일 db로 옮기기</li>
+            <li>Blog: 기존 글들에 og이미지 추가</li>
+            <li>Blog: 취소선을 ~~ ~~ 에서 s 태그로 바꾸기</li>
             <li>Essay: 화면 구현</li>
             <li>Photo: 디자인 개선</li>
             <li>Music: 디자인 개선</li>
             <li>
-              etc:잡다한 코드 구현 아카이브 페이지 만들기 (e.g. indirect utility
-              플롯)
+              etc: 잡다한 코드 구현 아카이브 페이지 만들기 (e.g. indirect
+              utility 플롯)
             </li>
+            <li>etc: 한강 공원, 칵테일, 맥주 아카이브 페이지 만들기</li>
           </ol>
           <h2 className="text-3xl md:text-5xl lg:text-4xl tracking-tighter leading-tight md:leading-none my-4 text-center ">
             entertainments
