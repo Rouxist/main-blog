@@ -98,3 +98,17 @@
   padding: 1px 12px 1px 12px;
   margin: 0px 24px 0px 12px;
 }
+
+@media (max-width: 639px) {
+  .markdown blockquote {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .markdown blockquote p {
+    font-size: 0.8125rem;
+    line-height: 1.75rem;
+  }
+}
