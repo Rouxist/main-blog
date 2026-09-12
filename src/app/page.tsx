@@ -6,7 +6,7 @@ const categories = [
   { title: 'Research', href: '/research' },
   { title: 'Essay', href: '/essay' },
   { title: 'Cubing', href: '/cubing' },
-  { title: 'Photo', href: '/gallery/timeline' },
+  { title: 'Gallery', href: '/gallery' },
 ]
 
 export default function Home() {

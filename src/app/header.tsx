@@ -9,7 +9,7 @@ const navigationItems = [
   { text: 'Essay', href: '/essay' },
   { text: 'Blog', href: '/posts' },
   { text: 'Cubing', href: '/cubing' },
-  { text: 'Photo', href: '/gallery/timeline' },
+  { text: 'Gallery', href: '/gallery' },
   { text: 'Music', href: '/music' },
 ]
 

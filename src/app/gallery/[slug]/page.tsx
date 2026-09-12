@@ -25,7 +25,7 @@ export default async function Photo({ params }: Params) {
   return (
     <main>
       <header>{/* <Header /> */}</header>
-      <a className="text-2xl pt-4 pl-4" href="/gallery/timeline">
+      <a className="text-2xl pt-4 pl-4" href="/gallery">
         Back
       </a>
       <section>
