@@ -4,13 +4,14 @@ import sharp from 'sharp'
 
 // Read metadata on the server; album JSON does not need manual dimensions.
 export async function getTravelImageDimensions(src: string) {
+  const prefix = '/assets/gallery/travel/'
   const directory = resolve(process.cwd(), 'public/assets/gallery/travel')
-  if (!src.startsWith('/assets/gallery/travel/')) {
+  if (!src.startsWith(prefix)) {
     throw new Error(
       `Travel image must be inside /assets/gallery/travel/: ${src}`,
     )
   }
-  const file = resolve(process.cwd(), 'public', src.slice(1))
+  const file = resolve(directory, src.slice(prefix.length))
   if (!file.startsWith(`${directory}${sep}`)) {
     throw new Error(`Invalid travel image path: ${src}`)
   }

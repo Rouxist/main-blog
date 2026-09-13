@@ -7,6 +7,10 @@ import { getTravelBySlug, getTravelSlugs } from '@/lib/api'
 
 type Props = { params: { slug: string } }
 
+// Read original photos only during the build; unknown albums return 404.
+export const dynamic = 'force-static'
+export const dynamicParams = false
+
 export function generateStaticParams() {
   return getTravelSlugs().map((slug) => ({ slug }))
 }
