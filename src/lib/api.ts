@@ -1,5 +1,6 @@
 import { Post } from '@/interfaces/posts'
 import { Gallery } from '@/interfaces/gallery'
+import { TravelAlbum } from '@/interfaces/travel'
 import { Thread } from '@/interfaces/thread'
 import { CategoryTree } from '@/interfaces/categoryTree'
 import { Music } from '@/interfaces/music'
@@ -120,6 +121,55 @@ export function getAllGalleries(): Gallery[] {
   return galleries
 }
 
+// _travel
+
+const travelDirectory = join(process.cwd(), 'public/_travel')
+
+export function getTravelSlugs(): string[] {
+  return fs
+    .readdirSync(travelDirectory, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith('.json'))
+    .map((entry) => entry.name.replace(/\.json$/, ''))
+}
+
+export function getTravelBySlug(slug: string): TravelAlbum | undefined {
+  const realSlug = slug.replace(/\.json$/, '')
+  if (!getTravelSlugs().includes(realSlug)) return undefined
+
+  const data = JSON.parse(
+    fs.readFileSync(join(travelDirectory, `${realSlug}.json`), 'utf8'),
+  )
+  const isRecord = (value: unknown): value is Record<string, unknown> =>
+    typeof value === 'object' && value !== null && !Array.isArray(value)
+  const hasStrings = (value: Record<string, unknown>, keys: string[]) =>
+    keys.every((key) => typeof value[key] === 'string')
+
+  if (
+    !isRecord(data) ||
+    !hasStrings(data, ['date', 'title', 'excerpt', 'desc', 'thumbnail']) ||
+    !Number.isFinite(Date.parse(data.date as string)) ||
+    !Array.isArray(data.location) ||
+    !data.location.every((location: unknown) => typeof location === 'string') ||
+    !Array.isArray(data.elements) ||
+    !data.elements.every(
+      (photo: unknown) =>
+        isRecord(photo) &&
+        hasStrings(photo, ['title', 'date', 'src', 'alt', 'desc']) &&
+        Number.isFinite(Date.parse(photo.date as string)),
+    )
+  ) {
+    throw new Error(`Invalid travel album: ${realSlug}.json`)
+  }
+
+  return { ...data, slug: realSlug } as TravelAlbum
+}
+
+export function getAllTravels(): TravelAlbum[] {
+  return getTravelSlugs()
+    .map((slug) => getTravelBySlug(slug))
+    .filter((album): album is TravelAlbum => album !== undefined)
+    .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+}
 // threads
 
 const threadDirectory = join(process.cwd(), 'public/_threads')

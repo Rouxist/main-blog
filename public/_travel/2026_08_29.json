@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-29T07:30:00.000Z",
+  "location": ["Osaka, Kyoto"],
+  "title": "Aug 2026 to Japan",
+  "excerpt": "test element",
+  "desc": "Spent 3 days in Japan.",
+  "thumbnail": "/assets/gallery/travel/2026_08_29/2026_08_29__1.JPG",
+  "elements": [
+    {
+      "title": "Kansai international airport",
+      "date": "2026-08-29T09:50:00.000Z",
+      "src": "/assets/gallery/travel/2026_08_29/2026_08_29__1.JPG",
+      "alt": "2026_08_29__1",
+      "desc": "Decent description for the image"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import Header from '@/app/header'
 import { getAllGalleries } from '@/lib/api'
 import { Gallery } from '@/interfaces/gallery'
 import { GalleryViewSelector } from './gallery-view-selector'
+import { TravelAlbumList } from './travel-album-list'
 
 export function GalleryPage({
   view = 'timeline',
@@ -42,7 +43,7 @@ export function GalleryPage({
           <GalleryViewSelector view={view} />
         </div>
         {view === 'travel' ? (
-          <div className="min-h-[50vh]" aria-label="Travel gallery" />
+          <TravelAlbumList />
         ) : (
           <>
             <div className="flex flex-col justify-between gap-3 pb-6 font-sans text-sm sm:flex-row">
