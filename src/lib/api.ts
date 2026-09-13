@@ -1,4 +1,5 @@
 import { Post } from '@/interfaces/posts'
+import { Essay, EssayAuthor, EssayAuthors } from '@/interfaces/essay'
 import { Gallery } from '@/interfaces/gallery'
 import { Thread } from '@/interfaces/thread'
 import { CategoryTree } from '@/interfaces/categoryTree'
@@ -78,6 +79,72 @@ export function getCategoryTree(): CategoryTree {
     })
 
   return tree
+}
+
+// _essay
+
+const essaysDirectory = join(process.cwd(), 'public/_essay')
+
+export function getEssayAuthors(): EssayAuthors {
+  const fullPath = join(essaysDirectory, 'authors.json')
+  return JSON.parse(fs.readFileSync(fullPath, 'utf8')) as EssayAuthors
+}
+
+export function getEssayAuthorById(id: string): EssayAuthor | undefined {
+  const authors = getEssayAuthors()
+  if (!Object.prototype.hasOwnProperty.call(authors, id)) return undefined
+  return { ...authors[id], id }
+}
+
+export function getEssaysByAuthor(id: string): Essay[] {
+  return getAllEssays().filter((essay) =>
+    essay.authors.some((author) => author.id === id),
+  )
+}
+
+export function getEssaySlugs(): string[] {
+  return fs
+    .readdirSync(essaysDirectory, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith('.md'))
+    .map((entry) => entry.name)
+}
+
+export function getEssayBySlug(slug: string): Essay | undefined {
+  const realSlug = slug.replace(/\.md$/, '')
+  if (!getEssaySlugs().includes(`${realSlug}.md`)) {
+    return undefined
+  }
+
+  const fullPath = join(essaysDirectory, `${realSlug}.md`)
+  const { data, content } = matter(fs.readFileSync(fullPath, 'utf8'))
+  if (
+    !Array.isArray(data.authors) ||
+    data.authors.length === 0 ||
+    data.authors.some((id: unknown) => typeof id !== 'string')
+  ) {
+    throw new Error(
+      `Essay "${realSlug}" must specify an authors array of author IDs.`,
+    )
+  }
+
+  const profiles = getEssayAuthors()
+  const authors = data.authors.map((id: string) => {
+    if (!Object.prototype.hasOwnProperty.call(profiles, id)) {
+      throw new Error(
+        `Unknown author "${id}" in essay "${realSlug}". Add this author to public/_essay/authors.json.`,
+      )
+    }
+    return { ...profiles[id], id }
+  })
+
+  return { ...data, slug: realSlug, content, authors } as Essay
+}
+
+export function getAllEssays(): Essay[] {
+  return getEssaySlugs()
+    .map((slug) => getEssayBySlug(slug))
+    .filter((essay): essay is Essay => essay !== undefined)
+    .sort((essay1, essay2) => essay2.date.localeCompare(essay1.date))
 }
 
 // _gallery

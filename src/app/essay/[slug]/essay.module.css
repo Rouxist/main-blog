@@ -1,0 +1,33 @@
+.document {
+  overflow-wrap: anywhere;
+}
+
+.document p,
+.document li,
+.document a {
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.document p {
+  text-align: start;
+}
+
+.document img {
+  height: auto;
+  margin: 2rem auto 1rem;
+}
+
+.document table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+  .document p,
+  .document li,
+  .document a {
+    font-size: 1.125rem;
+  }
+}
