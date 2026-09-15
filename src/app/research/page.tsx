@@ -8,6 +8,17 @@ export default function Research() {
       </header>
       <section>
         <article className="md:w-[60vw] w-[90vw] mx-auto">
+          <h1 className="md:text-4xl text-2xl mt-16 mb-4">
+            Research Interests
+          </h1>
+          <p className="md:text-xl text-base">
+            Empirical Corporate Finance, AI Applications in Finance, Information
+            Processing
+          </p>
+        </article>
+      </section>
+      <section>
+        <article className="md:w-[60vw] w-[90vw] mx-auto">
           {/* Working Papers */}
           <h1 className="md:text-4xl text-2xl mt-16 mb-4">Working Papers</h1>
 
