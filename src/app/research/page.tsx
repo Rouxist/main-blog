@@ -19,8 +19,8 @@ export default function Research() {
       </section>
       <section>
         <article className="md:w-[60vw] w-[90vw] mx-auto">
-          {/* Working Papers */}
-          <h1 className="md:text-4xl text-2xl mt-16 mb-4">Working Papers</h1>
+          {/* Projects on Hold */}
+          <h1 className="md:text-4xl text-2xl mt-16 mb-4">Projects on Hold</h1>
 
           {/* To-Do: store paper info in external .json file */}
           <div className="mt-2">
