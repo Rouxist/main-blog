@@ -38,7 +38,7 @@ export async function TravelImage({
       className={
         thumbnail
           ? 'h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 motion-reduce:transition-none'
-          : 'h-auto w-full'
+          : 'mx-auto h-auto max-h-[80svh] w-auto max-w-full object-contain'
       }
     />
   )
