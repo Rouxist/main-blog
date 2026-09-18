@@ -117,6 +117,10 @@ export function getEssayBySlug(slug: string): Essay | undefined {
 
   const fullPath = join(essaysDirectory, `${realSlug}.md`)
   const { data, content } = matter(fs.readFileSync(fullPath, 'utf8'))
+  const topic = data.topic ?? ''
+  if (typeof topic !== 'string') {
+    throw new Error(`Essay "${realSlug}" must specify topic as a string.`)
+  }
   if (
     !Array.isArray(data.authors) ||
     data.authors.length === 0 ||
@@ -137,7 +141,7 @@ export function getEssayBySlug(slug: string): Essay | undefined {
     return { ...profiles[id], id }
   })
 
-  return { ...data, slug: realSlug, content, authors } as Essay
+  return { ...data, slug: realSlug, content, topic, authors } as Essay
 }
 
 export function getAllEssays(): Essay[] {

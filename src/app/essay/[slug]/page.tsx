@@ -4,7 +4,6 @@ import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import Header from '@/app/header'
 import DateFormatter from '@/app/_components_post/date-formatter'
-import CoverImage from '@/app/_components_post/cover-image'
 import { Tags } from '@/app/_components_post/tags'
 import markdownStyles from '@/app/_components_post/markdown-styles.module.css'
 import { getAllEssays, getEssayBySlug } from '@/lib/api'
@@ -43,15 +42,10 @@ export default async function Essay({ params }: Params) {
               <span className="mx-2" aria-hidden="true">
                 ·
               </span>
-              <DateFormatter dateString={essay.date} />
+              <DateFormatter dateString={essay.date} showTime={false} />
             </div>
             <Tags tags={essay.tags} />
           </div>
-          {essay.coverImage && (
-            <div className="mb-10">
-              <CoverImage title={essay.title} src={essay.coverImage} />
-            </div>
-          )}
           <div
             className={`${markdownStyles.markdown} ${styles.document}`}
             dangerouslySetInnerHTML={{ __html: content }}
