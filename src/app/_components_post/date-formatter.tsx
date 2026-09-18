@@ -13,14 +13,15 @@ const formatInTimeZone = ({ date, fmt, tz }: Props2) => {
 
 type Props = {
   dateString: string
+  showTime?: boolean
 }
 
-const DateFormatter = ({ dateString }: Props) => {
+const DateFormatter = ({ dateString, showTime = true }: Props) => {
   const parsedTime = parseISO(dateString)
 
   const formattedTime = formatInTimeZone({
     date: parsedTime,
-    fmt: 'yyyy-MM-dd kk:mm:ss',
+    fmt: showTime ? 'yyyy-MM-dd kk:mm:ss' : 'yyyy-MM-dd',
     tz: 'UTC',
   })
   return <time dateTime={dateString}>{formattedTime}</time>
