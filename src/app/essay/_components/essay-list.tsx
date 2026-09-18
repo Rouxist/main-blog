@@ -7,9 +7,11 @@ import { AuthorLinks } from './author-links'
 export function EssayList({
   essays,
   headingLevel = 2,
+  newestEssaySlug,
 }: {
   essays: Essay[]
   headingLevel?: 2 | 3
+  newestEssaySlug?: string
 }) {
   const Heading = headingLevel === 2 ? 'h2' : 'h3'
   if (essays.length === 0) {
@@ -28,6 +30,11 @@ export function EssayList({
           >
             <Heading className="mb-3 text-2xl font-normal leading-snug md:text-3xl">
               {essay.title}
+              {essay.slug === newestEssaySlug && (
+                <span className="ml-2 inline-block align-middle border border-black px-1.5 py-0.5 font-sans text-xs font-medium leading-none">
+                  New
+                </span>
+              )}
             </Heading>
           </Link>
           <div className="mb-4 text-sm text-neutral-600">

@@ -1,10 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { type Essay, type EssayTopic } from '@/interfaces/essay'
 import { EssayList } from './essay-list'
-
-const TOPICS_PER_PAGE = 3
 
 export function FilteredEssayList({
   essays,
@@ -14,6 +12,24 @@ export function FilteredEssayList({
   topicDetails: EssayTopic[]
 }) {
   const [topicPage, setTopicPage] = useState(1)
+  const [topicsPerPage, setTopicsPerPage] = useState(3)
+
+  useEffect(() => {
+    const mediumScreen = window.matchMedia('(min-width: 768px)')
+    const wideScreen = window.matchMedia('(min-width: 1024px)')
+    const updatePageSize = () => {
+      setTopicsPerPage(mediumScreen.matches && !wideScreen.matches ? 2 : 3)
+      setTopicPage(1)
+    }
+
+    updatePageSize()
+    mediumScreen.addEventListener('change', updatePageSize)
+    wideScreen.addEventListener('change', updatePageSize)
+    return () => {
+      mediumScreen.removeEventListener('change', updatePageSize)
+      wideScreen.removeEventListener('change', updatePageSize)
+    }
+  }, [])
   const latestEssays = [...essays].sort(
     (a, b) => Date.parse(b.date) - Date.parse(a.date),
   )
@@ -33,35 +49,41 @@ export function FilteredEssayList({
     title: topicsById.get(id)?.title ?? (id || 'Other essays'),
     description: topicsById.get(id)?.description,
     essays: items,
-    // Essays are newest first, so the last essay establishes the topic's date.
-    firstPostDate: items.length
-      ? Date.parse(items[items.length - 1].date)
-      : null,
+    latestPostDate: items.length ? Date.parse(items[0].date) : null,
   })).sort((a, b) => {
-    if (a.firstPostDate === null && b.firstPostDate === null) return 0
-    if (a.firstPostDate === null) return 1
-    if (b.firstPostDate === null) return -1
-    return b.firstPostDate - a.firstPostDate
+    if (a.latestPostDate === null && b.latestPostDate === null) return 0
+    if (a.latestPostDate === null) return 1
+    if (b.latestPostDate === null) return -1
+    return b.latestPostDate - a.latestPostDate
   })
-  const pageCount = Math.ceil(groups.length / TOPICS_PER_PAGE)
+  const pageCount = Math.ceil(groups.length / topicsPerPage)
   const currentPage = Math.min(topicPage, Math.max(1, pageCount))
   const visibleGroups = groups.slice(
-    (currentPage - 1) * TOPICS_PER_PAGE,
-    currentPage * TOPICS_PER_PAGE,
+    (currentPage - 1) * topicsPerPage,
+    currentPage * topicsPerPage,
   )
 
   return (
     <div>
       <div aria-live="polite">
         {groups.length === 0 ? (
-          <EssayList essays={latestEssays} />
+          <EssayList
+            essays={latestEssays}
+            newestEssaySlug={latestEssays[0]?.slug}
+          />
         ) : (
-          <div className="grid grid-cols-1 gap-10 lg:grid-cols-3 lg:gap-x-16 lg:gap-y-0">
-            {visibleGroups.map((group) => (
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-x-0 lg:grid-cols-3 lg:gap-y-0">
+            {visibleGroups.map((group, index) => (
               <section
                 key={group.id}
                 aria-label={group.title}
-                className="min-w-0 break-words lg:row-span-2 lg:grid lg:grid-rows-subgrid"
+                className={`min-w-0 break-words lg:row-span-2 lg:grid lg:grid-rows-subgrid ${
+                  index === 0
+                    ? 'md:pr-8'
+                    : index === 1
+                      ? 'md:border-l md:border-neutral-300 md:pl-8 lg:pr-8'
+                      : 'md:pr-8 lg:border-l lg:border-neutral-300 lg:pl-8 lg:pr-0'
+                }`}
               >
                 <header className="border-b border-black pb-3">
                   <h2 className="mb-1 text-2xl font-bold leading-snug">
@@ -78,9 +100,13 @@ export function FilteredEssayList({
                   role="region"
                   aria-label={`${group.title} essays`}
                   tabIndex={0}
-                  className="min-h-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 lg:max-h-[60vh] lg:overflow-y-auto lg:pr-3 lg:[scrollbar-gutter:stable]"
+                  className="min-h-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 md:h-[60vh] md:overflow-y-auto md:pr-3 md:[scrollbar-gutter:stable]"
                 >
-                  <EssayList essays={group.essays} headingLevel={3} />
+                  <EssayList
+                    essays={group.essays}
+                    headingLevel={3}
+                    newestEssaySlug={latestEssays[0]?.slug}
+                  />
                 </div>
               </section>
             ))}
