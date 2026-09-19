@@ -2,6 +2,9 @@
   "name": "gallery",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -48,7 +51,7 @@
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "babel-plugin-styled-components": "^2.1.4",
-    "eslint": "^9.5.0",
+    "eslint": "^8.57.1",
     "eslint-config-next": "14.2.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",

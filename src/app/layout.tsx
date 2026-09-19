@@ -16,6 +16,10 @@ const notoSerifKR = Noto_Serif_KR({
   adjustFontFallback: false,
 })
 
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.rouxist.com'),
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
