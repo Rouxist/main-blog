@@ -32,8 +32,6 @@ export default function Notice() {
             <li>Blog: 게시물 마크다운 파일 db로 옮기기</li>
             <li>Blog: 기존 글들에 og이미지 추가</li>
             <li>Blog: 취소선을 ~~ ~~ 에서 s 태그로 바꾸기</li>
-            <li>Essay: 화면 구현</li>
-            <li>Photo: 디자인 개선</li>
             <li>Music: 디자인 개선</li>
             <li>
               etc: 잡다한 코드 구현 아카이브 페이지 만들기 (e.g. indirect
