@@ -51,7 +51,11 @@ export default function TravelAlbumPage({ params }: Props) {
           {album.elements.map((photo, index) => (
             <figure key={`${photo.src}-${index}`}>
               {photo.title && <h2 className="mb-3 text-2xl">{photo.title}</h2>}
-              <TravelImage src={photo.src} alt={photo.alt} />
+              <TravelImage
+                src={photo.src}
+                alt={photo.alt}
+                quality={album.imageQuality}
+              />
               {photo.desc && (
                 <figcaption className="mt-3 whitespace-pre-line text-neutral-600">
                   {photo.desc}

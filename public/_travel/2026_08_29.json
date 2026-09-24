@@ -1,17 +1,25 @@
 {
   "date": "2026-08-29T07:30:00.000Z",
   "location": ["Osaka, Kyoto"],
-  "title": "Aug 2026 to Japan",
-  "excerpt": "test element",
-  "desc": "Spent 3 days in Japan.",
-  "thumbnail": "/assets/gallery/travel/2026_08_29/2026_08_29__1.JPG",
+  "title": "2026년 8월 오사카, 교토",
+  "excerpt": "개강 직전 틈새 여행",
+  "desc": "날씨가 너무 더워서 사람들이 일본을 잘 방문하지 않는다는 시기에 오사카와 교토를 2박 3일로 다녀왔다.",
+  "thumbnail": "/assets/gallery/travel/2026_08_29/2026_08_29__2.JPG",
+  "imageQuality": 90,
   "elements": [
     {
-      "title": "Kansai international airport",
-      "date": "2026-08-29T09:50:00.000Z",
+      "title": "울트라마켓",
+      "date": "2026-08-29T18:00:00.000Z",
       "src": "/assets/gallery/travel/2026_08_29/2026_08_29__1.JPG",
       "alt": "2026_08_29__1",
-      "desc": "Decent description for the image"
+      "desc": "한국인 직원 분들의 도움 하에 위스키 시음을 할 수 있었다."
+    },
+    {
+      "title": "무슨 카츠",
+      "date": "2026-08-29T21:00:00.000Z",
+      "src": "/assets/gallery/travel/2026_08_29/2026_08_29__2.JPG",
+      "alt": "2026_08_29__2",
+      "desc": "함께 마신 생맥주가 '자 후리미아므 모르츠'였다."
     }
   ]
 }

@@ -214,10 +214,16 @@ export function getTravelBySlug(slug: string): TravelAlbum | undefined {
     typeof value === 'object' && value !== null && !Array.isArray(value)
   const hasStrings = (value: Record<string, unknown>, keys: string[]) =>
     keys.every((key) => typeof value[key] === 'string')
+  const hasValidImageQuality = (value: Record<string, unknown>) =>
+    value.imageQuality === undefined ||
+    (Number.isInteger(value.imageQuality) &&
+      (value.imageQuality as number) >= 1 &&
+      (value.imageQuality as number) <= 100)
 
   if (
     !isRecord(data) ||
     !hasStrings(data, ['date', 'title', 'excerpt', 'desc', 'thumbnail']) ||
+    !hasValidImageQuality(data) ||
     !Number.isFinite(Date.parse(data.date as string)) ||
     !Array.isArray(data.location) ||
     !data.location.every((location: unknown) => typeof location === 'string') ||

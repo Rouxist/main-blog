@@ -5,10 +5,12 @@ export async function TravelImage({
   src,
   alt,
   thumbnail = false,
+  quality = 75,
 }: {
   src: string
   alt: string
   thumbnail?: boolean
+  quality?: number
 }) {
   const dimensions = await getTravelImageDimensions(src)
 
@@ -30,6 +32,7 @@ export async function TravelImage({
       alt={alt}
       width={dimensions.width}
       height={dimensions.height}
+      quality={quality}
       sizes={
         thumbnail
           ? '(max-width: 639px) 100vw, (max-width: 1023px) 50vw, (max-width: 1279px) 33vw, 25vw'

@@ -14,5 +14,6 @@ export type TravelAlbum = {
   excerpt: string
   desc: string
   thumbnail: string
+  imageQuality?: number
   elements: TravelPhoto[]
 }

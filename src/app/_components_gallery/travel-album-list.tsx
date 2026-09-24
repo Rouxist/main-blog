@@ -23,7 +23,12 @@ export function TravelAlbumList() {
             className="group block text-black no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4"
           >
             <div className="aspect-[4/5] overflow-hidden bg-neutral-200">
-              <TravelImage src={album.thumbnail} alt={album.title} thumbnail />
+              <TravelImage
+                src={album.thumbnail}
+                alt={album.title}
+                thumbnail
+                quality={album.imageQuality}
+              />
             </div>
             <h2 className="mt-3 text-xl group-hover:underline">
               {album.title}
