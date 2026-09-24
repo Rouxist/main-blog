@@ -40,7 +40,9 @@ export function TravelAlbumList() {
               {' · '}
               {album.location.join(', ')}
             </p>
-            {album.excerpt && <p className="mt-2 text-sm">{album.excerpt}</p>}
+            {album.excerpt && (
+              <p className="mt-2 line-clamp-1 text-sm">{album.excerpt}</p>
+            )}
           </Link>
         ))}
       </div>
