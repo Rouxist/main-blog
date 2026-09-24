@@ -2,6 +2,8 @@ export type TravelPhoto = {
   title: string
   date: string
   src: string
+  width: number
+  height: number
   alt: string
   desc: string
 }

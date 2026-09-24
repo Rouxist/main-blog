@@ -54,6 +54,8 @@ export default function TravelAlbumPage({ params }: Props) {
               <TravelImage
                 src={photo.src}
                 alt={photo.alt}
+                width={photo.width}
+                height={photo.height}
                 quality={album.imageQuality}
               />
               {photo.desc && (

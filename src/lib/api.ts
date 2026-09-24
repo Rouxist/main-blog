@@ -219,6 +219,11 @@ export function getTravelBySlug(slug: string): TravelAlbum | undefined {
     (Number.isInteger(value.imageQuality) &&
       (value.imageQuality as number) >= 1 &&
       (value.imageQuality as number) <= 100)
+  const hasValidImageDimensions = (value: Record<string, unknown>) =>
+    Number.isInteger(value.width) &&
+    (value.width as number) > 0 &&
+    Number.isInteger(value.height) &&
+    (value.height as number) > 0
 
   if (
     !isRecord(data) ||
@@ -228,10 +233,14 @@ export function getTravelBySlug(slug: string): TravelAlbum | undefined {
     !Array.isArray(data.location) ||
     !data.location.every((location: unknown) => typeof location === 'string') ||
     !Array.isArray(data.elements) ||
+    !data.elements.some(
+      (photo: unknown) => isRecord(photo) && photo.src === data.thumbnail,
+    ) ||
     !data.elements.every(
       (photo: unknown) =>
         isRecord(photo) &&
         hasStrings(photo, ['title', 'date', 'src', 'alt', 'desc']) &&
+        hasValidImageDimensions(photo) &&
         Number.isFinite(Date.parse(photo.date as string)),
     )
   ) {

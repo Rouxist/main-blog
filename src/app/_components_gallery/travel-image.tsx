@@ -1,37 +1,26 @@
 import Image from 'next/image'
-import { getTravelImageDimensions } from '@/lib/travel-image'
 
-export async function TravelImage({
+export function TravelImage({
   src,
   alt,
+  width,
+  height,
   thumbnail = false,
   quality = 75,
 }: {
   src: string
   alt: string
+  width: number
+  height: number
   thumbnail?: boolean
   quality?: number
 }) {
-  const dimensions = await getTravelImageDimensions(src)
-
-  if (!dimensions) {
-    return (
-      <div
-        role="img"
-        aria-label={alt ? `${alt} — photo coming soon` : 'Photo coming soon'}
-        className={`flex items-center justify-center bg-neutral-200 font-sans text-sm text-neutral-600 ${thumbnail ? 'h-full w-full' : 'aspect-[3/2] w-full'}`}
-      >
-        Photo coming soon
-      </div>
-    )
-  }
-
   return (
     <Image
       src={src}
       alt={alt}
-      width={dimensions.width}
-      height={dimensions.height}
+      width={width}
+      height={height}
       quality={quality}
       sizes={
         thumbnail

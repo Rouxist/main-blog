@@ -4,20 +4,24 @@
   "title": "2026년 8월 오사카, 교토",
   "excerpt": "개강 직전 틈새 여행",
   "desc": "날씨가 너무 더워서 사람들이 일본을 잘 방문하지 않는다는 시기에 오사카와 교토를 2박 3일로 다녀왔다.",
-  "thumbnail": "/assets/gallery/travel/2026_08_29/2026_08_29__2.JPG",
+  "thumbnail": "https://pub-3a4cf9b850d54830ae03f7476af052a0.r2.dev/assets/gallery/travel/2026_08_29/2026_08_29__2.JPG",
   "imageQuality": 90,
   "elements": [
     {
       "title": "울트라마켓",
       "date": "2026-08-29T18:00:00.000Z",
-      "src": "/assets/gallery/travel/2026_08_29/2026_08_29__1.JPG",
+      "src": "https://pub-3a4cf9b850d54830ae03f7476af052a0.r2.dev/assets/gallery/travel/2026_08_29/2026_08_29__1.JPG",
+      "width": 6000,
+      "height": 4000,
       "alt": "2026_08_29__1",
       "desc": "한국인 직원 분들의 도움 하에 위스키 시음을 할 수 있었다."
     },
     {
       "title": "무슨 카츠",
       "date": "2026-08-29T21:00:00.000Z",
-      "src": "/assets/gallery/travel/2026_08_29/2026_08_29__2.JPG",
+      "src": "https://pub-3a4cf9b850d54830ae03f7476af052a0.r2.dev/assets/gallery/travel/2026_08_29/2026_08_29__2.JPG",
+      "width": 6000,
+      "height": 4000,
       "alt": "2026_08_29__2",
       "desc": "함께 마신 생맥주가 '자 후리미아므 모르츠'였다."
     }
